@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="zh_CN">
+<TS version="2.1">
 <context>
     <name>AudioContainerControl</name>
     <message>
@@ -52,7 +52,7 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Nearest Settings&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;最近的设置&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Test</source>
@@ -475,7 +475,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Resume recording</source>
-        <translation>继续录制</translation>
+        <translation>恢复录制</translation>
     </message>
 </context>
 <context>
@@ -630,7 +630,7 @@ Please check the media service plugins are installed.</source>
     </message>
     <message>
         <source>Loading...</source>
-        <translation>正在加载...</translation>
+        <translation>正在载入...</translation>
     </message>
     <message>
         <source>Buffering %1%</source>

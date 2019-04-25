@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="zh_CN">
+<TS version="2.1">
 <context>
     <name>BluetoothAlarmDialog</name>
     <message>
@@ -291,7 +291,7 @@ Good luck!</source>
     <name>MimeImageRecordEditor</name>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation>窗体</translation>
     </message>
     <message>
         <source>MIME Record &lt;image/*&gt;</source>
@@ -311,11 +311,11 @@ Good luck!</source>
     </message>
     <message>
         <source>...</source>
-        <translation>...</translation>
+        <translation></translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TextLabel</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>Select Image File</source>
@@ -487,12 +487,12 @@ Good luck!</source>
         <translation>无法执行 SDP 扫描</translation>
     </message>
     <message>
-        <source>Unable to access device</source>
-        <translation>无法访问设备</translation>
-    </message>
-    <message>
         <source>Custom Service</source>
         <translation>自定义服务</translation>
+    </message>
+    <message>
+        <source>Unable to access device</source>
+        <translation>无法访问设备</translation>
     </message>
     <message>
         <source>Service Discovery</source>
@@ -1729,7 +1729,7 @@ Good luck!</source>
     </message>
     <message>
         <source>Source file does not exist</source>
-        <translation>源文件不存在。</translation>
+        <translation>源文件不存在</translation>
     </message>
     <message>
         <source>QIODevice cannot be read. Make sure it is open for reading.</source>
@@ -1768,7 +1768,7 @@ Good luck!</source>
     </message>
     <message>
         <source>The transfer was canceled</source>
-        <translation>传输已取消</translation>
+        <translation>传输被取消了</translation>
     </message>
     <message>
         <source>Operation canceled</source>
@@ -1854,7 +1854,7 @@ Good luck!</source>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TextLabel</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>Stop</source>
@@ -1946,7 +1946,7 @@ Good luck!</source>
     <name>TextRecordEditor</name>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation>窗体</translation>
     </message>
     <message>
         <source>NFC Text Record</source>
@@ -1984,7 +1984,7 @@ Good luck!</source>
     <name>UriRecordEditor</name>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation>窗体</translation>
     </message>
     <message>
         <source>NFC URI Record</source>

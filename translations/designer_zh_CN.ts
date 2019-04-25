@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="zh_CN">
+<TS version="2.1">
 <context>
     <name>AbstractFindWidget</name>
     <message>
@@ -20,12 +20,8 @@
         <translation>整词(&amp;W)</translation>
     </message>
     <message>
-        <source>&lt;img src=&quot;:/trolltech/shared/images/wrap.png&quot;&gt;&amp;nbsp;Search wrapped</source>
-        <translation>&lt;img src=&quot;:/trolltech/shared/images/wrap.png&quot;&gt;循环搜索(&amp;nbsp;S)</translation>
-    </message>
-    <message>
         <source>&lt;img src=&quot;:/qt-project.org/shared/images/wrap.png&quot;&gt;&amp;nbsp;Search wrapped</source>
-        <translation>&lt;img src=&quot;:/qt-project.org/shared/images/wrap.png&quot;&gt;循环搜索(&amp;nbsp;S)</translation>
+        <translation>&lt;img src=&quot;:/qt-project.org/shared/images/wrap.png&quot;&gt;搜索已回环(&amp;nbsp;S)</translation>
     </message>
 </context>
 <context>
@@ -241,7 +237,7 @@
     </message>
     <message>
         <source>Cross</source>
-        <translation>交叉的</translation>
+        <translation>十字</translation>
     </message>
     <message>
         <source>Backward diagonal</source>
@@ -346,15 +342,7 @@
     </message>
     <message>
         <source>Break layout</source>
-        <translation>取消布局</translation>
-    </message>
-    <message>
-        <source>page</source>
-        <translation>页</translation>
-    </message>
-    <message>
-        <source>tab</source>
-        <translation>标签页</translation>
+        <translation>分拆布局</translation>
     </message>
     <message>
         <source>Simplify Grid Layout</source>
@@ -423,10 +411,6 @@
     <message>
         <source>Insert Subwindow</source>
         <translation>插入子窗口</translation>
-    </message>
-    <message>
-        <source>subwindow</source>
-        <translation>子窗口</translation>
     </message>
     <message>
         <source>Subwindow</source>
@@ -581,54 +565,6 @@
         <extracomment>Command description for removing buttons from a QButtonGroup</extracomment>
         <translation>从“%2”中移除“%1”</translation>
     </message>
-    <message>
-        <source>changed &apos;%1&apos; of &apos;%2&apos;</source>
-        <translation>已经改变“%2”的“%1”</translation>
-    </message>
-    <message>
-        <source>reset &apos;%1&apos; of &apos;%2&apos;</source>
-        <translation>重置“%2”的“%1”</translation>
-    </message>
-    <message>
-        <source>Set Dock Window Widget</source>
-        <translation>设定可停靠窗口窗口部件</translation>
-    </message>
-    <message>
-        <source>changed &apos;%1&apos; of %2 objects</source>
-        <translation>已经改变“%2”对象的“%1”</translation>
-    </message>
-    <message>
-        <source>reset &apos;%1&apos; of %2 objects</source>
-        <translation>重置“%2”对象的“%1”</translation>
-    </message>
-    <message>
-        <source>add dynamic property &apos;%1&apos; to &apos;%2&apos;</source>
-        <translation>为“%2”添加动态属性“%1”</translation>
-    </message>
-    <message>
-        <source>add dynamic property &apos;%1&apos; to %2 objects</source>
-        <translation>为 %2 个对象添加动态属性“%1”</translation>
-    </message>
-    <message>
-        <source>remove dynamic property &apos;%1&apos; from &apos;%2&apos;</source>
-        <translation>移除“%2”的动态属性“%1”</translation>
-    </message>
-    <message>
-        <source>remove dynamic property &apos;%1&apos; from %2 objects</source>
-        <translation>移除“%2”对象的动态属性“%1”</translation>
-    </message>
-    <message>
-        <source>changed comment of &apos;%1&apos; of &apos;%2&apos;</source>
-        <translation>已经改变“%2”的注释“%1”</translation>
-    </message>
-    <message>
-        <source>changed comment of &apos;%1&apos; of %2 objects</source>
-        <translation>已经改变“%2”对象的注释“%1”</translation>
-    </message>
-    <message>
-        <source>Change script</source>
-        <translation>改变脚本</translation>
-    </message>
 </context>
 <context>
     <name>ConnectDialog</name>
@@ -693,80 +629,20 @@
         <translation>%1 超时。</translation>
     </message>
     <message>
-        <source>This file cannot be read because it was created using %1.</source>
-        <translation>无法读取此文件，因为它是使用 %1 创建的。</translation>
-    </message>
-    <message>
-        <source>This file was created using Designer from Qt-%1 and cannot be read.</source>
-        <translation>这个文件是由 Qt-%1 中的设计师创建的，并且无法读取。</translation>
-    </message>
-    <message>
-        <source>The converted file could not be read.</source>
-        <translation>不能读取已转换的文件。</translation>
-    </message>
-    <message>
         <source>Custom Widgets</source>
         <translation>自定义窗口部件</translation>
     </message>
     <message>
         <source>Promoted Widgets</source>
-        <translation>提升窗口部件</translation>
+        <translation>提升的窗口部件</translation>
     </message>
     <message>
         <source>Qt Designer</source>
         <translation>Qt 设计师</translation>
     </message>
     <message>
-        <source>This file contains top level spacers.&lt;br&gt;They have &lt;b&gt;NOT&lt;/b&gt; been saved into the form.</source>
-        <translation>该文件包含一些顶级分隔符。&lt;br&gt; 它们&lt;b&gt;未&lt;/b&gt;被保存到表单中。</translation>
-    </message>
-    <message>
-        <source>Perhaps you forgot to create a layout?</source>
-        <translation>可能忘记了创建布局？</translation>
-    </message>
-    <message>
-        <source>Invalid ui file: The root element &lt;ui&gt; is missing.</source>
-        <translation>无效 ui 文件：缺少根元素 &lt;ui&gt;。</translation>
-    </message>
-    <message>
-        <source>An error has occurred while reading the ui file at line %1, column %2: %3</source>
-        <translation>读取 ui 文件出现错误，行%1，列%2：%3</translation>
-    </message>
-    <message>
-        <source>This file was created using Designer from Qt-%1 and will be converted to a new form by Qt Designer.</source>
-        <translation>这个文件是用 Qt-%1 的设计师生成的，将会自动转换成新的窗体文件。</translation>
-    </message>
-    <message>
-        <source>The old form has not been touched, but you will have to save the form under a new name.</source>
-        <translation>旧的窗体文件不会做任何变动，但是您必须另存新文件。</translation>
-    </message>
-    <message>
-        <source>This file was created using Designer from Qt-%1 and could not be read:
-%2</source>
-        <translation>这个文件是由 Qt-%1 中的设计师创建的，并且无法读取：
-%2</translation>
-    </message>
-    <message>
-        <source>Please run it through &lt;b&gt;uic3&amp;nbsp;-convert&lt;/b&gt; to convert it to Qt-4&apos;s ui format.</source>
-        <translation>请通过运行 &lt;b&gt;uic3&amp;nbsp;-convert&lt;/b&gt; 将它转换成 Qt-4 的 ui 格式。</translation>
-    </message>
-    <message>
         <source>This file cannot be read because the extra info extension failed to load.</source>
         <translation>不能读取这个文件，因为加载额外信息扩展失败。</translation>
-    </message>
-    <message>
-        <source>This file contains top level spacers.&lt;br&gt;They have &lt;b&gt;NOT&lt;/b&gt; been saved into the form.&lt;br&gt;Perhaps you forgot to create a layout?</source>
-        <translation>这个文件包含顶级间隔器。&lt;br&gt;它们&lt;b&gt;不能&lt;/b&gt;被保存到这个窗体中。&lt;br&gt;也许忘记了创建一个布局？</translation>
-    </message>
-    <message>
-        <source>This file was created using Designer from Qt-%1 and will be converted to a new form by Qt Designer.
-The old form has been untouched, but you will have to save this form under a new name.</source>
-        <translation>这个文件是由 Qt-%1 中的设计师创建的，并且将会被转换成为 Qt 设计师中的一个新的窗体。
-旧的窗体没有改变，但是您将不得不使用新的名称保存这个表单。</translation>
-    </message>
-    <message>
-        <source>This file was created using Designer from Qt-%1 and could not be read:&lt;br&gt;%2&lt;br&gt;Please run it through &lt;b&gt;uic3 -convert&lt;/b&gt; to convert it to Qt-4&apos;s ui format.</source>
-        <translation>这个文件是由 Qt-%1 中的设计师创建的，并且无法读取：&lt;br&gt;%2&lt;br&gt;请使用&lt;b&gt;uic3 -convert&lt;/b&gt;处理它把它转换成为 Qt-4 的 ui 格式。</translation>
     </message>
 </context>
 <context>
@@ -876,46 +752,6 @@ The old form has been untouched, but you will have to save this form under a new
         <extracomment>Format embedded device profile description</extracomment>
         <translation>&lt;html&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;字体&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%1，%2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;风格&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%3&lt;/td&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;解析度&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%4 x %5&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/html&gt;</translation>
     </message>
-    <message>
-        <source>None</source>
-        <translation>无</translation>
-    </message>
-    <message>
-        <source>Add a profile</source>
-        <translation>添加配置文件</translation>
-    </message>
-    <message>
-        <source>Edit the selected profile</source>
-        <translation>编辑所选的配置文件</translation>
-    </message>
-    <message>
-        <source>Delete the selected profile</source>
-        <translation>删除所选的配置文件</translation>
-    </message>
-    <message>
-        <source>Add Profile</source>
-        <translation>添加配置文件</translation>
-    </message>
-    <message>
-        <source>New profile</source>
-        <translation>新建配置文件</translation>
-    </message>
-    <message>
-        <source>Edit Profile</source>
-        <translation>编辑配置文件</translation>
-    </message>
-    <message>
-        <source>Delete Profile</source>
-        <translation>删除配置文件</translation>
-    </message>
-    <message>
-        <source>Would you like to delete the profile &apos;%1&apos;?</source>
-        <translation>是否要删除配置文件“%1”？</translation>
-    </message>
-    <message>
-        <source>Default</source>
-        <translation>默认</translation>
-    </message>
 </context>
 <context>
     <name>EmbeddedOptionsPage</name>
@@ -989,6 +825,7 @@ The old form has been untouched, but you will have to save this form under a new
     <name>FormEditorOptionsPage</name>
     <message>
         <source>%1 %</source>
+        <extracomment>Zoom percentage</extracomment>
         <translation>%1 %</translation>
     </message>
     <message>
@@ -1060,11 +897,11 @@ The old form has been untouched, but you will have to save this form under a new
     <name>FormWindow</name>
     <message>
         <source>Unexpected element &lt;%1&gt;</source>
-        <translation>未预期的元素&lt;%1&gt;</translation>
+        <translation>异常元素 &lt;%1&gt;</translation>
     </message>
     <message>
         <source>Error while pasting clipboard contents at line %1, column %2: %3</source>
-        <translation>粘贴剪贴板内容时发生错误，行%1，列%2：%3</translation>
+        <translation>粘贴剪贴板内容时发生错误，行 %1，列 %2：%3</translation>
     </message>
 </context>
 <context>
@@ -1276,40 +1113,12 @@ The old form has been untouched, but you will have to save this form under a new
         <translation>读取错误</translation>
     </message>
     <message>
-        <source>A temporary form file could not be created in %1.</source>
-        <translation>无法在 %1 中创建临时窗体文件。</translation>
-    </message>
-    <message>
-        <source>The temporary form file %1 could not be written.</source>
-        <translation>无法写入临时窗体文件 %1。</translation>
-    </message>
-    <message>
         <source>A temporary form file could not be created in %1: %2</source>
         <translation>无法在 %1 中创建临时窗体文件：%2</translation>
     </message>
     <message>
         <source>The temporary form file %1 could not be written: %2</source>
         <translation>无法写入临时窗体文件 %1：%2</translation>
-    </message>
-    <message>
-        <source>Error loading form</source>
-        <translation>加载窗体时出错</translation>
-    </message>
-    <message>
-        <source>Choose a template for a preview</source>
-        <translation>选择一个用于预览的模板</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Widgets</source>
-        <translation>窗口部件</translation>
-    </message>
-    <message>
-        <source>Custom Widgets</source>
-        <translation>自定义窗口部件</translation>
     </message>
 </context>
 <context>
@@ -1350,7 +1159,7 @@ The old form has been untouched, but you will have to save this form under a new
     </message>
     <message>
         <source>1</source>
-        <translation>1</translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -1358,38 +1167,6 @@ The old form has been untouched, but you will have to save this form under a new
     <message>
         <source>Preferences</source>
         <translation>首选项</translation>
-    </message>
-    <message>
-        <source>Toolwindow Font</source>
-        <translation>工具窗口字体</translation>
-    </message>
-    <message>
-        <source>Default Grid</source>
-        <translation>默认栅格</translation>
-    </message>
-    <message>
-        <source>User Interface Mode</source>
-        <translation>用户界面模式</translation>
-    </message>
-    <message>
-        <source>Docked Window</source>
-        <translation>停靠窗口</translation>
-    </message>
-    <message>
-        <source>Multiple Top-Level Windows</source>
-        <translation>多个顶级窗口</translation>
-    </message>
-    <message>
-        <source>Additional Template Paths</source>
-        <translation>添加模板路径</translation>
-    </message>
-    <message>
-        <source>Pick a directory to save templates in</source>
-        <translation>选择一个用于保存模板的目录</translation>
-    </message>
-    <message>
-        <source>...</source>
-        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -1412,23 +1189,11 @@ The old form has been untouched, but you will have to save this form under a new
     </message>
     <message>
         <source>...</source>
-        <translation>...</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Device skin</source>
         <translation>设备皮肤</translation>
-    </message>
-    <message>
-        <source>Default</source>
-        <translation>默认</translation>
-    </message>
-    <message>
-        <source>None</source>
-        <translation>无</translation>
-    </message>
-    <message>
-        <source>Browse...</source>
-        <translation>浏览...</translation>
     </message>
 </context>
 <context>
@@ -1472,10 +1237,6 @@ This indicates an inconsistency in the ui-file.</source>
         <translation>“%2”引用了无效的 QButtonGroup 参考“%1”。</translation>
     </message>
     <message>
-        <source>This version of the uitools library is linked without script support.</source>
-        <translation>这个版本的 uitools 库没有被链接脚本支持。</translation>
-    </message>
-    <message>
         <source>An error has occurred while reading the UI file at line %1, column %2: %3</source>
         <translation>读取 %1 行，%2 列的 UI 文件时出错：%3</translation>
     </message>
@@ -1489,23 +1250,11 @@ This indicates an inconsistency in the ui-file.</source>
     </message>
     <message>
         <source>Invalid UI file: The root element &lt;ui&gt; is missing.</source>
-        <translation>无效 ui 文件：缺少根元素 &lt;ui&gt;。</translation>
+        <translation>Invalid UI file: The root element &lt;ui&gt; is missing.</translation>
     </message>
     <message>
         <source>Invalid UI file</source>
         <translation>无效的 UI 文件</translation>
-    </message>
-    <message>
-        <source>Unexpected element &lt;%1&gt;</source>
-        <translation>异常元素 &lt;%1&gt;</translation>
-    </message>
-    <message>
-        <source>An error has occurred while reading the ui file at line %1, column %2: %3</source>
-        <translation>读取 %1 行，%2 列的 ui 文件时出错：%3</translation>
-    </message>
-    <message>
-        <source>Invalid ui file: The root element &lt;ui&gt; is missing.</source>
-        <translation>无效 ui 文件：缺少根元素 &lt;ui&gt;。</translation>
     </message>
 </context>
 <context>
@@ -1580,34 +1329,12 @@ This indicates an inconsistency in the ui-file.</source>
         <source>Cannot set an empty include file.</source>
         <translation>无法设定一个空白包含文件。</translation>
     </message>
-    <message>
-        <source>Exception at line %1: %2</source>
-        <translation>%1 行发生意外：%2</translation>
-    </message>
-    <message>
-        <source>Unknown error</source>
-        <translation>未知错误</translation>
-    </message>
-    <message>
-        <source>An error occurred while running the script for %1: %2
-Script: %3</source>
-        <translation>在为了 %1 运行脚本时发生一个错误：%2
-脚本：%3</translation>
-    </message>
 </context>
 <context>
     <name>QDesigner</name>
     <message>
         <source>%1 - warning</source>
         <translation>%1 - 警告</translation>
-    </message>
-    <message>
-        <source>Qt Designer</source>
-        <translation>Qt 设计师</translation>
-    </message>
-    <message>
-        <source>This application cannot be used for the Console edition of Qt</source>
-        <translation>这个应用程序不可以和 Qt 的控制台版本一起使用</translation>
     </message>
 </context>
 <context>
@@ -1667,10 +1394,6 @@ Do you want to replace it?</source>
         <translation>退出(&amp;Q)</translation>
     </message>
     <message>
-        <source>CTRL+Q</source>
-        <translation>CTRL+Q</translation>
-    </message>
-    <message>
         <source>View &amp;Code...</source>
         <translation>查看代码(&amp;C)...</translation>
     </message>
@@ -1684,7 +1407,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <source>Preferences...</source>
-        <translation>属性...</translation>
+        <translation>首选项...</translation>
     </message>
     <message>
         <source>Additional Fonts...</source>
@@ -1713,10 +1436,6 @@ Do you want to replace it?</source>
     <message>
         <source>Current Widget Help</source>
         <translation>自定义窗口部件帮助</translation>
-    </message>
-    <message>
-        <source>What&apos;s New in Qt Designer?</source>
-        <translation>Qt 设计师有什么新变化？</translation>
     </message>
     <message>
         <source>About Plugins</source>
@@ -1782,7 +1501,7 @@ Do you want to update the file location or generate a new form?</source>
     </message>
     <message>
         <source>Qt Designer</source>
-        <translation></translation>
+        <translation>Qt 设计师</translation>
     </message>
     <message>
         <source>Save Form?</source>
@@ -1864,58 +1583,6 @@ Would you like to retry?</source>
         <source>Printed %1.</source>
         <translation>%1 已被打印。</translation>
     </message>
-    <message>
-        <source>CTRL+N</source>
-        <translation>CTRL+N</translation>
-    </message>
-    <message>
-        <source>CTRL+O</source>
-        <translation>CTRL+O</translation>
-    </message>
-    <message>
-        <source>CTRL+S</source>
-        <translation>CTRL+S</translation>
-    </message>
-    <message>
-        <source>CTRL+W</source>
-        <translation>CTRL+W</translation>
-    </message>
-    <message>
-        <source>CTRL+Z</source>
-        <translation>CTRL+Z</translation>
-    </message>
-    <message>
-        <source>CTRL+SHIFT+Z</source>
-        <translation>CTRL+SHIFT+Z</translation>
-    </message>
-    <message>
-        <source>Form &amp;Settings...</source>
-        <translation>窗体设定(&amp;S)...</translation>
-    </message>
-    <message>
-        <source>The file, %1, could not be opened
-Reason: %2
-Would you like to retry or change your file?</source>
-        <translation>无法打开文件 %1
-原因：%2
-要重试或更改文件？</translation>
-    </message>
-    <message>
-        <source>It was not possible to write the entire file, %1, to disk.
-Reason:%2
-Would you like to retry?</source>
-        <translation>无法将整个文件 %1 写入磁盘。
-原因：%2
-是否重试？</translation>
-    </message>
-    <message>
-        <source>Form Settings - %1</source>
-        <translation>窗体设定 - %1</translation>
-    </message>
-    <message>
-        <source>&amp;Preview...</source>
-        <translation>预览(&amp;P)...</translation>
-    </message>
 </context>
 <context>
     <name>QDesignerAppearanceOptionsPage</name>
@@ -1968,10 +1635,6 @@ Would you like to retry?</source>
     <message>
         <source>Designer</source>
         <translation>设计师</translation>
-    </message>
-    <message>
-        <source>Script errors occurred:</source>
-        <translation>发生脚本错误：</translation>
     </message>
 </context>
 <context>
@@ -2165,10 +1828,6 @@ Container pages should only be added by specifying them in XML returned by the d
         <translation>编辑(&amp;E)</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>编辑</translation>
-    </message>
-    <message>
         <source>F&amp;orm</source>
         <translation>窗体(&amp;O)</translation>
     </message>
@@ -2195,14 +1854,6 @@ Container pages should only be added by specifying them in XML returned by the d
     <message>
         <source>Toolbars</source>
         <translation>工具栏</translation>
-    </message>
-    <message>
-        <source>The file &lt;b&gt;%1&lt;/b&gt; could not be opened.</source>
-        <translation>无法打开文件 &lt;b&gt;%1&lt;/b&gt;。</translation>
-    </message>
-    <message>
-        <source>The file &lt;b&gt;%1&lt;/b&gt; is not a valid Designer ui file.</source>
-        <translation>文件 &lt;b&gt;%1&lt;/b&gt; 不是有效的设计师界面文件。</translation>
     </message>
     <message>
         <source>Widget Box</source>
@@ -2241,58 +1892,6 @@ Container pages should only be added by specifying them in XML returned by the d
     <message>
         <source>The file &lt;b&gt;%1&lt;/b&gt; could not be opened: %2</source>
         <translation>无法打开文件 &lt;b&gt;%1&lt;/b&gt;：%2</translation>
-    </message>
-    <message>
-        <source>&amp;Recent Forms</source>
-        <translation>最近的窗体(&amp;R)</translation>
-    </message>
-    <message>
-        <source>&amp;Tools</source>
-        <translation>工具(&amp;T)</translation>
-    </message>
-    <message>
-        <source>Tools</source>
-        <translation>工具</translation>
-    </message>
-    <message>
-        <source>Form</source>
-        <translation>窗体</translation>
-    </message>
-    <message>
-        <source>Qt Designer</source>
-        <translation>Qt 设计师</translation>
-    </message>
-    <message>
-        <source>If you don&apos;t review your documents, all your changes will be lost.</source>
-        <translation>如果不复审文档，所有的修改将丢失。</translation>
-    </message>
-    <message>
-        <source>Designer was not correctly terminated during your last session.There are existing Backup files, do you want to load them?</source>
-        <translation>上次会话期间未正确终止设计器。存在现有备份文件，是否要加载它们？</translation>
-    </message>
-    <message>
-        <source>File</source>
-        <translation>文件</translation>
-    </message>
-    <message>
-        <source>Configure Toolbars...</source>
-        <translation>配置工具栏...</translation>
-    </message>
-    <message>
-        <source>Window</source>
-        <translation>窗口</translation>
-    </message>
-    <message>
-        <source>Help</source>
-        <translation>帮助</translation>
-    </message>
-    <message>
-        <source>Style</source>
-        <translation>风格</translation>
-    </message>
-    <message>
-        <source>Dock views</source>
-        <translation>停靠视图</translation>
     </message>
 </context>
 <context>
@@ -2405,7 +2004,7 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>Page %1 of %2</source>
-        <translation>%2 的页 %1</translation>
+        <translation>页 %1 / %2</translation>
     </message>
     <message>
         <source>Insert Page</source>
@@ -2436,7 +2035,7 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>Page %1 of %2</source>
-        <translation>%2 的页 %1</translation>
+        <translation>页 %1 / %2</translation>
     </message>
     <message>
         <source>Insert Page</source>
@@ -2476,7 +2075,7 @@ Container pages should only be added by specifying them in XML returned by the d
     <name>QtColorEditWidget</name>
     <message>
         <source>...</source>
-        <translation>...</translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -2576,16 +2175,12 @@ Container pages should only be added by specifying them in XML returned by the d
         <source>Busy</source>
         <translation>忙</translation>
     </message>
-    <message>
-        <source>[%1, %2, %3] (%4)</source>
-        <translation>[%1, %2, %3] (%4)</translation>
-    </message>
 </context>
 <context>
     <name>QtFontEditWidget</name>
     <message>
         <source>...</source>
-        <translation>...</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Select Font</source>
@@ -2622,10 +2217,6 @@ Container pages should only be added by specifying them in XML returned by the d
         <source>Kerning</source>
         <translation>字距调整</translation>
     </message>
-    <message>
-        <source>[%1, %2]</source>
-        <translation>[%1, %2]</translation>
-    </message>
 </context>
 <context>
     <name>QtGradientDialog</name>
@@ -2650,7 +2241,7 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>1</source>
-        <translation>1</translation>
+        <translation></translation>
     </message>
     <message>
         <source>2</source>
@@ -2790,7 +2381,7 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>...</source>
-        <translation>...</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Radial Type</source>
@@ -2889,11 +2480,11 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>Flip All</source>
-        <translation>翻转全部</translation>
+        <translation>全部翻转</translation>
     </message>
     <message>
         <source>Select All</source>
-        <translation>选择全部</translation>
+        <translation>全选</translation>
     </message>
     <message>
         <source>Zoom In</source>
@@ -2966,7 +2557,7 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>Country</source>
-        <translation>国家/地区</translation>
+        <translation>国家</translation>
     </message>
 </context>
 <context>
@@ -3278,24 +2869,6 @@ to
         <source>Resource Warning</source>
         <translation>资源警告</translation>
     </message>
-    <message>
-        <source>&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; The file:&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;is outside of the current resource file&apos;s directory.&lt;/p&gt;&lt;p&gt;To resolve the issue, press:&lt;/p&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Copy&lt;/th&gt;&lt;td&gt;to copy the file to resource file&apos;s  directory.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Copy As...&lt;/th&gt;&lt;td&gt;to copy the file to one of resource file&apos;s subdirectories.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Keep&lt;/th&gt;&lt;td&gt;to use its current location.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</source>
-        <translation>&lt;p&gt;&lt;b&gt;警告：&lt;/b&gt; 文件：&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;在当前资源文件所在目录之外。&lt;/p&gt;&lt;p&gt;为了解决这个问题，请按：&lt;/p&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;复制&lt;/th&gt;&lt;td&gt;把这个文件复制到资源文件所在的目录。&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;另复制为...&lt;/th&gt;&lt;td&gt;会把这个文件复制到资源文件所在目录下面的一个子目录中。&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;保留&lt;/th&gt;&lt;td&gt;会使用它的当前位置。&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</translation>
-    </message>
-    <message>
-        <source>Could not copy:
-%1
-to:
-%2</source>
-        <translation>无法复制：
-%1
-到：
-%2</translation>
-    </message>
-    <message>
-        <source>horizontalSpacer</source>
-        <translation>水平间隔器</translation>
-    </message>
 </context>
 <context>
     <name>QtResourceView</name>
@@ -3394,7 +2967,7 @@ to:
     </message>
     <message>
         <source>1</source>
-        <translation>1</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Actions</source>
@@ -3579,7 +3152,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>...</source>
-        <translation>...</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Delete</source>
@@ -3667,28 +3240,8 @@ Do you want overwrite the template?</source>
         <translation>&lt;br/&gt;Qt 设计师是用于开发 Qt 应用程序的图形用户界面设计师。&lt;br/&gt;</translation>
     </message>
     <message>
-        <source>%1&lt;br/&gt;%2&lt;br/&gt;Copyright (C) 2012 Nokia Corporation and/or its subsidiary(-ies).&lt;br/&gt;&lt;br/&gt;The program is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.&lt;br/&gt; </source>
-        <translation>%1&lt;br/&gt;%2&lt;br/&gt;版权所有 (C) 2012 Nokia Corporation 和/或其子公司（-ies）。&lt;br/&gt;&lt;br/&gt;程序按原样提供，不提供任何形式的保证，包括对设计、适销性和特定用途的适用性的保证。&lt;br/&gt; </translation>
-    </message>
-    <message>
         <source>%1&lt;br/&gt;Copyright (C) %2 The Qt Company Ltd.</source>
-        <translation>%1&lt;br/&gt;版权所有 (C) %2 The Qt Company Ltd.</translation>
-    </message>
-    <message>
-        <source> Open Source Edition</source>
-        <translation> 开源版本</translation>
-    </message>
-    <message>
-        <source>This program is licensed to you under the terms of the Qt Commercial License Agreement. For details, see the file LICENSE that came with this software distribution.&lt;br/&gt;</source>
-        <translation>我们已经允许您在 Qt 商业许可协议下使用本程序。有关细节，请阅读本软件发行中所带的 LICENSE 文件。</translation>
-    </message>
-    <message>
-        <source>This version of Qt Designer is part of the Qt Open Source Edition, for use in the development of Open Source applications. Qt is a comprehensive C++ framework for cross-platform application development.&lt;br/&gt;&lt;br/&gt;You need a commercial Qt license for development of proprietary (closed source) applications. Please see &lt;a href=&quot;http://qt.nokia.com/company/about/businessmodel&quot;&gt;http://qt.nokia.com/company/about/businessmodel.html&lt;/a&gt; for an overview of Qt licensing.&lt;br/&gt;</source>
-        <translation>这个版本的 Qt 设计师是 Qt 开源版本的一部分，用于开发开源应用程序。Qt 是一个用于跨平台应用程序开发的综合 C++ 框架。&lt;br/&gt;&lt;br/&gt;开发商业（闭源）应用程序，您需要商业 Qt 许可。对于 Qt 许可的概览，请参考&lt;tt&gt;http://qt.nokia.com/company/about/businessmodel&lt;/tt&gt;。</translation>
-    </message>
-    <message>
-        <source>This program is licensed to you under the terms of the Qt %1 License Agreement. For details, see the license file that came with this software distribution.&lt;br/&gt;</source>
-        <translation>我们已经允许您在 Qt %1 许可协议下使用本程序。有关细节，请阅读本软件发行中所带的许可协议文件。</translation>
+        <translation>%1&lt;br/&gt;版权 (C) %2 The Qt Company Ltd。</translation>
     </message>
 </context>
 <context>
@@ -3737,7 +3290,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Select all</source>
-        <translation>选择全部</translation>
+        <translation>全选</translation>
     </message>
     <message>
         <source>Delete</source>
@@ -3800,7 +3353,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Shortcut</source>
-        <translation>快捷键</translation>
+        <translation>快捷方式</translation>
     </message>
     <message>
         <source>Checkable</source>
@@ -3898,7 +3451,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Copy All</source>
-        <translation>复制全部</translation>
+        <translation>全部复制</translation>
     </message>
     <message>
         <source>&amp;Find in Text...</source>
@@ -3914,7 +3467,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>%1 - [Code]</source>
-        <translation>%1 - [Code]</translation>
+        <translation>%1 - [代码]</translation>
     </message>
     <message>
         <source>Save Code</source>
@@ -3966,7 +3519,7 @@ Do you want overwrite the template?</source>
     <name>qdesigner_internal::ConnectionEdit</name>
     <message>
         <source>Select All</source>
-        <translation>选择全部</translation>
+        <translation>全选</translation>
     </message>
     <message>
         <source>Deselect All</source>
@@ -4052,7 +3605,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Page %1 of %2</source>
-        <translation>%2 的页 %1</translation>
+        <translation>页 %1 / %2</translation>
     </message>
 </context>
 <context>
@@ -4180,22 +3733,6 @@ Do you want overwrite the template?</source>
         <source>Selected On</source>
         <translation>选择 开</translation>
     </message>
-    <message>
-        <source>PreferDefault</source>
-        <translation>首选默认</translation>
-    </message>
-    <message>
-        <source>NoAntialias</source>
-        <translation>无反锯齿</translation>
-    </message>
-    <message>
-        <source>PreferAntialias</source>
-        <translation>首选反锯齿</translation>
-    </message>
-    <message>
-        <source>Antialiasing</source>
-        <translation>反锯齿</translation>
-    </message>
 </context>
 <context>
     <name>qdesigner_internal::DeviceProfileDialog</name>
@@ -4295,11 +3832,11 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Edit the selected profile</source>
-        <translation>编辑选中的配置文件</translation>
+        <translation>编辑所选的配置文件</translation>
     </message>
     <message>
         <source>Delete the selected profile</source>
-        <translation>删除选中的配置文件</translation>
+        <translation>删除所选的配置文件</translation>
     </message>
     <message>
         <source>Add Profile</source>
@@ -4422,23 +3959,6 @@ Do you want overwrite the template?</source>
         <source>A QMainWindow-based form does not contain a central widget.</source>
         <translation>一个基于 QMainWindow 的窗体没有包含中央窗口部件。</translation>
     </message>
-    <message>
-        <source>Insert widget &apos;%1</source>
-        <translation>插入窗口部件 %1</translation>
-    </message>
-    <message>
-        <source>Can&apos;t paste widgets. Designer couldn&apos;t find a container
-to paste into which does not contain a layout. Break the layout
-of the container you want to paste into and select this container
-and then paste again.</source>
-        <translation>不能粘贴窗口部件。设计师不能找到一个没有包含布局的
-容器来粘贴它们。请打破你想要把它们粘贴进去的容器
-的布局并且选择这个容器然后再次粘贴。</translation>
-    </message>
-    <message>
-        <source>Break layout</source>
-        <translation>分拆 布局</translation>
-    </message>
 </context>
 <context>
     <name>qdesigner_internal::FormWindowBase</name>
@@ -4495,7 +4015,7 @@ and then paste again.</source>
     </message>
     <message>
         <source>Select &amp;All</source>
-        <translation>选择全部(&amp;A)</translation>
+        <translation>全选(&amp;A)</translation>
     </message>
     <message>
         <source>Selects all widgets</source>
@@ -4772,46 +4292,6 @@ and then paste again.</source>
         <source>Edit Combobox</source>
         <translation>编辑组合框</translation>
     </message>
-    <message>
-        <source>Dialog</source>
-        <translation>对话框</translation>
-    </message>
-    <message>
-        <source>Items List</source>
-        <translation>项目列表</translation>
-    </message>
-    <message>
-        <source>Move Item Down</source>
-        <translation>向下移动项目</translation>
-    </message>
-    <message>
-        <source>D</source>
-        <translation>D</translation>
-    </message>
-    <message>
-        <source>Move Item Up</source>
-        <translation>向上移动项目</translation>
-    </message>
-    <message>
-        <source>U</source>
-        <translation>U</translation>
-    </message>
-    <message>
-        <source>Delete Item</source>
-        <translation>删除项目</translation>
-    </message>
-    <message>
-        <source>&amp;New</source>
-        <translation>新建(&amp;N)</translation>
-    </message>
-    <message>
-        <source>&amp;Delete</source>
-        <translation>删除(&amp;D)</translation>
-    </message>
-    <message>
-        <source>Icon</source>
-        <translation>图标</translation>
-    </message>
 </context>
 <context>
     <name>qdesigner_internal::ListWidgetTaskMenu</name>
@@ -4877,7 +4357,7 @@ and then paste again.</source>
     </message>
     <message>
         <source>...</source>
-        <translation>...</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Icon th&amp;eme:</source>
@@ -4894,18 +4374,6 @@ and then paste again.</source>
     <message>
         <source>&amp;Shortcut:</source>
         <translation>快捷方式(&amp;S):</translation>
-    </message>
-    <message>
-        <source>Shortcut:</source>
-        <translation>快捷方式：</translation>
-    </message>
-    <message>
-        <source>Checkable:</source>
-        <translation>可复选：</translation>
-    </message>
-    <message>
-        <source>ToolTip:</source>
-        <translation>工具提示：</translation>
     </message>
 </context>
 <context>
@@ -4946,7 +4414,7 @@ Please select another name.</source>
     <name>qdesigner_internal::NewFormWidget</name>
     <message>
         <source>0</source>
-        <translation>0</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Choose a template for a preview</source>
@@ -4999,7 +4467,7 @@ Please select another name.</source>
     </message>
     <message>
         <source>Error loading form</source>
-        <translation>加载窗体错误</translation>
+        <translation>加载窗体时出错</translation>
     </message>
     <message>
         <source>Unable to open the form template file &apos;%1&apos;: %2</source>
@@ -5168,7 +4636,7 @@ Please select another name.</source>
     </message>
     <message>
         <source>...</source>
-        <translation>...</translation>
+        <translation></translation>
     </message>
     <message>
         <source>[Theme] %1</source>
@@ -5219,14 +4687,6 @@ Please select another name.</source>
     <message>
         <source>New custom widget plugins have been found.</source>
         <translation>新的自定义窗口部件插件已经被找到。</translation>
-    </message>
-    <message>
-        <source>TextLabel</source>
-        <translation>文本标签</translation>
-    </message>
-    <message>
-        <source>1</source>
-        <translation>1</translation>
     </message>
 </context>
 <context>
@@ -5304,10 +4764,6 @@ Please select another name.</source>
         <source>%1 - [Preview]</source>
         <translation>%1 - [预览]</translation>
     </message>
-    <message>
-        <source>%1 Style</source>
-        <translation>%1 风格</translation>
-    </message>
 </context>
 <context>
     <name>qdesigner_internal::PreviewMdiArea</name>
@@ -5322,46 +4778,57 @@ ate the goose who was loose.</source>
     <name>qdesigner_internal::PreviewWidget</name>
     <message>
         <source>Preview Window</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>预览窗口</translation>
     </message>
     <message>
         <source>LineEdit</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>LineEdit</translation>
     </message>
     <message>
         <source>ComboBox</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Combobox</translation>
     </message>
     <message>
         <source>PushButton</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>PushButton</translation>
     </message>
     <message>
         <source>ButtonGroup2</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>ButtonGroup2</translation>
     </message>
     <message>
         <source>CheckBox1</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>Checkbox1</translation>
     </message>
     <message>
         <source>CheckBox2</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>CheckBox2</translation>
     </message>
     <message>
         <source>ButtonGroup</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>ButtonGroup</translation>
     </message>
     <message>
         <source>RadioButton1</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>RadioButton1</translation>
     </message>
     <message>
         <source>RadioButton2</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>RadioButton2</translation>
     </message>
     <message>
         <source>RadioButton3</source>
+        <extracomment>Palette Editor Preview Widget</extracomment>
         <translation>RadioBUtton3</translation>
     </message>
 </context>
@@ -5396,7 +4863,7 @@ ate the goose who was loose.</source>
     </message>
     <message>
         <source>Change signals/slots...</source>
-        <translation>改变 信号/槽...</translation>
+        <translation>改变信号/槽...</translation>
     </message>
     <message>
         <source>Promote to</source>
@@ -5458,12 +4925,6 @@ ate the goose who was loose.</source>
 Class: %2</source>
         <translation>对象：%1
 类：%2</translation>
-    </message>
-    <message>
-        <source>%1
-%2</source>
-        <translation>%1
-%2</translation>
     </message>
 </context>
 <context>
@@ -5586,10 +5047,6 @@ Class: %2</source>
         <translation>移除状态栏</translation>
     </message>
     <message>
-        <source>Change script...</source>
-        <translation>改变脚本...</translation>
-    </message>
-    <message>
         <source>Change signals/slots...</source>
         <translation>改变信号/槽...</translation>
     </message>
@@ -5632,10 +5089,6 @@ Class: %2</source>
     <message>
         <source>Edit WhatsThis</source>
         <translation>编辑这是什么</translation>
-    </message>
-    <message>
-        <source>no signals available</source>
-        <translation>无可用信号</translation>
     </message>
     <message numerus="yes">
         <source>Set size constraint on %n widget(s)</source>
@@ -5750,7 +5203,7 @@ Class: %2</source>
     </message>
     <message>
         <source>Source</source>
-        <translation>源</translation>
+        <translation>源文</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -5985,66 +5438,6 @@ Class: %2</source>
         <source>Properties &amp;&lt;&lt;</source>
         <translation>属性&amp;&lt;&lt;</translation>
     </message>
-    <message>
-        <source>Rows</source>
-        <translation>行</translation>
-    </message>
-    <message>
-        <source>Move Row Down</source>
-        <translation>向下移动行</translation>
-    </message>
-    <message>
-        <source>D</source>
-        <translation>D</translation>
-    </message>
-    <message>
-        <source>Move Row Up</source>
-        <translation>向上移动行</translation>
-    </message>
-    <message>
-        <source>U</source>
-        <translation>U</translation>
-    </message>
-    <message>
-        <source>Table Rows</source>
-        <translation>表格行</translation>
-    </message>
-    <message>
-        <source>New</source>
-        <translation>新建</translation>
-    </message>
-    <message>
-        <source>Delete Row</source>
-        <translation>删除行</translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <translation>删除</translation>
-    </message>
-    <message>
-        <source>Columns</source>
-        <translation>列</translation>
-    </message>
-    <message>
-        <source>Delete Column</source>
-        <translation>删除列</translation>
-    </message>
-    <message>
-        <source>Move Column Up</source>
-        <translation>向前移动列</translation>
-    </message>
-    <message>
-        <source>Move Column Down</source>
-        <translation>向后移动列</translation>
-    </message>
-    <message>
-        <source>Table Columns</source>
-        <translation>表格列</translation>
-    </message>
-    <message>
-        <source>Icon</source>
-        <translation>图标</translation>
-    </message>
 </context>
 <context>
     <name>qdesigner_internal::TableWidgetTaskMenu</name>
@@ -6065,7 +5458,7 @@ Class: %2</source>
     </message>
     <message>
         <source>...</source>
-        <translation>...</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Pick a directory to save templates in</source>
@@ -6103,7 +5496,7 @@ Class: %2</source>
     </message>
     <message>
         <source>...</source>
-        <translation>...</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Choose a File</source>
@@ -6149,7 +5542,7 @@ Class: %2</source>
     </message>
     <message>
         <source>1</source>
-        <translation>1</translation>
+        <translation></translation>
     </message>
     <message>
         <source>New Item</source>
@@ -6231,42 +5624,6 @@ Class: %2</source>
         <source>Properties &amp;&lt;&lt;</source>
         <translation>属性&amp;&lt;&lt;</translation>
     </message>
-    <message>
-        <source>Columns</source>
-        <translation>列</translation>
-    </message>
-    <message>
-        <source>New</source>
-        <translation>新建</translation>
-    </message>
-    <message>
-        <source>Delete Column</source>
-        <translation>删除列</translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <translation>删除</translation>
-    </message>
-    <message>
-        <source>Move Column Up</source>
-        <translation>向前移动列</translation>
-    </message>
-    <message>
-        <source>Move Column Down</source>
-        <translation>向后移动列</translation>
-    </message>
-    <message>
-        <source>Tree Columns</source>
-        <translation>树列</translation>
-    </message>
-    <message>
-        <source>New Sub Item</source>
-        <translation>新建子项目</translation>
-    </message>
-    <message>
-        <source>Icon</source>
-        <translation>图标</translation>
-    </message>
 </context>
 <context>
     <name>qdesigner_internal::TreeWidgetTaskMenu</name>
@@ -6339,10 +5696,6 @@ Class: %2</source>
         <translation>在使用为类 %1 的窗口部件注册的自定义窗口部件工厂创建一个窗口部件时，发生了类名称不匹配。它返回了一个类 %2 的窗口部件。</translation>
     </message>
     <message>
-        <source>%1 Widget</source>
-        <translation>%1 窗口部件</translation>
-    </message>
-    <message>
         <source>The current page of the container &apos;%1&apos; (%2) could not be determined while creating a layout.This indicates an inconsistency in the ui-file, probably a layout being constructed on a container widget.</source>
         <translation>在创建一个布局的时候，不能决定这个容器“%1”（%2）的当前页。这表明在 UI 文件中有一个矛盾，也许在一个容器窗口部件中已经构造了一个布局。</translation>
     </message>
@@ -6350,7 +5703,7 @@ Class: %2</source>
         <source>Attempt to add a layout to a widget &apos;%1&apos; (%2) which already has an unmanaged layout of type %3.
 This indicates an inconsistency in the ui-file.</source>
         <translation>试图向一个已经包含了类型为 %3 的非托管布局的窗口部件 “%1”（%2）添加布局。
-这表明这个ui文件中有矛盾。</translation>
+这表明这个 ui 文件中有矛盾。</translation>
     </message>
     <message>
         <source>Cannot create style &apos;%1&apos;.</source>
@@ -6365,7 +5718,7 @@ This indicates an inconsistency in the ui-file.</source>
     </message>
     <message>
         <source>Back</source>
-        <translation>返回</translation>
+        <translation>后退</translation>
     </message>
 </context>
 <context>
@@ -6381,667 +5734,6 @@ This indicates an inconsistency in the ui-file.</source>
     <message>
         <source>&amp;Zoom</source>
         <translation>缩放(&amp;Z)</translation>
-    </message>
-</context>
-<context>
-    <name>@default</name>
-    <message>
-        <source>&lt;object&gt;</source>
-        <translation>&lt;对象&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;signal&gt;</source>
-        <translation>&lt;信号&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;slot&gt;</source>
-        <translation>&lt;槽&gt;</translation>
-    </message>
-</context>
-<context>
-    <name>BrushManagerProxy</name>
-    <message>
-        <source>The element &apos;%1&apos; is missing the required attribute &apos;%2&apos;.</source>
-        <translation>组件“%1”缺少必需的属性“%2”。</translation>
-    </message>
-    <message>
-        <source>Empty brush name encountered.</source>
-        <translation>遇到空白画刷名称。</translation>
-    </message>
-    <message>
-        <source>An unexpected element &apos;%1&apos; was encountered.</source>
-        <translation>遇到未知组件“%1”。</translation>
-    </message>
-    <message>
-        <source>An error occurred when reading the brush definition file &apos;%1&apos; at line line %2, column %3: %4</source>
-        <translation>读取画刷定义文件“%1”出错，行%2，列%3：%4</translation>
-    </message>
-    <message>
-        <source>An error occurred when reading the resource file &apos;%1&apos; at line %2, column %3: %4</source>
-        <translation>读取资源文件“%1”出错，行%2，列%3：%4</translation>
-    </message>
-</context>
-<context>
-    <name>FindWidget</name>
-    <message>
-        <source>Previous</source>
-        <translation>上一个</translation>
-    </message>
-    <message>
-        <source>Next</source>
-        <translation>下一个</translation>
-    </message>
-    <message>
-        <source>Case sensitive</source>
-        <translation>区分大小写</translation>
-    </message>
-    <message>
-        <source>Whole words</source>
-        <translation>整词</translation>
-    </message>
-    <message>
-        <source>&lt;img src=&quot;:/trolltech/shared/images/wrap.png&quot;&gt;&amp;nbsp;Search wrapped</source>
-        <translation>&lt;img src=&quot;:/trolltech/shared/images/wrap.png&quot;&gt;循环搜索(&amp;nbsp;S)</translation>
-    </message>
-</context>
-<context>
-    <name>LanguageResourceDialog</name>
-    <message>
-        <source>Choose Resource</source>
-        <translation>选择资源</translation>
-    </message>
-</context>
-<context>
-    <name>NewFormWidget</name>
-    <message>
-        <source>Unable to open the form template file &apos;%1&apos;: %2</source>
-        <translation>无法打开窗体模版文件&apos;%1&apos;：%2</translation>
-    </message>
-</context>
-<context>
-    <name>PropertyEditor</name>
-    <message>
-        <source>comment</source>
-        <translation>注释</translation>
-    </message>
-</context>
-<context>
-    <name>Q3WizardContainer</name>
-    <message>
-        <source>Page</source>
-        <translation>页</translation>
-    </message>
-</context>
-<context>
-    <name>QActiveXPlugin</name>
-    <message>
-        <source>ActiveX control</source>
-        <translation>ActiveX 控件</translation>
-    </message>
-    <message>
-        <source>ActiveX control widget</source>
-        <translation>ActiveX 控件窗口部件</translation>
-    </message>
-</context>
-<context>
-    <name>QActiveXPluginObject</name>
-    <message>
-        <source>Control loaded</source>
-        <translation>控件已经加载</translation>
-    </message>
-</context>
-<context>
-    <name>QActiveXTaskMenu</name>
-    <message>
-        <source>Set Control</source>
-        <translation>设定控件</translation>
-    </message>
-    <message>
-        <source>Licensed Control</source>
-        <translation>许可的控件</translation>
-    </message>
-    <message>
-        <source>The control requires a design-time license</source>
-        <translation>这个控件需要一个设计时的许可</translation>
-    </message>
-</context>
-<context>
-    <name>QDesignerActionEditor</name>
-    <message>
-        <source>Action Editor</source>
-        <translation>动作编辑器</translation>
-    </message>
-</context>
-<context>
-    <name>QDesignerObjectInspector</name>
-    <message>
-        <source>Object Inspector</source>
-        <translation>对象查看器</translation>
-    </message>
-</context>
-<context>
-    <name>QDesignerPropertyEditor</name>
-    <message>
-        <source>Property Editor</source>
-        <translation>属性编辑器</translation>
-    </message>
-    <message>
-        <source>Ctrl+I</source>
-        <translation>Ctrl+I</translation>
-    </message>
-</context>
-<context>
-    <name>QDesignerResourceEditor</name>
-    <message>
-        <source>Resource Browser</source>
-        <translation>资源浏览器</translation>
-    </message>
-</context>
-<context>
-    <name>QDesignerSignalSlotEditor</name>
-    <message>
-        <source>Signal/Slot Editor</source>
-        <translation>信号/槽 编辑器</translation>
-    </message>
-</context>
-<context>
-    <name>QDesignerWidgetBox</name>
-    <message>
-        <source>Widget Box</source>
-        <translation>窗口部件盒</translation>
-    </message>
-    <message>
-        <source>An error has been encountered at line %1 of %2: %3</source>
-        <translation>在 %2 的第 %1 行发生错误：%3</translation>
-    </message>
-    <message>
-        <source>Unexpected element &lt;%1&gt; encountered when parsing for &lt;widget&gt; or &lt;ui&gt;</source>
-        <translation>解析 &lt;widget&gt; 或 &lt;ui&gt; 时遇到异常的元素 &lt;%1&gt;</translation>
-    </message>
-    <message>
-        <source>Unexpected end of file encountered when parsing widgets.</source>
-        <translation>解析窗口部件时遇到异常的文件结束。</translation>
-    </message>
-    <message>
-        <source>A widget element could not be found.</source>
-        <translation>无法找到一个窗口部件的元素。</translation>
-    </message>
-</context>
-<context>
-    <name>QObject</name>
-    <message>
-        <source>A parse error occurred at line %1, column %2 of the XML code specified for the widget %3: %4
-%5</source>
-        <translation>在解析由规定窗口部件 %3 的 XML 代码的 %1 行、%2列时发生一个解析错误：%4
-%5</translation>
-    </message>
-    <message>
-        <source>The XML code specified for the widget %1 contains an invalid root element %2.
-%3</source>
-        <translation>规定窗口部件 %1 的 XML 代码包含了一个无效的根元素：%2。
-%3</translation>
-    </message>
-    <message>
-        <source>%1 - warning</source>
-        <translation>%1 - 警告</translation>
-    </message>
-    <message>
-        <source>The backup file %1 could not be written.</source>
-        <translation>无法写备份文件 %1。</translation>
-    </message>
-    <message>
-        <source>The backup directory %1 could not be created.</source>
-        <translation>无法创建备份目录 %1。</translation>
-    </message>
-    <message>
-        <source>The temporary backup directory %1 could not be created.</source>
-        <translation>无法创建临时备份目录 %1。</translation>
-    </message>
-    <message>
-        <source>The template path %1 could not be created.</source>
-        <translation>无法创建临时路径 %1。</translation>
-    </message>
-    <message>
-        <source>Script errors occurred:</source>
-        <translation>脚本发生错误：</translation>
-    </message>
-    <message>
-        <source>An error occurred while running the scripts for &quot;%1&quot;:
-</source>
-        <translation>在运行“%1”的脚本过程中发生一个错误：
-</translation>
-    </message>
-    <message>
-        <source>The creation of a widget of the class &apos;%1&apos; failed.</source>
-        <translation>创建类 %1 的窗口部件失败。</translation>
-    </message>
-    <message>
-        <source>Flags property are not supported yet.</source>
-        <translation>标记属性还不被支持。</translation>
-    </message>
-    <message>
-        <source>While applying tab stops: The widget &apos;%1&apos; could not be found.</source>
-        <translation>在应用制表符时中断：无法找到窗口部件“%1”。</translation>
-    </message>
-    <message>
-        <source>This version of the uitools library is linked without script support.</source>
-        <translation>这个版本的界面工具库没有被链接脚本支持。</translation>
-    </message>
-    <message>
-        <source>Not used</source>
-        <translation>没有被使用</translation>
-    </message>
-    <message>
-        <source>Change Object Name</source>
-        <translation>改变对象名称</translation>
-    </message>
-    <message>
-        <source>Object Name</source>
-        <translation>对象名称</translation>
-    </message>
-    <message>
-        <source>The widgetbox could not load the file %1.</source>
-        <translation>窗口部件盒无法加载文件 %1。</translation>
-    </message>
-    <message>
-        <source>The widgetbox could not parse the file %1. An error occurred at line %2: %3</source>
-        <translation>窗口部件盒无法解析文件 %1。在 %2 行发生一个错误：%3</translation>
-    </message>
-    <message>
-        <source>The file %1 does not appear to be a widgetbox file.</source>
-        <translation>文件 %1 没有被作为一个窗口部件盒文件出现。</translation>
-    </message>
-    <message>
-        <source>An error occurred while parsing the file %1: %2 is not a valid child of the root element.</source>
-        <translation>在解析文件 %1 时发生一个错误：%2 不是根元素的有效子元素。</translation>
-    </message>
-    <message>
-        <source>The class attribute for the class %1 does not match the class name %2.</source>
-        <translation>类 %1 的类属性和类名称 %2 不匹配。</translation>
-    </message>
-    <message>
-        <source>The class attribute for the class %1 is missing.</source>
-        <translation>缺少类 %1 的类属性。</translation>
-    </message>
-    <message>
-        <source>The style %1 could not be loaded.</source>
-        <translation>无法加载风格 %1。</translation>
-    </message>
-    <message>
-        <source>The preview failed to build.</source>
-        <translation>构建预览失败。</translation>
-    </message>
-    <message>
-        <source>%1 - [Preview]</source>
-        <translation>%1 - [预览]</translation>
-    </message>
-    <message>
-        <source>Designer</source>
-        <translation>设计师</translation>
-    </message>
-    <message>
-        <source>Change script</source>
-        <translation>改变脚本</translation>
-    </message>
-    <message>
-        <source>A custom widget plugin whose class name (%1) matches that of an existing class has been found.</source>
-        <translation>类名称为 %1 的自定义窗口部件插件和一个已经存在的类一样。</translation>
-    </message>
-    <message>
-        <source>The custom widget factory registered for widgets of class %1 returned 0.</source>
-        <translation>为类 %1 的窗口部件注册的自定义窗口部件工厂返回 0。</translation>
-    </message>
-    <message>
-        <source>A class name mismatch occurred when creating a widget using the custom widget factory registered for widgets of class %1. It returned a widget of class %2.</source>
-        <translation>在使用为类 %1 的窗口部件注册的自定义窗口部件工厂创建一个窗口部件时，发生了类名称不匹配。它返回了一个类 %2 的窗口部件。</translation>
-    </message>
-    <message>
-        <source>QFormBuilder was unable to create a widget of the class &apos;%1&apos;.</source>
-        <translation>QFormBuilder 不能创建类“%1”的一个窗口部件。</translation>
-    </message>
-    <message>
-        <source>The layout type `%1&apos; is not supported.</source>
-        <translation>布局类型“%1”不被支持。</translation>
-    </message>
-    <message>
-        <source>The set-type property %1 could not be read.</source>
-        <translation>无法读取集类型属性 %1。</translation>
-    </message>
-    <message>
-        <source>The enumeration-type property %1 could not be read.</source>
-        <translation>无法读取枚举类型属性 %1。</translation>
-    </message>
-    <message>
-        <source>Reading properties of the type %1 is not supported yet.</source>
-        <translation>还不支持读取类型 %1 的属性。</translation>
-    </message>
-    <message>
-        <source>The property %1 could not be written. The type %2 is not supported yet.</source>
-        <translation>属性 %1 无法被写入。还不支持类型 %2。</translation>
-    </message>
-    <message>
-        <source>The current page of the container &apos;%1&apos; (%2) could not be determined while creating a layout.This indicates an inconsistency in the ui-file, probably a layout being constructed on a container widget.</source>
-        <translation>在创建一个布局的时候，不能决定这个容器“%1”（%2）的当前页。这表明在 UI 文件中有一个矛盾，也许在一个容器窗口部件中已经构造了一个布局。</translation>
-    </message>
-    <message>
-        <source>The enumeration-value &quot;%1&quot; is invalid. The default value &quot;%2&quot; will be used instead.</source>
-        <translation>枚举变量值“%1”是无效的。默认值“%2”将会被用来替代。</translation>
-    </message>
-    <message>
-        <source>The layout type &apos;%1&apos; is not supported, defaulting to grid.</source>
-        <translation>不支持布局类型“%1”，默认为网格。</translation>
-    </message>
-    <message>
-        <source>separator</source>
-        <translation>分隔符</translation>
-    </message>
-    <message>
-        <source>Object</source>
-        <translation>对象</translation>
-    </message>
-    <message>
-        <source>Class</source>
-        <translation>类</translation>
-    </message>
-    <message>
-        <source>&lt;noname&gt;</source>
-        <translation>&lt;无名称&gt;</translation>
-    </message>
-    <message>
-        <source>SENDER(%1), SIGNAL(%2), RECEIVER(%3), SLOT(%4)</source>
-        <translation>SENDER(%1), SIGNAL(%2), RECEIVER(%3), SLOT(%4)</translation>
-    </message>
-    <message>
-        <source>%1 - [Code]</source>
-        <translation>%1 - [代码]</translation>
-    </message>
-    <message>
-        <source>%1 is not a valid enumeration value of &apos;%2&apos;.</source>
-        <translation>%1 不是“%2”中的一个有效的枚举值。</translation>
-    </message>
-    <message>
-        <source>&apos;%1&apos; could not be converted to an enumeration value of type &apos;%2&apos;.</source>
-        <translation>无法将“%1”转换成“%2”中的一个枚举值。</translation>
-    </message>
-    <message>
-        <source>&apos;%1&apos; could not be converted to a flag value of type &apos;%2&apos;.</source>
-        <translation>无法将“%1”转换成“%2”中的一个标记值。</translation>
-    </message>
-    <message>
-        <source>The XML code specified for the widget %1 does not contain any widget elements.
-%2</source>
-        <translation>规定窗口部件 %1 的 XML 代码不包含任何窗口部件元素。
-%2</translation>
-    </message>
-    <message>
-        <source>The XML code specified for the widget %1 does not contain valid widget element
-%2</source>
-        <translation>规定窗口部件 %1 的 XML 代码不包含任何有效的窗口部件元素。%2</translation>
-    </message>
-    <message>
-        <source>A parse error occurred at line %1, column %2 of %3:
-%4</source>
-        <translation>在 %3 的 %1 行、%2 列发生了一个解析错误：
-%4</translation>
-    </message>
-    <message>
-        <source>The xml code specified for the custom widget %1 could not be parsed. An error occurred at line %2: %3</source>
-        <translation>无法解析规定自定义窗口部件 %1 的 XML 代码。在 %2 行发生一个错误：%3</translation>
-    </message>
-    <message>
-        <source>Attempt to add child that is not of class QWizardPage to QWizard.</source>
-        <translation>试图把一个并不是 QWizardPage 类的对象添加为 QWizard 的子对象。</translation>
-    </message>
-    <message>
-        <source>Empty widget item in %1 &apos;%2&apos;.</source>
-        <translation>在 %1 “%2”中的空窗口部件项。</translation>
-    </message>
-    <message>
-        <source>QFormBuilder was unable to create a custom widget of the class &apos;%1&apos;; defaulting to base class &apos;%2&apos;.</source>
-        <translation>QFormBuilder 无法创建基于类“%1”的自定义窗口部件；默认基类为“%2”。</translation>
-    </message>
-    <message>
-        <source>Attempt to add a layout to a widget &apos;%1&apos; (%2) which already has an unmanaged layout of type %3.
-This indicates an inconsistency in the ui-file.</source>
-        <translation>试图向一个已经包含了类型为 %3 的非托管布局的窗口部件 “%1”（%2）添加布局。
-这表明这个 ui 文件中有矛盾。</translation>
-    </message>
-    <message>
-        <source>Attempt to add a layout to a widget &apos;%1&apos; (%2) which already has a layout of non-box type %3.
-This indicates an inconsistency in the ui-file.</source>
-        <translation>试图向一个已经包含了类型为 %3 的非框布局的窗口部件 “%1”（%2）添加布局。
-这表明这个 ui 文件中有矛盾。</translation>
-    </message>
-</context>
-<context>
-    <name>QtKeySequenceEdit</name>
-    <message>
-        <source>Clear Shortcut</source>
-        <translation>清空快捷键</translation>
-    </message>
-</context>
-<context>
-    <name>ScriptErrorDialog</name>
-    <message>
-        <source>An error occurred while running the scripts for &quot;%1&quot;:
-</source>
-        <translation>在运行“%1”的脚本过程中发生一个错误：
-</translation>
-    </message>
-</context>
-<context>
-    <name>qdesigner_internal::ActionFilterWidget</name>
-    <message>
-        <source>Filter: </source>
-        <translation>过滤器： </translation>
-    </message>
-</context>
-<context>
-    <name>qdesigner_internal::FilterWidget</name>
-    <message>
-        <source>&lt;Filter&gt;</source>
-        <translation>&lt;过滤器&gt;</translation>
-    </message>
-</context>
-<context>
-    <name>qdesigner_internal::IconSelector</name>
-    <message>
-        <source>The pixmap file &apos;%1&apos; cannot be read.</source>
-        <translation>无法读取像素映射文件“%1”。</translation>
-    </message>
-    <message>
-        <source>The file &apos;%1&apos; does not appear to be a valid pixmap file: %2</source>
-        <translation>文件“%1”不像是有效的像素映射文件：%2</translation>
-    </message>
-    <message>
-        <source>The file &apos;%1&apos; could not be read: %2</source>
-        <translation>无法读取文件“%1”：%2</translation>
-    </message>
-    <message>
-        <source>Choose a Pixmap</source>
-        <translation>选择一个像素映射</translation>
-    </message>
-    <message>
-        <source>Pixmap Read Error</source>
-        <translation>像素映射读取错误</translation>
-    </message>
-    <message>
-        <source>...</source>
-        <translation>...</translation>
-    </message>
-    <message>
-        <source>Normal Off</source>
-        <translation>正常 关</translation>
-    </message>
-    <message>
-        <source>Normal On</source>
-        <translation>正常 开</translation>
-    </message>
-    <message>
-        <source>Disabled Off</source>
-        <translation>禁用 关</translation>
-    </message>
-    <message>
-        <source>Disabled On</source>
-        <translation>禁用 开</translation>
-    </message>
-    <message>
-        <source>Active Off</source>
-        <translation>有效 关</translation>
-    </message>
-    <message>
-        <source>Active On</source>
-        <translation>有效 开</translation>
-    </message>
-    <message>
-        <source>Selected Off</source>
-        <translation>选择 关</translation>
-    </message>
-    <message>
-        <source>Selected On</source>
-        <translation>选择 开</translation>
-    </message>
-    <message>
-        <source>Choose Resource...</source>
-        <translation>选择资源...</translation>
-    </message>
-    <message>
-        <source>Choose File...</source>
-        <translation>选择文件...</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>重置</translation>
-    </message>
-    <message>
-        <source>Reset All</source>
-        <translation>重置全部</translation>
-    </message>
-</context>
-<context>
-    <name>qdesigner_internal::ObjectInspector::ObjectInspectorPrivate</name>
-    <message>
-        <source>Change Current Page</source>
-        <translation>改变当前页</translation>
-    </message>
-</context>
-<context>
-    <name>qdesigner_internal::PreviewConfigurationWidget::PreviewConfigurationWidgetPrivate</name>
-    <message>
-        <source>Load Custom Device Skin</source>
-        <translation>加载自定义设备皮肤</translation>
-    </message>
-    <message>
-        <source>All QVFB Skins (*.%1)</source>
-        <translation>所有 QVFB 皮肤 (*.%1)</translation>
-    </message>
-    <message>
-        <source>%1 - Duplicate Skin</source>
-        <translation>%1 - 重复的皮肤</translation>
-    </message>
-    <message>
-        <source>The skin &apos;%1&apos; already exists.</source>
-        <translation>皮肤“%1”已经存在。</translation>
-    </message>
-    <message>
-        <source>%1 - Error</source>
-        <translation>%1 - 错误</translation>
-    </message>
-    <message>
-        <source>%1 is not a valid skin directory:
-%2</source>
-        <translation>%1 不是有效皮肤目录：
-%2</translation>
-    </message>
-</context>
-<context>
-    <name>qdesigner_internal::QtGradientEditor</name>
-    <message>
-        <source>Linear</source>
-        <translation>线性</translation>
-    </message>
-    <message>
-        <source>Radial</source>
-        <translation>放射状</translation>
-    </message>
-    <message>
-        <source>Conical</source>
-        <translation>圆锥状</translation>
-    </message>
-    <message>
-        <source>Pad</source>
-        <translation>衬垫</translation>
-    </message>
-    <message>
-        <source>Repeat</source>
-        <translation>重复</translation>
-    </message>
-    <message>
-        <source>Reflect</source>
-        <translation>反射</translation>
-    </message>
-</context>
-<context>
-    <name>qdesigner_internal::ScriptDialog</name>
-    <message>
-        <source>Edit script</source>
-        <translation>编辑脚本</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;Enter a Qt Script snippet to be executed while loading the form.&lt;br&gt;The widget and its children are accessible via the variables &lt;i&gt;widget&lt;/i&gt; and &lt;i&gt;childWidgets&lt;/i&gt;, respectively.</source>
-        <translation>&lt;html&gt;输入一段在加载这个窗体时会被运行的 Qt 脚本片段。&lt;br&gt;这个窗口部件和它的子窗口部件可以通过&lt;i&gt;widget&lt;/i&gt;和&lt;i&gt;childWidgets&lt;/i&gt;进行访问。</translation>
-    </message>
-    <message>
-        <source>Syntax error</source>
-        <translation>语法错误</translation>
-    </message>
-</context>
-<context>
-    <name>qdesigner_internal::ScriptErrorDialog</name>
-    <message>
-        <source>Script errors</source>
-        <translation>脚本错误</translation>
-    </message>
-</context>
-<context>
-    <name>qdesigner_internal::ToolBarTaskMenu</name>
-    <message>
-        <source>Customize...</source>
-        <translation>自定义...</translation>
-    </message>
-</context>
-<context>
-    <name>qdesigner_internal::WidgetBoxTreeView</name>
-    <message>
-        <source>Scratchpad</source>
-        <translation>便条</translation>
-    </message>
-    <message>
-        <source>Custom Widgets</source>
-        <translation>自定义窗口部件</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>移除</translation>
-    </message>
-    <message>
-        <source>Edit name</source>
-        <translation>编辑名称</translation>
-    </message>
-    <message>
-        <source>Expand all</source>
-        <translation>全部展开</translation>
-    </message>
-    <message>
-        <source>Collapse all</source>
-        <translation>全部折叠</translation>
-    </message>
-</context>
-<context>
-    <name>qdesigner_internal::WidgetDataBase</name>
-    <message>
-        <source>A custom widget plugin whose class name (%1) matches that of an existing class has been found.</source>
-        <translation>类名称为 %1 的自定义窗口部件插件和一个已经存在的类一样。</translation>
     </message>
 </context>
 <context>

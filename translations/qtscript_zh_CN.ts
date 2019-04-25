@@ -2,10 +2,125 @@
 <!DOCTYPE TS>
 <TS version="2.1">
 <context>
+    <name>Calculator</name>
+    <message>
+        <source>Calculator</source>
+        <translation>计算器</translation>
+    </message>
+    <message>
+        <source>Backspace</source>
+        <translation>Backspace</translation>
+    </message>
+    <message>
+        <source>MC</source>
+        <translation>MC</translation>
+    </message>
+    <message>
+        <source>7</source>
+        <translation>7</translation>
+    </message>
+    <message>
+        <source>8</source>
+        <translation>8</translation>
+    </message>
+    <message>
+        <source>9</source>
+        <translation>9</translation>
+    </message>
+    <message>
+        <source>/</source>
+        <translation>/</translation>
+    </message>
+    <message>
+        <source>Sqrt</source>
+        <translation>Sqrt</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Clear</translation>
+    </message>
+    <message>
+        <source>Clear All</source>
+        <translation>Clear All</translation>
+    </message>
+    <message>
+        <source>MR</source>
+        <translation>MR</translation>
+    </message>
+    <message>
+        <source>4</source>
+        <translation>4</translation>
+    </message>
+    <message>
+        <source>5</source>
+        <translation>5</translation>
+    </message>
+    <message>
+        <source>6</source>
+        <translation>6</translation>
+    </message>
+    <message>
+        <source>*</source>
+        <translation>*</translation>
+    </message>
+    <message>
+        <source>x^2</source>
+        <translation>x^2</translation>
+    </message>
+    <message>
+        <source>MS</source>
+        <translation>MS</translation>
+    </message>
+    <message>
+        <source>1</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>2</source>
+        <translation>2</translation>
+    </message>
+    <message>
+        <source>3</source>
+        <translation>3</translation>
+    </message>
+    <message>
+        <source>-</source>
+        <translation>-</translation>
+    </message>
+    <message>
+        <source>1/x</source>
+        <translation>1/x</translation>
+    </message>
+    <message>
+        <source>M+</source>
+        <translation>M+</translation>
+    </message>
+    <message>
+        <source>0</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>.</source>
+        <translation>.</translation>
+    </message>
+    <message>
+        <source>+-</source>
+        <translation>+-</translation>
+    </message>
+    <message>
+        <source>+</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>=</source>
+        <translation>=</translation>
+    </message>
+</context>
+<context>
     <name>QScriptBreakpointsModel</name>
     <message>
         <source>ID</source>
-        <translation>ID</translation>
+        <translation>标识</translation>
     </message>
     <message>
         <source>Location</source>
@@ -63,7 +178,7 @@
     </message>
     <message>
         <source>F5</source>
-        <translation>F5</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Step Into</source>
@@ -127,7 +242,7 @@
     </message>
     <message>
         <source>Ctrl+F</source>
-        <translation>Ctrl+F</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Find &amp;Next</source>
@@ -135,7 +250,7 @@
     </message>
     <message>
         <source>F3</source>
-        <translation>F3</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Find &amp;Previous</source>
@@ -177,8 +292,8 @@
         <translation>整词</translation>
     </message>
     <message>
-        <source>&lt;img src=":/qt/scripttools/debugging/images/wrap.png"&gt;&amp;nbsp;Search wrapped</source>
-        <translation>&lt;img src=":/qt/scripttools/debugging/images/wrap.png"&gt;循环搜索(&amp;nbsp;S)</translation>
+        <source>&lt;img src=&quot;:/qt/scripttools/debugging/images/wrap.png&quot;&gt;&amp;nbsp;Search wrapped</source>
+        <translation>&lt;img src=&quot;:/qt/scripttools/debugging/images/wrap.png&quot;&gt;搜索已回环(&amp;nbsp;S)</translation>
     </message>
 </context>
 <context>
@@ -223,7 +338,7 @@
     </message>
     <message>
         <source>Breakpoint Condition:</source>
-        <translation>断点条件</translation>
+        <translation>断点条件:</translation>
     </message>
 </context>
 <context>
@@ -274,6 +389,74 @@
     <message>
         <source>Close</source>
         <translation>关闭</translation>
+    </message>
+</context>
+<context>
+    <name>TetrixBoard</name>
+    <message>
+        <source>Pause</source>
+        <translation>暂停</translation>
+    </message>
+</context>
+<context>
+    <name>TetrixWindow</name>
+    <message>
+        <source>Tetrix</source>
+        <translation>Tetrix</translation>
+    </message>
+    <message>
+        <source>&amp;Start</source>
+        <translation>开始(&amp;S)</translation>
+    </message>
+    <message>
+        <source>LINES REMOVED</source>
+        <translation>已删除的行</translation>
+    </message>
+    <message>
+        <source>LEVEL</source>
+        <translation>级别</translation>
+    </message>
+    <message>
+        <source>NEXT</source>
+        <translation>下一个</translation>
+    </message>
+    <message>
+        <source>SCORE</source>
+        <translation>得分</translation>
+    </message>
+    <message>
+        <source>&amp;Quit</source>
+        <translation>退出(&amp;Q)</translation>
+    </message>
+    <message>
+        <source>&amp;Pause</source>
+        <translation>暂停(&amp;P)</translation>
+    </message>
+    <message>
+        <source>&amp;Debug</source>
+        <translation>调试(&amp;D)</translation>
+    </message>
+</context>
+<context>
+    <name>Window</name>
+    <message>
+        <source>Run in Debugger</source>
+        <translation>在调试器中运行</translation>
+    </message>
+    <message>
+        <source>Context 2D</source>
+        <translation>上下文 2D</translation>
+    </message>
+    <message>
+        <source>Line %0: %1</source>
+        <translation>行 %0：%1</translation>
+    </message>
+</context>
+<context>
+    <name>helloscript</name>
+    <message>
+        <source>Hello World!</source>
+        <translation>Hello World!</translation>
     </message>
 </context>
 </TS>

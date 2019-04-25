@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="zh_CN">
+<TS version="2.1">
 <context>
     <name>AboutDialog</name>
     <message>
         <source>Qt Linguist</source>
-        <translation></translation>
+        <translation>Qt 语言家</translation>
     </message>
 </context>
 <context>
     <name>BatchTranslationDialog</name>
     <message>
         <source>Qt Linguist - Batch Translation</source>
-        <translation>Qt Linguist - 批量翻译</translation>
+        <translation>Qt 语言家 - 批量翻译</translation>
     </message>
     <message>
         <source>Options</source>
@@ -60,7 +60,7 @@
     </message>
     <message>
         <source>Batch Translation of &apos;%1&apos; - Qt Linguist</source>
-        <translation>批量翻译“%1” - Qt Linguist</translation>
+        <translation>批量翻译“%1” - Qt 语言家</translation>
     </message>
     <message>
         <source>Searching, please wait...</source>
@@ -72,7 +72,7 @@
     </message>
     <message>
         <source>Linguist batch translator</source>
-        <translation>Linguist 批量翻译</translation>
+        <translation>语言家 批量翻译</translation>
     </message>
     <message numerus="yes">
         <source>Batch translated %n entries</source>
@@ -110,7 +110,7 @@
     <message>
         <source>Linguist does not know the plural rules for &apos;%1&apos;.
 Will assume a single universal form.</source>
-        <translation>Linguist 不知道 &quot;%1&quot; 的复数规则。
+        <translation>语言家 不知道 &quot;%1&quot; 的复数规则。
 将采取一个单一的通用形式。</translation>
     </message>
     <message>
@@ -119,6 +119,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>%1 (%2)</source>
+        <extracomment>&lt;language&gt; (&lt;country&gt;)</extracomment>
         <translation></translation>
     </message>
     <message>
@@ -177,7 +178,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Qt Linguist &apos;Phrase Book&apos;</source>
-        <translation>Qt Linguist 的“短语书”</translation>
+        <translation>Qt 语言家 的“短语书”</translation>
     </message>
     <message>
         <source>Qt translation sources</source>
@@ -303,7 +304,7 @@ Will assume a single universal form.</source>
     </message>
     <message>
         <source>Confirmation - Qt Linguist</source>
-        <translation>确认  - Qt Linguist</translation>
+        <translation>确认  - Qt 语言家</translation>
     </message>
     <message>
         <source>Delete non-empty length variant?</source>
@@ -622,8 +623,13 @@ lrelease 是 Qt 语言学工具链的一部分。它可以用作
     <message>
         <source>Unterminated C++ comment
 </source>
-        <translation>未终止 C++ 注释
+        <translation>未终止的 C++ 注释
 </translation>
+    </message>
+    <message>
+        <source>Unterminated/mismatched C++ Raw string
+</source>
+        <translation>未终止/不匹配的 C++ Raw 字符串</translation>
     </message>
     <message>
         <source>Unterminated C++ string
@@ -1231,7 +1237,12 @@ Available tr-functions are: %2</source>
     <message>
         <source>//= cannot be used with %1(). Ignoring
 </source>
-        <translation>//% 不能与 %1() 一起使用。忽略</translation>
+        <translation>//= 不能与 %1() 一起使用。忽略
+</translation>
+    </message>
+    <message>
+        <source>Maximum statement or expression depth exceeded</source>
+        <translation>超出最大语句或表达式深度</translation>
     </message>
     <message>
         <source>XML error: Parse error at line %1, column %2 (%3).</source>
@@ -1270,7 +1281,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>&amp;View</source>
-        <translation>查看(&amp;V)</translation>
+        <translation>视图(&amp;V)</translation>
     </message>
     <message>
         <source>Vie&amp;ws</source>
@@ -1434,7 +1445,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Select &amp;All</source>
-        <translation>全部选中(&amp;A)</translation>
+        <translation>全选(&amp;A)</translation>
     </message>
     <message>
         <source>Select the whole translation text.</source>
@@ -1678,7 +1689,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>About Qt Linguist</source>
-        <translation>关于 Qt Linguist</translation>
+        <translation>关于 Qt 语言家</translation>
     </message>
     <message>
         <source>About Qt</source>
@@ -1738,7 +1749,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Translation</source>
-        <translation>翻译</translation>
+        <translation>译文</translation>
     </message>
     <message>
         <source>Validation</source>
@@ -1903,7 +1914,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Sources and Forms</source>
-        <translation>源文和表单</translation>
+        <translation>源文和窗体</translation>
     </message>
     <message>
         <source>Warnings</source>
@@ -1920,7 +1931,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Loading File - Qt Linguist</source>
-        <translation>正在载入文件 - Qt Linguist</translation>
+        <translation>正在载入文件 - Qt 语言家</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; does not seem to be related to the currently open file(s) &apos;%2&apos;.
@@ -2004,7 +2015,7 @@ All files (*)</source>
     </message>
     <message>
         <source>Qt Linguist</source>
-        <translation></translation>
+        <translation>Qt 语言家</translation>
     </message>
     <message>
         <source>Cannot find the string &apos;%1&apos;.</source>
@@ -2012,11 +2023,11 @@ All files (*)</source>
     </message>
     <message>
         <source>Search And Translate in &apos;%1&apos; - Qt Linguist</source>
-        <translation>搜索并翻译&apos;%1&apos; - Qt Linguist</translation>
+        <translation>搜索并翻译&apos;%1&apos; - Qt 语言家</translation>
     </message>
     <message>
         <source>Translate - Qt Linguist</source>
-        <translation>翻译 - Qt Linguist</translation>
+        <translation>翻译 - Qt 语言家</translation>
     </message>
     <message numerus="yes">
         <source>Translated %n entry(s)</source>
@@ -2074,15 +2085,15 @@ All files (*)</source>
     </message>
     <message>
         <source>Unable to launch Qt Assistant (%1)</source>
-        <translation>不能启动 Qt Assistant（%1）</translation>
+        <translation>不能启动 Qt 助手（%1）</translation>
     </message>
     <message>
         <source>Version %1</source>
         <translation>版本 %1</translation>
     </message>
     <message>
-        <source>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) %2 The Qt Company Ltd.</source>
-        <translation>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist 是向 Qt 应用程序添加翻译的工具。&lt;/p&gt;&lt;p&gt;Copyright (C) %2 The Qt Company Ltd。</translation>
+        <source>&lt;center&gt;&lt;img src=&quot;:/images/icons/linguist-128-32.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) %2 The Qt Company Ltd.</source>
+        <translation>&lt;center&gt;&lt;img src=&quot;:/images/icons/linguist-128-32.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist 是一个向 Qt 应用程序添加翻译的工具。&lt;/p&gt;&lt;p&gt;版权所有 (C) %2 The Qt Company Ltd。</translation>
     </message>
     <message>
         <source>Do you want to save the modified files?</source>
@@ -2094,11 +2105,11 @@ All files (*)</source>
     </message>
     <message>
         <source>Qt Linguist[*]</source>
-        <translation></translation>
+        <translation>Qt 语言家[*]</translation>
     </message>
     <message>
         <source>%1[*] - Qt Linguist</source>
-        <translation></translation>
+        <translation>%1[*] - Qt 语言家</translation>
     </message>
     <message>
         <source>No untranslated translation units left.</source>
@@ -2154,7 +2165,7 @@ All files (*)</source>
     </message>
     <message>
         <source>Save All</source>
-        <translation>保存全部</translation>
+        <translation>全部保存</translation>
     </message>
     <message>
         <source>Close All</source>
@@ -2389,11 +2400,11 @@ Line: %2</source>
     </message>
     <message>
         <source>%1[*] - Qt Linguist</source>
-        <translation></translation>
+        <translation>%1[*] - Qt 语言家</translation>
     </message>
     <message>
         <source>Qt Linguist</source>
-        <translation></translation>
+        <translation>Qt 语言家</translation>
     </message>
     <message>
         <source>Cannot save phrase book &apos;%1&apos;.</source>
@@ -2408,7 +2419,7 @@ Line: %2</source>
     </message>
     <message>
         <source>Translation</source>
-        <translation>翻译</translation>
+        <translation>译文</translation>
     </message>
     <message>
         <source>Definition</source>
@@ -2450,7 +2461,7 @@ Line: %2</source>
     </message>
     <message>
         <source>Qt Linguist</source>
-        <translation></translation>
+        <translation>Qt 语言家</translation>
     </message>
 </context>
 <context>
@@ -2587,11 +2598,77 @@ Line: %2</source>
     </message>
     <message>
         <source>Settings for &apos;%1&apos; - Qt Linguist</source>
-        <translation>“%1”的设置 - Qt Linguist</translation>
+        <translation>“%1”的设置 - Qt 语言家</translation>
     </message>
     <message>
         <source>Any Country</source>
         <translation>任意国家</translation>
+    </message>
+</context>
+<context>
+    <name>QWidgetTextControl</name>
+    <message>
+        <source>&amp;Undo</source>
+        <translation>撤消(&amp;U)</translation>
+    </message>
+    <message>
+        <source>&amp;Redo</source>
+        <translation>恢复(&amp;R)</translation>
+    </message>
+    <message>
+        <source>Cu&amp;t</source>
+        <translation>剪切(&amp;T)</translation>
+    </message>
+    <message>
+        <source>&amp;Copy</source>
+        <translation>复制(&amp;C)</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Link Location</source>
+        <translation>复制链接地址(&amp;L)</translation>
+    </message>
+    <message>
+        <source>&amp;Paste</source>
+        <translation>粘贴(&amp;P)</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>删除</translation>
+    </message>
+    <message>
+        <source>Select All</source>
+        <translation>全选</translation>
+    </message>
+</context>
+<context>
+    <name>QMessageBox</name>
+    <message>
+        <source>Show Details...</source>
+        <translation>显示细节…</translation>
+    </message>
+    <message>
+        <source>Hide Details...</source>
+        <translation>隐藏细节…</translation>
+    </message>
+    <message>
+        <source>&lt;h3&gt;About Qt&lt;/h3&gt;&lt;p&gt;This program uses Qt version %1.&lt;/p&gt;</source>
+        <translation>&lt;h3&gt;关于 Qt&lt;/h3&gt;&lt;p&gt;本程序使用 Qt 版本 %1。&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
+        <extracomment>Leave this text untranslated or include a verbatim copy of it below and note that it is the authoritative version in case of doubt.</extracomment>
+        <translation>&lt;p&gt;Qt 是一个用于跨平台应用程序开发的 C++ 工具包。&lt;/p&gt;&lt;p&gt;Qt 提供跨所有主要桌面操作系统的单一来源可移植性。它也可用于嵌入式 Linux 和其他嵌入式和移动操作系统。&lt;/p&gt;&lt;p&gt;Qt 可在多种许可选项下使用，旨在满足各种用户的需求。&lt;/p&gt;&lt;p&gt;在我们的商业许可协议授权的 Qt 许可，适用于开发专有/商业软件，您不希望与第三方共享任何源代码或不符合 GNU (L)GPL 条款。&lt;/p&gt;&lt;p&gt;在 GNU (L)GPL 下获得许可的 Qt 适用于 Qt 应用程序的开发，前提是您可以遵守相应许可证的条款和条件。&lt;/p&gt;&lt;p&gt;请参阅 &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; 获取 Qt 许可的概要。&lt;/p&gt;&lt;p&gt;版权 (C) %1 Qt Company Ltd 和其他贡献者。&lt;/p&gt;&lt;p&gt;Qt 和 Qt 徽标是 The Qt Company Ltd 的商标。&lt;/p&gt;&lt;p&gt;Qt 是作为开源项目开发的 Qt Company Ltd 产品。有关详细信息，请参阅 &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt;。&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <source>About Qt</source>
+        <translation>关于 Qt</translation>
+    </message>
+</context>
+<context>
+    <name>QDialogButtonBox</name>
+    <message>
+        <source>OK</source>
+        <translation>确定</translation>
     </message>
 </context>
 <context>
@@ -2623,119 +2700,6 @@ Line: %2</source>
     <message>
         <source>Select All</source>
         <translation>全选</translation>
-    </message>
-</context>
-<context>
-    <name>QWidgetTextControl</name>
-    <message>
-        <source>&amp;Undo</source>
-        <translation>撤消(&amp;U)</translation>
-    </message>
-    <message>
-        <source>&amp;Redo</source>
-        <translation>恢复(&amp;R)</translation>
-    </message>
-    <message>
-        <source>Cu&amp;t</source>
-        <translation>剪切(&amp;T)</translation>
-    </message>
-    <message>
-        <source>&amp;Copy</source>
-        <translation>复制(&amp;C)</translation>
-    </message>
-    <message>
-        <source>Copy &amp;Link Location</source>
-        <translation>复制链接位置(&amp;L)</translation>
-    </message>
-    <message>
-        <source>&amp;Paste</source>
-        <translation>粘贴(&amp;P)</translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <translation>删除</translation>
-    </message>
-    <message>
-        <source>Select All</source>
-        <translation>全选</translation>
-    </message>
-</context>
-<context>
-    <name>QWizard</name>
-    <message>
-        <source>Go Back</source>
-        <translation>返回</translation>
-    </message>
-    <message>
-        <source>&lt; &amp;Back</source>
-        <translation>&lt; 上一步(&amp;B)</translation>
-    </message>
-    <message>
-        <source>Continue</source>
-        <translation>继续</translation>
-    </message>
-    <message>
-        <source>&amp;Next</source>
-        <translation>下一步(&amp;N)</translation>
-    </message>
-    <message>
-        <source>&amp;Next &gt;</source>
-        <translation>下一步(&amp;N) &gt;</translation>
-    </message>
-    <message>
-        <source>Commit</source>
-        <translation>提交</translation>
-    </message>
-    <message>
-        <source>Done</source>
-        <translation>完成</translation>
-    </message>
-    <message>
-        <source>&amp;Finish</source>
-        <translation>完成(&amp;F)</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>取消</translation>
-    </message>
-    <message>
-        <source>Help</source>
-        <translation>帮助</translation>
-    </message>
-    <message>
-        <source>&amp;Help</source>
-        <translation>帮助(&amp;H)</translation>
-    </message>
-</context>
-<context>
-    <name>QMessageBox</name>
-    <message>
-        <source>Show Details...</source>
-        <translation>显示细节…</translation>
-    </message>
-    <message>
-        <source>Hide Details...</source>
-        <translation>隐藏细节…</translation>
-    </message>
-    <message>
-        <source>&lt;h3&gt;About Qt&lt;/h3&gt;&lt;p&gt;This program uses Qt version %1.&lt;/p&gt;</source>
-        <translation>&lt;h3&gt;关于 Qt&lt;/h3&gt;&lt;p&gt;本程序使用 Qt 版本 %1。&lt;/p&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <extracomment>Leave this text untranslated or include a verbatim copy of it below and note that it is the authoritative version in case of doubt.</extracomment>
-        <translation></translation>
-    </message>
-    <message>
-        <source>About Qt</source>
-        <translation>关于 Qt</translation>
-    </message>
-</context>
-<context>
-    <name>QDialogButtonBox</name>
-    <message>
-        <source>OK</source>
-        <translation>确定</translation>
     </message>
 </context>
 <context>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="zh_CN">
+<TS version="2.1">
 <context>
     <name>MainWindow</name>
     <message>
@@ -9,7 +9,7 @@
     </message>
     <message>
         <source>TextLabel</source>
-        <translation></translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -17,7 +17,11 @@
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation></translation>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -57,7 +61,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&lt;p&gt;Select &lt;b&gt;File-&gt;Open Directory&lt;/b&gt; and choose a directory. The directory is then loaded into the model, and the model is displayed on the left as XML.&lt;/p&gt;&lt;p&gt;From the query menu on the right, select a query. The query is displayed and then run on the model. The results are displayed below the query.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;选择&lt;b&gt;文件 -&gt;打开目录&lt;/b&gt;并选择一个目录。然后将该目录加载到模型中，模型在左侧显示为 XML。&lt;/p&gt;&lt;p&gt;从右侧的查询菜单中选择一个查询。将显示该查询，然后在模型上运行。结果显示在查询下方。&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;选择&lt;b&gt;文件-&gt;打开目录&lt;/b&gt;并选择一个目录。然后将该目录加载到模型中，模型在左侧显示为 XML 。&lt;/p&gt;&lt;p&gt;从右侧的查询菜单中选择一个查询。将显示该查询，然后在模型上运行。结果显示在查询下方。&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Contact Schema</source>
@@ -152,25 +156,25 @@ p, li { white-space: pre-wrap; }
     <name>QQuickXmlListModel</name>
     <message>
         <source>&quot;%1&quot; duplicates a previous role name and will be disabled.</source>
-        <translation>“%1”复制了以前的角色名，将被禁用。</translation>
+        <translation>“%1”复制以前的角色名称，将被禁用。</translation>
     </message>
     <message>
         <source>invalid query: &quot;%1&quot;</source>
-        <translation>无效查询：“%1”</translation>
+        <translation>无效的查询：“%1”</translation>
     </message>
 </context>
 <context>
     <name>QQuickXmlListModelRole</name>
     <message>
         <source>An XmlRole query must not start with &apos;/&apos;</source>
-        <translation>XmlRole 查询不能以“/”开头</translation>
+        <translation>XmlRole 查询不能以 &apos;/&apos; 开头。</translation>
     </message>
 </context>
 <context>
     <name>QQuickXmlRoleList</name>
     <message>
         <source>An XmlListModel query must start with &apos;/&apos; or &quot;//&quot;</source>
-        <translation>XmlListModel 查询必须以“/”或“/”开头</translation>
+        <translation>XmlListModel 查询必须以 &apos;/&apos; 或 &quot;//&quot; 开头</translation>
     </message>
 </context>
 <context>
@@ -201,7 +205,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>The variable name must be a valid NCName, which %1 isn&apos;t.</source>
-        <translation>变量名必须是有效的 NCName，而 %1 不是。</translation>
+        <translation>变量名必须是有效的 NCName，%1 不是。</translation>
     </message>
     <message>
         <source>Failed to open file %1 for writing: %2</source>
@@ -229,7 +233,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>A local filename pointing to the query to run. If the name ends with .xsl it&apos;s assumed to be an XSL-T stylesheet. If it ends with .xq, it&apos;s assumed to be an XQuery query. (In other cases it&apos;s also assumed to be an XQuery query, but that interpretation may change in a future release of Qt.)</source>
-        <translation>指向要运行的查询的本地文件名。如果名称以 .xsl 结尾，则假定它是 XSL-T 样式表。如果它以 .xq 结尾，则假定它是一个 XQuery 查询。 （在其他情况下，它也被假定为 XQuery 查询，但在未来的 Qt 版本中，该解释可能会发生变化。）</translation>
+        <translation>指向要运行的查询的本地文件名。如果名称以 .xsl 结尾，则假定它是 XSL-T 样式表。如果它以 .xq 结尾，则假定它是一个 XQuery 查询。（在其他情况下，它也被假定为 XQuery 查询，但在未来的 Qt 版本中，该解释可能会发生变化。）</translation>
     </message>
     <message>
         <source>The document to use as focus. Mandatory in case a stylesheet is used. This option is also affected by the is-uris option.</source>
@@ -264,7 +268,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>An %1-attribute must have a valid %2 as value, which %3 isn&apos;t.</source>
-        <translation>一个 %1 属性必须带有一个有效的 %2 作为值，但 %3 却不是。</translation>
+        <translation>%1 属性必须具有有效的 %2 作为值，其中 %3 不是。</translation>
     </message>
     <message>
         <source>%1 is an unsupported encoding.</source>
@@ -304,7 +308,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Overflow: Can&apos;t represent date %1.</source>
-        <translation>溢出：无法表示日期 %1。</translation>
+        <translation>溢出：不能表示日期 %1。</translation>
     </message>
     <message>
         <source>Day %1 is invalid for month %2.</source>
@@ -320,7 +324,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Overflow: Date can&apos;t be represented.</source>
-        <translation>溢出：无法表示日期。</translation>
+        <translation>溢出：不能表示日期。</translation>
     </message>
     <message>
         <source>At least one component must be present.</source>
@@ -440,7 +444,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>It&apos;s not possible to cast the value %1 of type %2 to %3</source>
-        <translation>不能从类型为 %2 的值 %1 强制转换到 %3</translation>
+        <translation>不可能将类型 %2 的值 %1 强制转换为 %3</translation>
     </message>
     <message>
         <source>Failure when casting from %1 to %2: %3</source>
@@ -756,7 +760,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>The value of attribute %1 must be of type %2, which %3 isn&apos;t.</source>
-        <translation>属性 %1 的值必须是类型 %2，而 %3 不是。</translation>
+        <translation>属性 %1 的值必须是类型 %2，其中 %3 不是。</translation>
     </message>
     <message>
         <source>It is not possible to redeclare prefix %1.</source>
@@ -1192,7 +1196,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Member type %1 cannot be derived from member type %2 of %3&apos;s base type %4.</source>
-        <translation>成员类型 %1 不能从 %3 的基类型 %4 的成员类型 %2 派生。</translation>
+        <translation>成员类型 %1 不能从 %3 的基本类型 %4 的成员类型 %2 派生。</translation>
     </message>
     <message>
         <source>Derivation method of %1 must be extension because the base type %2 is a simple type.</source>
@@ -1532,7 +1536,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Specifying use=&apos;prohibited&apos; inside an attribute group has no effect.</source>
-        <translation>在属性组中指定 use=&apos;prohibited&apos; 无效。</translation>
+        <translation>指定 use=&apos;prohibited&apos; 在属性组内部无效。</translation>
     </message>
     <message>
         <source>%1 element must have either %2 or %3 attribute.</source>
@@ -2112,7 +2116,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>ID value &apos;%1&apos; is not unique.</source>
-        <translation>ID 值“%1”不唯一。</translation>
+        <translation>ID 值“%1”不是唯一的。</translation>
     </message>
     <message>
         <source>&apos;%1&apos; attribute contains invalid QName content: %2.</source>
@@ -2174,7 +2178,7 @@ p, li { white-space: pre-wrap; }
     <name>QueryWidget</name>
     <message>
         <source>Recipes XQuery Example</source>
-        <translation></translation>
+        <translation>Recipes XQuery 示例</translation>
     </message>
     <message>
         <source>Input Document</source>
@@ -2193,7 +2197,7 @@ p, li { white-space: pre-wrap; }
     <name>SchemaMainWindow</name>
     <message>
         <source>XML Schema Validation</source>
-        <translation>XML 架构验证</translation>
+        <translation>XML 构架验证</translation>
     </message>
     <message>
         <source>XML Schema Document:</source>
@@ -2209,7 +2213,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>not validated</source>
-        <translation>未验证</translation>
+        <translation>未经验证</translation>
     </message>
     <message>
         <source>Validate</source>

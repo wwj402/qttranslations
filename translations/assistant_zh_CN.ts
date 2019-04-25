@@ -207,7 +207,7 @@ Reason:
     </message>
     <message>
         <source>Qt Assistant</source>
-        <translation></translation>
+        <translation>Qt 助手</translation>
     </message>
     <message>
         <source>Unable to save bookmarks.</source>
@@ -328,7 +328,7 @@ Reason:
                            文件而不是默认文件
 -showUrl url               使用 url 显示文档。
 -enableRemoteControl       允许远程控制
-                           Assistant。
+                           “助手”。
 -show widget               显示指定的 dockwidget
                            可以是“内容”，“索引”，
                            “书签”或“搜索”。
@@ -439,7 +439,7 @@ Reason:
     </message>
     <message>
         <source>&lt;img src=&quot;:/qt-project.org/assistant/images/wrap.png&quot;&gt;&amp;nbsp;Search wrapped</source>
-        <translation>&lt;img src=&quot;:/qt-project.org/assistant/images/wrap.png&quot;&gt;搜索已包装的(&amp;nbsp;S)</translation>
+        <translation>&lt;img src=&quot;:/qt-project.org/assistant/images/wrap.png&quot;&gt;搜索已回环(&amp;nbsp;S)</translation>
     </message>
 </context>
 <context>
@@ -715,7 +715,7 @@ Reason:
     </message>
     <message>
         <source>Qt Assistant</source>
-        <translation></translation>
+        <translation>Qt 助手</translation>
     </message>
     <message>
         <source>Bookmark Toolbar</source>
@@ -775,7 +775,7 @@ Reason:
     </message>
     <message>
         <source>&amp;View</source>
-        <translation>查看(&amp;V)</translation>
+        <translation>视图(&amp;V)</translation>
     </message>
     <message>
         <source>Normal &amp;Size</source>
@@ -891,7 +891,7 @@ Reason:
     </message>
     <message>
         <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;p&gt;Browser: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %4 The Qt Company Ltd.&lt;/p&gt;</source>
-        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;版本 %2&lt;/p&gt;&lt;p&gt;浏览器：%3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;版权 (C) %4 The Qt Company Ltd.&lt;/p&gt;</translation>
+        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;版本 %2&lt;/p&gt;&lt;p&gt;浏览器：%3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;版权所有 (C) %4 The Qt Company Ltd。&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About %1</source>
@@ -941,7 +941,7 @@ Reason:
     </message>
     <message>
         <source>Some documents currently opened in Assistant reference the documentation you are attempting to remove. Removing the documentation will close those documents.</source>
-        <translation>“Assistant”中当前打开的某些文档引用了您试图删除的文档。删除文档将关闭这些文档。</translation>
+        <translation>“助手”中当前打开的某些文档引用了您试图删除的文档。删除文档将关闭这些文档。</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -988,7 +988,7 @@ Reason:
     </message>
     <message>
         <source>Attributes:</source>
-        <translation>属性</translation>
+        <translation>属性：</translation>
     </message>
     <message>
         <source>1</source>
@@ -1080,6 +1080,96 @@ Reason:
     <message>
         <source>Missing input or output file for help file generation.</source>
         <translation>缺少用于生成帮助文件的输入或输出文件。</translation>
+    </message>
+</context>
+<context>
+    <name>QHelp</name>
+    <message>
+        <source>Untitled</source>
+        <translation>未命名</translation>
+    </message>
+</context>
+<context>
+    <name>QHelpCollectionHandler</name>
+    <message>
+        <source>The collection file &quot;%1&quot; is not set up yet.</source>
+        <translation>尚未设置集合文件“%1”。</translation>
+    </message>
+    <message>
+        <source>Cannot load sqlite database driver.</source>
+        <translation>无法加载 sqlite 数据库驱动程序。</translation>
+    </message>
+    <message>
+        <source>Cannot open collection file: %1</source>
+        <translation>无法打开集合文件：%1</translation>
+    </message>
+    <message>
+        <source>Cannot create tables in file %1.</source>
+        <translation>无法打开集合文件：%1</translation>
+    </message>
+    <message>
+        <source>Cannot create index tables in file %1.</source>
+        <translation>无法在文件 %1 中创建索引表。</translation>
+    </message>
+    <message>
+        <source>Cannot register index tables in file %1.</source>
+        <translation>无法在文件 %1 中注册索引表。</translation>
+    </message>
+    <message>
+        <source>Cannot unregister index tables in file %1.</source>
+        <translation>无法取消注册文件 %1 中的索引表。</translation>
+    </message>
+    <message>
+        <source>The collection file &quot;%1&quot; already exists.</source>
+        <translation>集合文件“%1”已存在。</translation>
+    </message>
+    <message>
+        <source>Cannot create directory: %1</source>
+        <translation>无法创建目录：%1</translation>
+    </message>
+    <message>
+        <source>Cannot copy collection file: %1</source>
+        <translation>无法复制集合文件：%1</translation>
+    </message>
+    <message>
+        <source>Unknown filter &quot;%1&quot;.</source>
+        <translation>未知过滤器“%1”。</translation>
+    </message>
+    <message>
+        <source>Cannot register filter %1.</source>
+        <translation>无法注册过滤器 %1。</translation>
+    </message>
+    <message>
+        <source>Cannot open documentation file %1.</source>
+        <translation>无法打开文档文件 %1。</translation>
+    </message>
+    <message>
+        <source>Invalid documentation file &quot;%1&quot;.</source>
+        <translation>文档文件“%1”无效。</translation>
+    </message>
+    <message>
+        <source>The namespace %1 was not registered.</source>
+        <translation>命名空间 %1 未注册。</translation>
+    </message>
+    <message>
+        <source>Namespace %1 already exists.</source>
+        <translation>命名空间 %1 已存在。</translation>
+    </message>
+    <message>
+        <source>Cannot register namespace &quot;%1&quot;.</source>
+        <translation>无法注册命名空间“%1”。</translation>
+    </message>
+    <message>
+        <source>Cannot register virtual folder &apos;%1&apos;.</source>
+        <translation>无法注册虚拟文件夹“%1”。</translation>
+    </message>
+</context>
+<context>
+    <name>QHelpDBReader</name>
+    <message>
+        <source>Cannot open database &quot;%1&quot; &quot;%2&quot;: %3</source>
+        <extracomment>The placeholders are: %1 - The name of the database which cannot be opened %2 - The unique id for the connection %3 - The actual error string</extracomment>
+        <translation>无法打开数据库“%1”“%2”：%3</translation>
     </message>
 </context>
 <context>
@@ -1234,6 +1324,61 @@ qhelpgenerator &lt;file&gt; [options]
     </message>
 </context>
 <context>
+    <name>QHelpSearchQueryWidget</name>
+    <message>
+        <source>Search for:</source>
+        <translation>搜索：</translation>
+    </message>
+    <message>
+        <source>Previous search</source>
+        <translation>上一个搜索</translation>
+    </message>
+    <message>
+        <source>Next search</source>
+        <translation>下一个搜索</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>搜索</translation>
+    </message>
+</context>
+<context>
+    <name>QHelpSearchResultWidget</name>
+    <message numerus="yes">
+        <source>%1 - %2 of %n Hits</source>
+        <translation>
+            <numerusform>%1 - %2 共 %n 命中</numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>0 - 0 of 0 Hits</source>
+        <translation>0 - 0 共 0 命中</translation>
+    </message>
+</context>
+<context>
+    <name>QResultWidget</name>
+    <message>
+        <source>Search Results</source>
+        <translation>搜索结果</translation>
+    </message>
+    <message>
+        <source>Note:</source>
+        <translation>注：</translation>
+    </message>
+    <message>
+        <source>The search results may not be complete since the documentation is still being indexed.</source>
+        <translation>搜索结果可能不完整，因为文档仍在索引中。</translation>
+    </message>
+    <message>
+        <source>Your search did not match any documents.</source>
+        <translation>您的搜索与任何文档都不匹配。</translation>
+    </message>
+    <message>
+        <source>(The reason for this might be that the documentation is still being indexed.)</source>
+        <translation>（原因可能是文档仍在索引中。）</translation>
+    </message>
+</context>
+<context>
     <name>RemoteControl</name>
     <message>
         <source>Debugging Remote Control</source>
@@ -1260,14 +1405,14 @@ qhelpgenerator &lt;file&gt; [options]
     </message>
     <message>
         <source>Select All</source>
-        <translation>选择全部</translation>
+        <translation>全选</translation>
     </message>
 </context>
 <context>
     <name>TabBar</name>
     <message>
         <source>(Untitled)</source>
-        <translation>(无标题)</translation>
+        <translation>(未命名)</translation>
     </message>
     <message>
         <source>New &amp;Tab</source>
@@ -1311,6 +1456,13 @@ qhelpgenerator &lt;file&gt; [options]
     <message>
         <source>Choose a topic for &lt;b&gt;%1&lt;/b&gt;:</source>
         <translation>选择&lt;b&gt;%1&lt;/b&gt;的主题：</translation>
+    </message>
+</context>
+<context>
+    <name>fulltextsearch::qt::QHelpSearchIndexWriter</name>
+    <message>
+        <source>Cannot open database &quot;%1&quot; using connection &quot;%2&quot;: %3</source>
+        <translation>无法使用连接“%2”打开数据库“%1”：%3</translation>
     </message>
 </context>
 <context>

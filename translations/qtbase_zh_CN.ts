@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de_DE">
+<TS version="2.1">
 <context>
     <name>CloseButton</name>
     <message>
@@ -10,6 +10,14 @@
 </context>
 <context>
     <name>MAC_APPLICATION_MENU</name>
+    <message>
+        <source>About %1</source>
+        <translation>关于 %1</translation>
+    </message>
+    <message>
+        <source>Preferences...</source>
+        <translation>首选项...</translation>
+    </message>
     <message>
         <source>Services</source>
         <translation>服务</translation>
@@ -27,16 +35,8 @@
         <translation>全部显示</translation>
     </message>
     <message>
-        <source>Preferences...</source>
-        <translation>首选项...</translation>
-    </message>
-    <message>
         <source>Quit %1</source>
         <translation>退出 %1</translation>
-    </message>
-    <message>
-        <source>About %1</source>
-        <translation>关于 %1</translation>
     </message>
 </context>
 <context>
@@ -210,7 +210,7 @@
 <context>
     <name>QApplication</name>
     <message>
-        <source>Executable '%1' requires Qt %2, found Qt %3.</source>
+        <source>Executable &apos;%1&apos; requires Qt %2, found Qt %3.</source>
         <translation>执行“%1”需要 Qt %2，只找到了 Qt %3。</translation>
     </message>
     <message>
@@ -276,7 +276,7 @@
 <context>
     <name>QCocoaTheme</name>
     <message>
-        <source>Don't Save</source>
+        <source>Don&apos;t Save</source>
         <translation>不保存</translation>
     </message>
 </context>
@@ -321,10 +321,6 @@ Press ESC to cancel</source>
 按 ESC 取消</translation>
     </message>
     <message>
-        <source>&amp;Pick Screen Color</source>
-        <translation>选取屏幕颜色(&amp;P)</translation>
-    </message>
-    <message>
         <source>Select Color</source>
         <translation>选择颜色</translation>
     </message>
@@ -340,9 +336,17 @@ Press ESC to cancel</source>
         <source>&amp;Add to Custom Colors</source>
         <translation>添加到自定义颜色(&amp;A)</translation>
     </message>
+    <message>
+        <source>&amp;Pick Screen Color</source>
+        <translation>选取屏幕颜色(&amp;P)</translation>
+    </message>
 </context>
 <context>
     <name>QComboBox</name>
+    <message>
+        <source>Open the combo box selection popup</source>
+        <translation>打开组合框选择弹出窗口</translation>
+    </message>
     <message>
         <source>False</source>
         <translation>假</translation>
@@ -350,10 +354,6 @@ Press ESC to cancel</source>
     <message>
         <source>True</source>
         <translation>真</translation>
-    </message>
-    <message>
-        <source>Open the combo box selection popup</source>
-        <translation>打开组合框选择弹出窗口</translation>
     </message>
 </context>
 <context>
@@ -367,7 +367,7 @@ Press ESC to cancel</source>
         <translation>显示此帮助。</translation>
     </message>
     <message>
-        <source>Unknown option '%1'.</source>
+        <source>Unknown option &apos;%1&apos;.</source>
         <translation>未知选项“%1”。</translation>
     </message>
     <message>
@@ -375,11 +375,11 @@ Press ESC to cancel</source>
         <translation>未知选项：%1。</translation>
     </message>
     <message>
-        <source>Missing value after '%1'.</source>
+        <source>Missing value after &apos;%1&apos;.</source>
         <translation>“%1”之后缺少值。</translation>
     </message>
     <message>
-        <source>Unexpected value after '%1'.</source>
+        <source>Unexpected value after &apos;%1&apos;.</source>
         <translation>“%1”之后的异常值。</translation>
     </message>
     <message>
@@ -619,7 +619,7 @@ Press ESC to cancel</source>
 <context>
     <name>QDialog</name>
     <message>
-        <source>What's This?</source>
+        <source>What&apos;s This?</source>
         <translation>这是什么？</translation>
     </message>
 </context>
@@ -664,6 +664,10 @@ Press ESC to cancel</source>
 </context>
 <context>
     <name>QDnsLookupRunnable</name>
+    <message>
+        <source>IPv6 addresses for nameservers are currently not supported</source>
+        <translation>目前不支持名称服务器的 IPv6 地址</translation>
+    </message>
     <message>
         <source>Invalid domain name</source>
         <translation>无效的域名</translation>
@@ -737,7 +741,7 @@ Press ESC to cancel</source>
         <translation>无效的文本记录</translation>
     </message>
     <message>
-        <source>Resolver library can't be loaded: No runtime library loading support</source>
+        <source>Resolver library can&apos;t be loaded: No runtime library loading support</source>
         <translation>无法加载解析器库：不支持运行时库加载</translation>
     </message>
     <message>
@@ -755,10 +759,6 @@ Press ESC to cancel</source>
     <message>
         <source>Unknown error</source>
         <translation>未知错误</translation>
-    </message>
-    <message>
-        <source>IPv6 addresses for nameservers are currently not supported</source>
-        <translation>目前不支持名称服务器的 IPv6 地址</translation>
     </message>
 </context>
 <context>
@@ -789,16 +789,16 @@ Press ESC to cancel</source>
         <translation>无效（空）的加密</translation>
     </message>
     <message>
-        <source>Invalid address</source>
-        <translation>无效地址</translation>
-    </message>
-    <message>
         <source>Multicast and broadcast addresses are not supported</source>
         <translation>不支持多播和广播地址</translation>
     </message>
     <message>
         <source>Cannot set peer after handshake started</source>
         <translation>握手开始后无法设置对等机</translation>
+    </message>
+    <message>
+        <source>Invalid address</source>
+        <translation>无效地址</translation>
     </message>
     <message>
         <source>Cannot set verification name after handshake started</source>
@@ -817,20 +817,16 @@ Press ESC to cancel</source>
         <translation>无效 (nullptr) 套接字</translation>
     </message>
     <message>
+        <source>To start a handshake you must set peer&apos;s address and port first</source>
+        <translation>要开始握手，必须先设置对等机的地址和端口</translation>
+    </message>
+    <message>
         <source>To start a handshake, DTLS server requires non-empty datagram (client hello)</source>
         <translation>要开始握手，DTLS 服务器需要非空数据报（客户端 hello）</translation>
     </message>
     <message>
         <source>Cannot start handshake, already done/in progress</source>
         <translation>无法启动握手，已经完成/正在进行中</translation>
-    </message>
-    <message>
-        <source>No handshake in progress, nothing to abort</source>
-        <translation>没有握手正在进行中，没有什么可以中止的</translation>
-    </message>
-    <message>
-        <source>To start a handshake you must set peer's address and port first</source>
-        <translation>要开始握手，必须先设置对等机的地址和端口</translation>
     </message>
     <message>
         <source>A valid QUdpSocket and non-empty datagram are needed to continue the handshake</source>
@@ -843,6 +839,10 @@ Press ESC to cancel</source>
     <message>
         <source>Cannot resume, not in VerificationError state</source>
         <translation>无法恢复，不在 VerificationError 状态</translation>
+    </message>
+    <message>
+        <source>No handshake in progress, nothing to abort</source>
+        <translation>没有握手正在进行中，没有什么可以中止的</translation>
     </message>
     <message>
         <source>Cannot send shutdown alert, not encrypted</source>
@@ -878,14 +878,6 @@ Press ESC to cancel</source>
         <translation>无法启动握手，需要验证客户端 hello</translation>
     </message>
     <message>
-        <source>Error while writing: %1</source>
-        <translation>写入时出错：%1</translation>
-    </message>
-    <message>
-        <source>Error while reading: %1</source>
-        <translation>读取时出错：%1</translation>
-    </message>
-    <message>
         <source>Peer verification failed</source>
         <translation>对等验证失败</translation>
     </message>
@@ -894,8 +886,16 @@ Press ESC to cancel</source>
         <translation>DTLS 连接已关闭</translation>
     </message>
     <message>
+        <source>Error while writing: %1</source>
+        <translation>写入时出错：%1</translation>
+    </message>
+    <message>
         <source>The DTLS connection has been shutdown</source>
         <translation>DTLS 连接已断开</translation>
+    </message>
+    <message>
+        <source>Error while reading: %1</source>
+        <translation>读取时出错：%1</translation>
     </message>
 </context>
 <context>
@@ -980,7 +980,7 @@ Press ESC to cancel</source>
     </message>
     <message>
         <source>Cannot open for output</source>
-        <translation>无法打开以进行输出</translation>
+        <translation>无法打开输出</translation>
     </message>
     <message>
         <source>Failure to write block</source>
@@ -1005,6 +1005,10 @@ Press ESC to cancel</source>
 <context>
     <name>QFileDialog</name>
     <message>
+        <source>All Files (*)</source>
+        <translation>所有文件 (*)</translation>
+    </message>
+    <message>
         <source>Look in:</source>
         <translation>查找范围：</translation>
     </message>
@@ -1017,6 +1021,10 @@ Press ESC to cancel</source>
         <translation>返回</translation>
     </message>
     <message>
+        <source>Alt+Left</source>
+        <translation>Alt+Left</translation>
+    </message>
+    <message>
         <source>Forward</source>
         <translation>前进</translation>
     </message>
@@ -1025,12 +1033,20 @@ Press ESC to cancel</source>
         <translation>向前</translation>
     </message>
     <message>
+        <source>Alt+Right</source>
+        <translation>Alt+Right</translation>
+    </message>
+    <message>
         <source>Parent Directory</source>
         <translation>父目录</translation>
     </message>
     <message>
         <source>Go to the parent directory</source>
         <translation>转到父目录</translation>
+    </message>
+    <message>
+        <source>Alt+Up</source>
+        <translation>Alt+Up</translation>
     </message>
     <message>
         <source>Create New Folder</source>
@@ -1105,10 +1121,6 @@ Press ESC to cancel</source>
         <translation>保存(&amp;S)</translation>
     </message>
     <message>
-        <source>All Files (*)</source>
-        <translation>所有文件 (*)</translation>
-    </message>
-    <message>
         <source>Show </source>
         <translation>显示 </translation>
     </message>
@@ -1159,12 +1171,6 @@ Please verify the correct file name was given.</source>
 请核实已给定正确文件名。</translation>
     </message>
     <message>
-        <source>'%1' is write protected.
-Do you want to delete it anyway?</source>
-        <translation>“%1”是写保护的。
-是否仍要删除它？</translation>
-    </message>
-    <message>
         <source>New Folder</source>
         <translation>新建文件夹</translation>
     </message>
@@ -1173,7 +1179,13 @@ Do you want to delete it anyway?</source>
         <translation>删除</translation>
     </message>
     <message>
-        <source>Are you sure you want to delete '%1'?</source>
+        <source>&apos;%1&apos; is write protected.
+Do you want to delete it anyway?</source>
+        <translation>“%1”是写保护的。
+是否仍要删除它？</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to delete &apos;%1&apos;?</source>
         <translation>确定要删除“%1”吗？</translation>
     </message>
     <message>
@@ -1229,28 +1241,16 @@ Do you want to delete it anyway?</source>
         <source>Unknown</source>
         <translation>未知</translation>
     </message>
-    <message>
-        <source>Alt+Left</source>
-        <translation>Alt+Left</translation>
-    </message>
-    <message>
-        <source>Alt+Right</source>
-        <translation>Alt+Right</translation>
-    </message>
-    <message>
-        <source>Alt+Up</source>
-        <translation>Alt+Up</translation>
-    </message>
 </context>
 <context>
     <name>QFileSystemModel</name>
     <message>
-        <source>Invalid filename</source>
-        <translation>无效的文件名</translation>
+        <source>&lt;b&gt;The name &quot;%1&quot; cannot be used.&lt;/b&gt;&lt;p&gt;Try using another name, with fewer characters or no punctuation marks.</source>
+        <translation>&lt;b&gt;名称“%1”不能被使用。&lt;/b&gt;&lt;p&gt;请使用另外一个包含更少字符或者不含有标点符号的名称。</translation>
     </message>
     <message>
-        <source>&lt;b&gt;The name "%1" cannot be used.&lt;/b&gt;&lt;p&gt;Try using another name, with fewer characters or no punctuation marks.</source>
-        <translation>&lt;b&gt;名称“%1”不能被使用。&lt;/b&gt;&lt;p&gt;请使用另外一个包含更少字符或者不含有标点符号的名称。</translation>
+        <source>Invalid filename</source>
+        <translation>无效的文件名</translation>
     </message>
     <message>
         <source>Name</source>
@@ -1286,6 +1286,11 @@ Do you want to delete it anyway?</source>
 <context>
     <name>QFontDatabase</name>
     <message>
+        <source>Normal</source>
+        <comment>The Normal or Regular font weight</comment>
+        <translation>常规</translation>
+    </message>
+    <message>
         <source>Bold</source>
         <translation>粗体</translation>
     </message>
@@ -1294,27 +1299,17 @@ Do you want to delete it anyway?</source>
         <translation>半粗体</translation>
     </message>
     <message>
+        <source>Medium</source>
+        <comment>The Medium font weight</comment>
+        <translation>中等</translation>
+    </message>
+    <message>
         <source>Black</source>
         <translation>黑体</translation>
     </message>
     <message>
-        <source>Demi</source>
-        <extracomment>The word for "Demi" as in "Demi Bold" used as a pattern for string searches</extracomment>
-        <translation>半体</translation>
-    </message>
-    <message>
         <source>Light</source>
         <translation>轻体</translation>
-    </message>
-    <message>
-        <source>Normal</source>
-        <comment>The Normal or Regular font weight</comment>
-        <translation>常规</translation>
-    </message>
-    <message>
-        <source>Medium</source>
-        <comment>The Medium font weight</comment>
-        <translation>中等</translation>
     </message>
     <message>
         <source>Thin</source>
@@ -1330,8 +1325,13 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Extra</source>
-        <extracomment>The word for "Extra" as in "Extra Bold, Extra Thin" used as a pattern for string searches</extracomment>
+        <extracomment>The word for &quot;Extra&quot; as in &quot;Extra Bold, Extra Thin&quot; used as a pattern for string searches</extracomment>
         <translation>额外</translation>
+    </message>
+    <message>
+        <source>Demi</source>
+        <extracomment>The word for &quot;Demi&quot; as in &quot;Demi Bold&quot; used as a pattern for string searches</extracomment>
+        <translation>半体</translation>
     </message>
     <message>
         <source>Italic</source>
@@ -1474,8 +1474,8 @@ Do you want to delete it anyway?</source>
         <translation>古北欧文</translation>
     </message>
     <message>
-        <source>N'Ko</source>
-        <translation>N'Ko</translation>
+        <source>N&apos;Ko</source>
+        <translation>N&apos;Ko</translation>
     </message>
 </context>
 <context>
@@ -1633,7 +1633,7 @@ Do you want to delete it anyway?</source>
     <name>QGuiApplication</name>
     <message>
         <source>QT_LAYOUT_DIRECTION</source>
-        <comment>Translate this string to the string 'LTR' in left-to-right languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
+        <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
         <translation>LTR</translation>
     </message>
 </context>
@@ -1846,8 +1846,16 @@ Do you want to delete it anyway?</source>
 <context>
     <name>QIODevice</name>
     <message>
+        <source>file to open is a directory</source>
+        <translation>要打开的文件是一个目录</translation>
+    </message>
+    <message>
+        <source>Unknown error</source>
+        <translation>未知错误</translation>
+    </message>
+    <message>
         <source>Permission denied</source>
-        <translation>拒绝访问</translation>
+        <translation>权限被拒绝</translation>
     </message>
     <message>
         <source>Too many open files</source>
@@ -1860,14 +1868,6 @@ Do you want to delete it anyway?</source>
     <message>
         <source>No space left on device</source>
         <translation>设备中已没有剩余空间</translation>
-    </message>
-    <message>
-        <source>Unknown error</source>
-        <translation>未知错误</translation>
-    </message>
-    <message>
-        <source>file to open is a directory</source>
-        <translation>要打开的文件是一个目录</translation>
     </message>
 </context>
 <context>
@@ -1955,7 +1955,6 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>invalid termination by number</source>
-        <translatorcomment>?</translatorcomment>
         <translation>无效的编号终止</translation>
     </message>
     <message>
@@ -1999,22 +1998,26 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>%1, ...</source>
-        <extracomment>This text is an "unfinished" shortcut, expands like "Ctrl+A, ..."</extracomment>
+        <extracomment>This text is an &quot;unfinished&quot; shortcut, expands like &quot;Ctrl+A, ...&quot;</extracomment>
         <translation>%1, ...</translation>
     </message>
 </context>
 <context>
     <name>QLibrary</name>
     <message>
-        <source>'%1' is not an ELF object (%2)</source>
+        <source>&apos;%1&apos; is not an ELF object (%2)</source>
         <translation>“%1”不是 ELF 对象（%2）</translation>
     </message>
     <message>
-        <source>'%1' is not an ELF object</source>
+        <source>file too small</source>
+        <translation>文件太小</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not an ELF object</source>
         <translation>“%1”不是 ELF 对象</translation>
     </message>
     <message>
-        <source>'%1' is an invalid ELF object (%2)</source>
+        <source>&apos;%1&apos; is an invalid ELF object (%2)</source>
         <translation>“%1”是一个无效的 ELF 对象（%2）</translation>
     </message>
     <message>
@@ -2039,7 +2042,9 @@ Do you want to delete it anyway?</source>
     </message>
     <message numerus="yes">
         <source>announced %n section(s), each %1 byte(s), exceed file size</source>
-        <translation><numerusform>声明了 %n 个区段，每个 %1 个字节，超出了文件大小</numerusform></translation>
+        <translation>
+            <numerusform>声明了 %n 个区段，每个 %1 个字节，超出了文件大小</numerusform>
+        </translation>
     </message>
     <message>
         <source>shstrtab section header seems to be at %1</source>
@@ -2062,7 +2067,7 @@ Do you want to delete it anyway?</source>
         <translation>缺少区段数据。这不是一个库。</translation>
     </message>
     <message>
-        <source>Failed to extract plugin meta data from '%1'</source>
+        <source>Failed to extract plugin meta data from &apos;%1&apos;</source>
         <translation>无法从“%1”中提取插件元数据</translation>
     </message>
     <message>
@@ -2070,15 +2075,15 @@ Do you want to delete it anyway?</source>
         <translation>共享库没有被找到。</translation>
     </message>
     <message>
-        <source>The file '%1' is not a valid Qt plugin.</source>
+        <source>The file &apos;%1&apos; is not a valid Qt plugin.</source>
         <translation>文件“%1”不是有效的 Qt 插件。</translation>
     </message>
     <message>
-        <source>The plugin '%1' uses incompatible Qt library. (%2.%3.%4) [%5]</source>
+        <source>The plugin &apos;%1&apos; uses incompatible Qt library. (%2.%3.%4) [%5]</source>
         <translation>插件“%1”使用了不兼容的 Qt 库。(%2.%3.%4) [%5]</translation>
     </message>
     <message>
-        <source>The plugin '%1' uses incompatible Qt library. (Cannot mix debug and release libraries.)</source>
+        <source>The plugin &apos;%1&apos; uses incompatible Qt library. (Cannot mix debug and release libraries.)</source>
         <translation>插件“%1”使用了不兼容的 Qt 库。(不能混合使用库的调试版本和发布版本。)</translation>
     </message>
     <message>
@@ -2094,20 +2099,16 @@ Do you want to delete it anyway?</source>
         <translation>无法卸载库 %1：%2</translation>
     </message>
     <message>
-        <source>Cannot resolve symbol "%1" in %2: %3</source>
+        <source>Cannot resolve symbol &quot;%1&quot; in %2: %3</source>
         <translation>无法解析 %2 中的符号“%1”：%3</translation>
     </message>
     <message>
-        <source>'%1' is not a valid Mach-O binary (%2)</source>
+        <source>&apos;%1&apos; is not a valid Mach-O binary (%2)</source>
         <translation>“%1”不是有效的 Mach-O 二进制文件（%2）</translation>
     </message>
     <message>
         <source>file is corrupt</source>
         <translation>文件已损坏</translation>
-    </message>
-    <message>
-        <source>file too small</source>
-        <translation>文件太小</translation>
     </message>
     <message>
         <source>no suitable architecture in fat binary</source>
@@ -2126,7 +2127,7 @@ Do you want to delete it anyway?</source>
         <translation>不是动态库</translation>
     </message>
     <message>
-        <source>'%1' is not a Qt plugin</source>
+        <source>&apos;%1&apos; is not a Qt plugin</source>
         <translation>“%1” 不是 Qt 插件</translation>
     </message>
 </context>
@@ -2227,16 +2228,16 @@ Do you want to delete it anyway?</source>
         <translation>%1：未知错误</translation>
     </message>
     <message>
+        <source>Trying to connect while connection is in progress</source>
+        <translation>在连接正在进行时尝试连接</translation>
+    </message>
+    <message>
         <source>%1: Unknown error %2</source>
         <translation>%1：未知错误 %2</translation>
     </message>
     <message>
         <source>%1: Access denied</source>
         <translation>%1：访问被拒绝</translation>
-    </message>
-    <message>
-        <source>Trying to connect while connection is in progress</source>
-        <translation>在连接正在进行时尝试连接</translation>
     </message>
 </context>
 <context>
@@ -2246,7 +2247,7 @@ Do you want to delete it anyway?</source>
         <translation>无法分配 MySQL 对象</translation>
     </message>
     <message>
-        <source>Unable to open database '%1'</source>
+        <source>Unable to open database &apos;%1&apos;</source>
         <translation>无法打开数据库“%1”</translation>
     </message>
     <message>
@@ -2410,8 +2411,9 @@ Do you want to delete it anyway?</source>
         <translation>&lt;h3&gt;关于 Qt&lt;/h3&gt;&lt;p&gt;本程序使用 Qt 版本 %1。&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href="http://%2/"&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href="http://%3/"&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Qt 是一个用于跨平台应用程序开发的 C++ 工具包。&lt;/p&gt;&lt;p&gt;Qt 提供跨所有主要桌面操作系统的单一来源可移植性。它也可用于嵌入式 Linux 和其他嵌入式和移动操作系统。&lt;/p&gt;&lt;p&gt;Qt 可在多种许可选项下使用，旨在满足各种用户的需求。&lt;/p&gt;&lt;p&gt;在我们的商业许可协议授权的 Qt 许可，适用于开发专有/商业软件，您不希望与第三方共享任何源代码或不符合 GNU (L)GPL 条款。&lt;/p&gt;&lt;p&gt;在 GNU (L)GPL 下获得许可的 Qt 适用于 Qt 应用程序的开发，前提是您可以遵守相应许可证的条款和条件。&lt;/p&gt;&lt;p&gt;请参阅&lt;a href="http://%2/"&gt;%2&lt;/a&gt;获取 Qt 许可的概要。&lt;/p&gt;&lt;p&gt;Copyright (C) %1 Qt Company Ltd 和其他贡献者。&lt;/p&gt;&lt;p&gt;Qt 和 Qt 徽标是 The Qt Company Ltd 的商标。&lt;/p&gt;&lt;p&gt;Qt 是作为开源项目开发的 Qt Company Ltd 产品。有关详细信息，请参见&lt;a href="http://%3/"&gt;%3&lt;/a&gt;。&lt;/p&gt;</translation>
+        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
+        <extracomment>Leave this text untranslated or include a verbatim copy of it below and note that it is the authoritative version in case of doubt.</extracomment>
+        <translation>&lt;p&gt;Qt 是一个用于跨平台应用程序开发的 C++ 工具包。&lt;/p&gt;&lt;p&gt;Qt 提供跨所有主要桌面操作系统的单一来源可移植性。它也可用于嵌入式 Linux 和其他嵌入式和移动操作系统。&lt;/p&gt;&lt;p&gt;Qt 可在多种许可选项下使用，旨在满足各种用户的需求。&lt;/p&gt;&lt;p&gt;在我们的商业许可协议授权的 Qt 许可，适用于开发专有/商业软件，您不希望与第三方共享任何源代码或不符合 GNU (L)GPL 条款。&lt;/p&gt;&lt;p&gt;在 GNU (L)GPL 下获得许可的 Qt 适用于 Qt 应用程序的开发，前提是您可以遵守相应许可证的条款和条件。&lt;/p&gt;&lt;p&gt;请参阅 &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; 获取 Qt 许可的概要。&lt;/p&gt;&lt;p&gt;版权所有 (C) %1 Qt Company Ltd 和其他贡献者。&lt;/p&gt;&lt;p&gt;Qt 和 Qt 徽标是 The Qt Company Ltd 的商标。&lt;/p&gt;&lt;p&gt;Qt 是作为开源项目开发的 Qt Company Ltd 产品。有关详细信息，请参阅 &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt;。&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About Qt</source>
@@ -2466,7 +2468,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Permission denied</source>
-        <translation>拒绝访问</translation>
+        <translation>权限被拒绝</translation>
     </message>
     <message>
         <source>Connection timed out</source>
@@ -2622,12 +2624,16 @@ Do you want to delete it anyway?</source>
 <context>
     <name>QNetworkReply</name>
     <message>
-        <source>Background request not allowed.</source>
-        <translation>不允许后台请求。</translation>
+        <source>Error transferring %1 - server replied: %2</source>
+        <translation>传输 %1 时出错 - 服务器已回复：%2</translation>
     </message>
     <message>
         <source>Network session error.</source>
         <translation>网络会话错误。</translation>
+    </message>
+    <message>
+        <source>Background request not allowed.</source>
+        <translation>不允许后台请求。</translation>
     </message>
     <message>
         <source>backend start error.</source>
@@ -2638,12 +2644,8 @@ Do you want to delete it anyway?</source>
         <translation>临时网络故障。</translation>
     </message>
     <message>
-        <source>Protocol "%1" is unknown</source>
+        <source>Protocol &quot;%1&quot; is unknown</source>
         <translation>协议“%1”是未知的</translation>
-    </message>
-    <message>
-        <source>Error transferring %1 - server replied: %2</source>
-        <translation>传输 %1 时出错 - 服务器已回复：%2</translation>
     </message>
 </context>
 <context>
@@ -2760,7 +2762,7 @@ Do you want to delete it anyway?</source>
         <translation>无法连接</translation>
     </message>
     <message>
-        <source>Unable to connect - Driver doesn't support all functionality required</source>
+        <source>Unable to connect - Driver doesn&apos;t support all functionality required</source>
         <translation>无法连接 - 驱动程序不支持所有必需的功能</translation>
     </message>
     <message>
@@ -2783,11 +2785,7 @@ Do you want to delete it anyway?</source>
 <context>
     <name>QODBCResult</name>
     <message>
-        <source>Unable to fetch last</source>
-        <translation>不能获取最后一个</translation>
-    </message>
-    <message>
-        <source>QODBCResult::reset: Unable to set 'SQL_CURSOR_STATIC' as statement attribute. Please check your ODBC driver configuration</source>
+        <source>QODBCResult::reset: Unable to set &apos;SQL_CURSOR_STATIC&apos; as statement attribute. Please check your ODBC driver configuration</source>
         <translation>QODBCResult::reset: 不能把“SQL_CURSOR_STATIC”设置为语句属性。请检查你的ODBC驱动程序设置</translation>
     </message>
     <message>
@@ -2809,6 +2807,10 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Unable to fetch previous</source>
         <translation>不能获取上一个</translation>
+    </message>
+    <message>
+        <source>Unable to fetch last</source>
+        <translation>不能获取最后一个</translation>
     </message>
     <message>
         <source>Unable to prepare statement</source>
@@ -2873,7 +2875,7 @@ Do you want to delete it anyway?</source>
     <name>QPageSetupWidget</name>
     <message>
         <source>Form</source>
-        <translation>表单</translation>
+        <translation>窗体</translation>
     </message>
     <message>
         <source>Paper</source>
@@ -2936,6 +2938,18 @@ Do you want to delete it anyway?</source>
         <translation>下边距</translation>
     </message>
     <message>
+        <source>Page Layout</source>
+        <translation>页面布局</translation>
+    </message>
+    <message>
+        <source>Page order:</source>
+        <translation>页面顺序：</translation>
+    </message>
+    <message>
+        <source>Pages per sheet:</source>
+        <translation>每张页数：</translation>
+    </message>
+    <message>
         <source>Millimeters (mm)</source>
         <translation>毫米 (mm)</translation>
     </message>
@@ -2965,45 +2979,33 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>mm</source>
-        <extracomment>Unit 'Millimeter'</extracomment>
+        <extracomment>Unit &apos;Millimeter&apos;</extracomment>
         <translation>mm</translation>
     </message>
     <message>
         <source>pt</source>
-        <extracomment>Unit 'Points'</extracomment>
+        <extracomment>Unit &apos;Points&apos;</extracomment>
         <translation>pt</translation>
     </message>
     <message>
         <source>in</source>
-        <extracomment>Unit 'Inch'</extracomment>
+        <extracomment>Unit &apos;Inch&apos;</extracomment>
         <translation>in</translation>
     </message>
     <message>
         <source>P̸</source>
-        <extracomment>Unit 'Pica'</extracomment>
+        <extracomment>Unit &apos;Pica&apos;</extracomment>
         <translation>P̸</translation>
     </message>
     <message>
         <source>DD</source>
-        <extracomment>Unit 'Didot'</extracomment>
+        <extracomment>Unit &apos;Didot&apos;</extracomment>
         <translation>DD</translation>
     </message>
     <message>
         <source>CC</source>
-        <extracomment>Unit 'Cicero'</extracomment>
+        <extracomment>Unit &apos;Cicero&apos;</extracomment>
         <translation>CC</translation>
-    </message>
-    <message>
-        <source>Page Layout</source>
-        <translation>页面布局</translation>
-    </message>
-    <message>
-        <source>Page order:</source>
-        <translation>页面顺序：</translation>
-    </message>
-    <message>
-        <source>Pages per sheet:</source>
-        <translation>每张页数：</translation>
     </message>
 </context>
 <context>
@@ -3040,7 +3042,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>%1 x %2 in</source>
-        <extracomment>Page size in 'Inch'.</extracomment>
+        <extracomment>Page size in &apos;Inch&apos;.</extracomment>
         <translation>%1 x %2 in</translation>
     </message>
     <message>
@@ -3496,7 +3498,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Save All</source>
-        <translation>全部保存</translation>
+        <translation>保存全部</translation>
     </message>
     <message>
         <source>Open</source>
@@ -3661,7 +3663,7 @@ Do you want to delete it anyway?</source>
         <translation>页面定义无效</translation>
     </message>
     <message>
-        <source>%1 does not follow the correct syntax. Please use ',' to separate ranges and pages, '-' to define ranges and make sure ranges do not intersect with each other.</source>
+        <source>%1 does not follow the correct syntax. Please use &apos;,&apos; to separate ranges and pages, &apos;-&apos; to define ranges and make sure ranges do not intersect with each other.</source>
         <translation>%1 未遵循正确的语法。请使用“，”分隔范围和页面，“-”定义范围并确保范围不相互交叉。</translation>
     </message>
     <message>
@@ -3707,13 +3709,13 @@ Do you want to overwrite it?</source>
 要覆盖它么？</translation>
     </message>
     <message>
-        <source>Options 'Pages Per Sheet' and 'Page Set' cannot be used together.
+        <source>Options &apos;Pages Per Sheet&apos; and &apos;Page Set&apos; cannot be used together.
 Please turn one of those options off.</source>
-        <translation>选项 '每张页数' 和 '页面集' 不能一起使用。
+        <translation>选项 &apos;每张页数&apos; 和 &apos;页面集&apos; 不能一起使用。
 请关闭其中一个选项。</translation>
     </message>
     <message>
-        <source>The 'From' value cannot be greater than the 'To' value.</source>
+        <source>The &apos;From&apos; value cannot be greater than the &apos;To&apos; value.</source>
         <translation>“从”的数值不能大于“到”的数值。</translation>
     </message>
     <message>
@@ -3877,12 +3879,24 @@ Please turn one of those options off.</source>
         <translation>到</translation>
     </message>
     <message>
+        <source>Pages</source>
+        <translation>页数</translation>
+    </message>
+    <message>
+        <source>Specify pages or ranges separated by commas. Ranges are specified by two numbers separated by a hyphen. E.g: 3,5-7,9 prints pages 3, 5, 6, 7 and 9.</source>
+        <translation>指定用逗号分隔的页或范围。范围由两个用连字符分隔的数字指定。例如：3,5-7,9 打印第 3、5、6、7 和 9 页。</translation>
+    </message>
+    <message>
         <source>Current Page</source>
         <translation>当前页</translation>
     </message>
     <message>
         <source>Selection</source>
         <translation>选择</translation>
+    </message>
+    <message>
+        <source>Page Set:</source>
+        <translation>页面集：</translation>
     </message>
     <message>
         <source>Output Settings</source>
@@ -3910,7 +3924,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Color</source>
-        <translation>彩色</translation>
+        <translation>颜色</translation>
     </message>
     <message>
         <source>Grayscale</source>
@@ -3931,18 +3945,6 @@ Please turn one of those options off.</source>
     <message>
         <source>Short side</source>
         <translation>短侧</translation>
-    </message>
-    <message>
-        <source>Page Set:</source>
-        <translation>页面集：</translation>
-    </message>
-    <message>
-        <source>Pages</source>
-        <translation>页数</translation>
-    </message>
-    <message>
-        <source>Specify pages or ranges separated by commas. Ranges are specified by two numbers separated by a hyphen. E.g: 3,5-7,9 prints pages 3, 5, 6, 7 and 9.</source>
-        <translation>指定用逗号分隔的页或范围。范围由两个用连字符分隔的数字指定。例如：3,5-7,9 打印第 3、5、6、7 和 9 页。</translation>
     </message>
 </context>
 <context>
@@ -3987,20 +3989,24 @@ Please turn one of those options off.</source>
 <context>
     <name>QProcess</name>
     <message>
-        <source>Error reading from process</source>
-        <translation>从进程中读取时发生错误</translation>
-    </message>
-    <message>
-        <source>Error writing to process</source>
-        <translation>向进程写入时发生错误</translation>
+        <source>Process failed to start</source>
+        <translation>启动进程失败</translation>
     </message>
     <message>
         <source>Process crashed</source>
         <translation>进程已崩溃</translation>
     </message>
     <message>
-        <source>Process failed to start</source>
-        <translation>启动进程失败</translation>
+        <source>Process operation timed out</source>
+        <translation>进程处理超时</translation>
+    </message>
+    <message>
+        <source>Error reading from process</source>
+        <translation>从进程中读取时发生错误</translation>
+    </message>
+    <message>
+        <source>Error writing to process</source>
+        <translation>向进程写入时发生错误</translation>
     </message>
     <message>
         <source>No program defined</source>
@@ -4011,16 +4017,12 @@ Please turn one of those options off.</source>
         <translation>无法打开用于读取的输入重定向</translation>
     </message>
     <message>
-        <source>Could not open output redirection for writing</source>
-        <translation>无法打开用于写入的输出重定向</translation>
-    </message>
-    <message>
         <source>Resource error (fork failure): %1</source>
         <translation>资源错误（fork 失败）：%1</translation>
     </message>
     <message>
-        <source>Process operation timed out</source>
-        <translation>进程处理超时</translation>
+        <source>Could not open output redirection for writing</source>
+        <translation>无法打开用于写入的输出重定向</translation>
     </message>
     <message>
         <source>Process failed to start: %1</source>
@@ -4124,6 +4126,10 @@ Please turn one of those options off.</source>
         <translation>字符类中的不正常范围</translation>
     </message>
     <message>
+        <source>quantifier does not follow a repeatable item</source>
+        <translation>量词不在可重复项之后</translation>
+    </message>
+    <message>
         <source>internal error: unexpected repeat</source>
         <translation>内部错误：异常的重复</translation>
     </message>
@@ -4136,160 +4142,16 @@ Please turn one of those options off.</source>
         <translation>POSIX 命名类仅在类中受支持</translation>
     </message>
     <message>
-        <source>reference to non-existent subpattern</source>
-        <translation>引用不存在的子模式</translation>
-    </message>
-    <message>
-        <source>regular expression is too large</source>
-        <translation>正则表达式太大</translation>
-    </message>
-    <message>
-        <source>internal error: code overflow</source>
-        <translation>内部错误：代码溢出</translation>
-    </message>
-    <message>
-        <source>lookbehind assertion is not fixed length</source>
-        <translation>“后发断言”不是固定的长度</translation>
-    </message>
-    <message>
-        <source>malformed number or name after (?(</source>
-        <translation>(?( 之后格式错误的数字或名称</translation>
-    </message>
-    <message>
-        <source>conditional group contains more than two branches</source>
-        <translation>条件组包含两个以上的分支</translation>
-    </message>
-    <message>
-        <source>(?R or (?[+-]digits must be followed by )</source>
-        <translation>(?R 或 (?[+-]数字 必须后跟 )</translation>
-    </message>
-    <message>
-        <source>unknown POSIX class name</source>
-        <translation>未知的 POSIX 类名</translation>
-    </message>
-    <message>
         <source>POSIX collating elements are not supported</source>
         <translation>不支持 POSIX 排序元素</translation>
     </message>
     <message>
-        <source>invalid condition (?(0)</source>
-        <translation>无效条件 (?(0)</translation>
-    </message>
-    <message>
-        <source>PCRE does not support \L, \l, \N{name}, \U, or \u</source>
-        <translation>PCRE 不支持 \L，\l，\N{name}，\U或 \u</translation>
-    </message>
-    <message>
-        <source>unrecognized character after (?P</source>
-        <translation>(?P 之后无法识别的字符</translation>
-    </message>
-    <message>
-        <source>syntax error in subpattern name (missing terminator)</source>
-        <translation>子模式名称中的语法错误（缺少终止符）</translation>
-    </message>
-    <message>
-        <source>malformed \P or \p sequence</source>
-        <translation>格式错误的 \P 或 \p 序列</translation>
-    </message>
-    <message>
-        <source>unknown property name after \P or \p</source>
-        <translation>\P 或 \p 之后的未知属性名称</translation>
-    </message>
-    <message>
-        <source>internal error: overran compiling workspace</source>
-        <translation>内部错误：超过编译工作区</translation>
-    </message>
-    <message>
-        <source>internal error: previously-checked referenced subpattern not found</source>
-        <translation>内部错误：找不到先前检查过的引用子模式</translation>
-    </message>
-    <message>
-        <source>DEFINE group contains more than one branch</source>
-        <translation>"定义" 组包含多个分支</translation>
-    </message>
-    <message>
-        <source>\g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number</source>
-        <translation>\g 后面没有括号，角括号或引用的 名称/数字 或普通数字</translation>
-    </message>
-    <message>
-        <source>a numbered reference must not be zero</source>
-        <translation>编号的引用不能为零</translation>
-    </message>
-    <message>
-        <source>an argument is not allowed for (*ACCEPT), (*FAIL), or (*COMMIT)</source>
-        <translation>(*ACCEPT)，(*FAIL) 或 (*COMMIT) 不允许参数</translation>
-    </message>
-    <message>
-        <source>number is too big</source>
-        <translation>数字太大</translation>
-    </message>
-    <message>
-        <source>subpattern name expected</source>
-        <translation>子模式名称是预期的</translation>
-    </message>
-    <message>
-        <source>digit expected after (?+</source>
-        <translation>预期的数字 在 (?+ 之后</translation>
-    </message>
-    <message>
-        <source>different names for subpatterns of the same number are not allowed</source>
-        <translation>不允许同一编号的子模式有不同的名称</translation>
-    </message>
-    <message>
-        <source>(*MARK) must have an argument</source>
-        <translation>(*MARK) 必须有一个参数</translation>
-    </message>
-    <message>
-        <source>\k is not followed by a braced, angle-bracketed, or quoted name</source>
-        <translation>\k 后面没有括号，角括号或引用的名称</translation>
-    </message>
-    <message>
-        <source>internal error: unknown opcode in find_fixedlength()</source>
-        <translation>内部错误：find_fixedlength() 中的未知操作码</translation>
-    </message>
-    <message>
-        <source>\N is not supported in a class</source>
-        <translation>类中不支持 \N</translation>
-    </message>
-    <message>
-        <source>disallowed Unicode code point (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</source>
-        <translation>不允许使用 Unicode 代码点 (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff）</translation>
-    </message>
-    <message>
-        <source>name is too long in (*MARK), (*PRUNE), (*SKIP), or (*THEN)</source>
-        <translation>名称在 (*MARK)，(*PRUNE)，(*SKIP) 或 (*THEN) 中太长</translation>
-    </message>
-    <message>
-        <source>non-hex character in \x{} (closing brace missing?)</source>
-        <translation>\x{} 中非十六进制字符（右大括号丢失？）</translation>
-    </message>
-    <message>
-        <source>non-octal character in \o{} (closing brace missing?)</source>
-        <translation>\o{} 中非八进制字符（右大括号丢失？）</translation>
-    </message>
-    <message>
-        <source>missing opening brace after \o</source>
-        <translation>\o 后面缺少左大括号</translation>
-    </message>
-    <message>
-        <source>parentheses are too deeply nested</source>
-        <translation>括号嵌套太深</translation>
-    </message>
-    <message>
-        <source>invalid range in character class</source>
-        <translation>字符类中的范围无效</translation>
-    </message>
-    <message>
-        <source>group name must start with a non-digit</source>
-        <translation>组名必须以非数字开头</translation>
-    </message>
-    <message>
-        <source>quantifier does not follow a repeatable item</source>
-        <translation>量词不在可重复项之后</translation>
-    </message>
-    <message>
         <source>missing closing parenthesis</source>
         <translation>缺少右括号</translation>
+    </message>
+    <message>
+        <source>reference to non-existent subpattern</source>
+        <translation>引用不存在的子模式</translation>
     </message>
     <message>
         <source>pattern passed as NULL</source>
@@ -4304,6 +4166,14 @@ Please turn one of those options off.</source>
         <translation>(?# 注释 之后缺少 )</translation>
     </message>
     <message>
+        <source>parentheses are too deeply nested</source>
+        <translation>括号嵌套太深</translation>
+    </message>
+    <message>
+        <source>regular expression is too large</source>
+        <translation>正则表达式太大</translation>
+    </message>
+    <message>
         <source>failed to allocate heap memory</source>
         <translation>分配堆内存失败</translation>
     </message>
@@ -4312,13 +4182,36 @@ Please turn one of those options off.</source>
         <translation>右括号不匹配</translation>
     </message>
     <message>
-        <source>letter or underscore expected after (?&lt; or (?'</source>
-        <translation>(?&lt; 或 (?' 之后应为字母或下划线</translation>
+        <source>internal error: code overflow</source>
+        <translation>内部错误：代码溢出</translation>
+    </message>
+    <message>
+        <source>letter or underscore expected after (?&lt; or (?&apos;</source>
+        <translation>(?&lt; 或 (?&apos; 之后应为字母或下划线</translation>
+    </message>
+    <message>
+        <source>lookbehind assertion is not fixed length</source>
+        <translation>“后发断言”不是固定的长度</translation>
+    </message>
+    <message>
+        <source>malformed number or name after (?(</source>
+        <translation>(?( 之后格式错误的数字或名称</translation>
+    </message>
+    <message>
+        <source>conditional group contains more than two branches</source>
+        <translation>条件组包含两个以上的分支</translation>
     </message>
     <message>
         <source>assertion expected after (?( or (?(?C)</source>
-        <translatorcomment>if /else</translatorcomment>
         <translation>(?( 或 (?(?C) 之后应为断言</translation>
+    </message>
+    <message>
+        <source>(?R or (?[+-]digits must be followed by )</source>
+        <translation>(?R 或 (?[+-]数字 必须后跟 )</translation>
+    </message>
+    <message>
+        <source>unknown POSIX class name</source>
+        <translation>未知的 POSIX 类名</translation>
     </message>
     <message>
         <source>internal error in pcre2_study(): should not occur</source>
@@ -4337,8 +4230,16 @@ Please turn one of those options off.</source>
         <translation>\x{} 或 \o{} 中的字符代码点值太大</translation>
     </message>
     <message>
+        <source>invalid condition (?(0)</source>
+        <translation>无效条件 (?(0)</translation>
+    </message>
+    <message>
         <source>\C is not allowed in a lookbehind assertion</source>
         <translation>\C 不允许在“后发断言”中使用</translation>
+    </message>
+    <message>
+        <source>PCRE does not support \L, \l, \N{name}, \U, or \u</source>
+        <translation>PCRE 不支持 \L，\l，\N{name}，\U或 \u</translation>
     </message>
     <message>
         <source>number after (?C is greater than 255</source>
@@ -4353,12 +4254,32 @@ Please turn one of those options off.</source>
         <translation>(*VERB) 名称中的无效转义序列</translation>
     </message>
     <message>
+        <source>unrecognized character after (?P</source>
+        <translation>(?P 之后无法识别的字符</translation>
+    </message>
+    <message>
+        <source>syntax error in subpattern name (missing terminator)</source>
+        <translation>子模式名称中的语法错误（缺少终止符）</translation>
+    </message>
+    <message>
         <source>two named subpatterns have the same name (PCRE2_DUPNAMES not set)</source>
         <translation>两个命名的子模式具有相同的名称（未设置 PCRE2_DUPNAMES）</translation>
     </message>
     <message>
+        <source>group name must start with a non-digit</source>
+        <translation>组名必须以非数字开头</translation>
+    </message>
+    <message>
         <source>this version of PCRE2 does not have support for \P, \p, or \X</source>
         <translation>此版本的 PCRE2 不支持 \P，\p 或 \X</translation>
+    </message>
+    <message>
+        <source>malformed \P or \p sequence</source>
+        <translation>格式错误的 \P 或 \p 序列</translation>
+    </message>
+    <message>
+        <source>unknown property name after \P or \p</source>
+        <translation>\P 或 \p 之后的未知属性名称</translation>
     </message>
     <message>
         <source>subpattern name is too long (maximum 10000 characters)</source>
@@ -4369,16 +4290,76 @@ Please turn one of those options off.</source>
         <translation>命名子模式太多（最多256个）</translation>
     </message>
     <message>
+        <source>invalid range in character class</source>
+        <translation>字符类中的范围无效</translation>
+    </message>
+    <message>
         <source>octal value is greater than \377 in 8-bit non-UTF-8 mode</source>
         <translation>在 8 位非 UTF-8 模式下，八进制值大于 \377</translation>
+    </message>
+    <message>
+        <source>internal error: overran compiling workspace</source>
+        <translation>内部错误：超过编译工作区</translation>
+    </message>
+    <message>
+        <source>internal error: previously-checked referenced subpattern not found</source>
+        <translation>内部错误：找不到先前检查过的引用子模式</translation>
+    </message>
+    <message>
+        <source>DEFINE group contains more than one branch</source>
+        <translation>&quot;定义&quot; 组包含多个分支</translation>
+    </message>
+    <message>
+        <source>missing opening brace after \o</source>
+        <translation>\o 后面缺少左大括号</translation>
     </message>
     <message>
         <source>internal error: unknown newline setting</source>
         <translation>内部错误：未知换行设置</translation>
     </message>
     <message>
+        <source>\g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number</source>
+        <translation>\g 后面没有括号，角括号或引用的 名称/数字 或普通数字</translation>
+    </message>
+    <message>
+        <source>a numbered reference must not be zero</source>
+        <translation>编号的引用不能为零</translation>
+    </message>
+    <message>
+        <source>an argument is not allowed for (*ACCEPT), (*FAIL), or (*COMMIT)</source>
+        <translation>(*ACCEPT)，(*FAIL) 或 (*COMMIT) 不允许参数</translation>
+    </message>
+    <message>
         <source>(*VERB) not recognized or malformed</source>
         <translation>(*VERB) 未识别或格式不当</translation>
+    </message>
+    <message>
+        <source>number is too big</source>
+        <translation>数字太大</translation>
+    </message>
+    <message>
+        <source>subpattern name expected</source>
+        <translation>子模式名称是预期的</translation>
+    </message>
+    <message>
+        <source>digit expected after (?+</source>
+        <translation>预期的数字 在 (?+ 之后</translation>
+    </message>
+    <message>
+        <source>non-octal character in \o{} (closing brace missing?)</source>
+        <translation>\o{} 中非八进制字符（右大括号丢失？）</translation>
+    </message>
+    <message>
+        <source>different names for subpatterns of the same number are not allowed</source>
+        <translation>不允许同一编号的子模式有不同的名称</translation>
+    </message>
+    <message>
+        <source>(*MARK) must have an argument</source>
+        <translation>(*MARK) 必须有一个参数</translation>
+    </message>
+    <message>
+        <source>non-hex character in \x{} (closing brace missing?)</source>
+        <translation>\x{} 中非十六进制字符（右大括号丢失？）</translation>
     </message>
     <message>
         <source>\c must be followed by a printable ASCII character</source>
@@ -4389,8 +4370,24 @@ Please turn one of those options off.</source>
         <translation>\c 后面必须跟一个字母或 [\]^_? 之一</translation>
     </message>
     <message>
+        <source>\k is not followed by a braced, angle-bracketed, or quoted name</source>
+        <translation>\k 后面没有括号，角括号或引用的名称</translation>
+    </message>
+    <message>
+        <source>internal error: unknown opcode in find_fixedlength()</source>
+        <translation>内部错误：find_fixedlength() 中的未知操作码</translation>
+    </message>
+    <message>
+        <source>\N is not supported in a class</source>
+        <translation>类中不支持 \N</translation>
+    </message>
+    <message>
         <source>SPARE ERROR</source>
         <translation>备用错误</translation>
+    </message>
+    <message>
+        <source>disallowed Unicode code point (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff)</source>
+        <translation>不允许使用 Unicode 代码点 (&gt;= 0xd800 &amp;&amp; &lt;= 0xdfff）</translation>
     </message>
     <message>
         <source>using UTF is disabled by the application</source>
@@ -4399,6 +4396,10 @@ Please turn one of those options off.</source>
     <message>
         <source>using UCP is disabled by the application</source>
         <translation>应用程序禁止使用 UCP</translation>
+    </message>
+    <message>
+        <source>name is too long in (*MARK), (*PRUNE), (*SKIP), or (*THEN)</source>
+        <translation>名称在 (*MARK)，(*PRUNE)，(*SKIP) 或 (*THEN) 中太长</translation>
     </message>
     <message>
         <source>character code point value in \u.... sequence is too large</source>
@@ -4534,7 +4535,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>UTF-8 error: isolated byte with 0x80 bit set</source>
-        <translation>UTF-8 error: isolated byte with 0x80 bit set</translation>
+        <translation>UTF-8 错误：设置为 0x80 位的隔离字节</translation>
     </message>
     <message>
         <source>UTF-8 error: illegal byte (0xfe or 0xff)</source>
@@ -4788,7 +4789,7 @@ Please turn one of those options off.</source>
         <translation>文件名指向了目录</translation>
     </message>
     <message>
-        <source>QSaveFile cannot open '%1' without direct write fallback enabled: path contains an Alternate Data Stream specifier</source>
+        <source>QSaveFile cannot open &apos;%1&apos; without direct write fallback enabled: path contains an Alternate Data Stream specifier</source>
         <translation>没有启用直接写回退，QSaveFile 无法打开“%1”：路径包含备用数据流说明符</translation>
     </message>
     <message>
@@ -4877,26 +4878,6 @@ Please turn one of those options off.</source>
         <translation>%1：无法取消锁定</translation>
     </message>
     <message>
-        <source>%1: permission denied</source>
-        <translation>%1：权限被拒绝</translation>
-    </message>
-    <message>
-        <source>%1: already exists</source>
-        <translation>%1：已经存在</translation>
-    </message>
-    <message>
-        <source>%1: doesn't exist</source>
-        <translation>%1：不存在</translation>
-    </message>
-    <message>
-        <source>%1: out of resources</source>
-        <translation>%1：资源耗尽</translation>
-    </message>
-    <message>
-        <source>%1: unknown error %2</source>
-        <translation>%1：未知错误 %2</translation>
-    </message>
-    <message>
         <source>%1: key is empty</source>
         <translation>%1：键是空的</translation>
     </message>
@@ -4905,7 +4886,7 @@ Please turn one of those options off.</source>
         <translation>%1：错误的名称</translation>
     </message>
     <message>
-        <source>%1: UNIX key file doesn't exist</source>
+        <source>%1: UNIX key file doesn&apos;t exist</source>
         <translation>%1：UNIX 密钥文件不存在</translation>
     </message>
     <message>
@@ -4925,6 +4906,26 @@ Please turn one of those options off.</source>
         <translation>%1：没有附加</translation>
     </message>
     <message>
+        <source>%1: permission denied</source>
+        <translation>%1：权限被拒绝</translation>
+    </message>
+    <message>
+        <source>%1: already exists</source>
+        <translation>%1：已经存在</translation>
+    </message>
+    <message>
+        <source>%1: doesn&apos;t exist</source>
+        <translation>%1：不存在</translation>
+    </message>
+    <message>
+        <source>%1: out of resources</source>
+        <translation>%1：资源耗尽</translation>
+    </message>
+    <message>
+        <source>%1: unknown error %2</source>
+        <translation>%1：未知错误 %2</translation>
+    </message>
+    <message>
         <source>%1: invalid size</source>
         <translation>%1：无效大小</translation>
     </message>
@@ -4941,7 +4942,7 @@ Please turn one of those options off.</source>
     <name>QShortcut</name>
     <message>
         <source>Space</source>
-        <extracomment>This and all following "incomprehensible" strings in QShortcut context are key names. Please use the localized names appearing on actual keyboards or whatever is commonly used.</extracomment>
+        <extracomment>This and all following &quot;incomprehensible&quot; strings in QShortcut context are key names. Please use the localized names appearing on actual keyboards or whatever is commonly used.</extracomment>
         <translation>Space</translation>
     </message>
     <message>
@@ -5034,217 +5035,217 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Menu</source>
-        <translation>Menu</translation>
+        <translation>菜单</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Help</translation>
+        <translation>帮助</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Back</translation>
+        <translation>后退</translation>
     </message>
     <message>
         <source>Forward</source>
-        <translation>Forward</translation>
+        <translation>前进</translation>
     </message>
     <message>
         <source>Stop</source>
-        <translation>Stop</translation>
+        <translation>停止</translation>
     </message>
     <message>
         <source>Refresh</source>
-        <translation>Refresh</translation>
+        <translation>刷新</translation>
     </message>
     <message>
         <source>Volume Down</source>
-        <translation>Volume Down</translation>
+        <translation>音量减小</translation>
     </message>
     <message>
         <source>Volume Mute</source>
-        <translation>Volume Mute</translation>
+        <translation>音量静音</translation>
     </message>
     <message>
         <source>Volume Up</source>
-        <translation>Volume Up</translation>
+        <translation>音量增大</translation>
     </message>
     <message>
         <source>Bass Boost</source>
-        <translation>Bass Boost</translation>
+        <translation>低音增强</translation>
     </message>
     <message>
         <source>Bass Up</source>
-        <translation>Bass Up</translation>
+        <translation>低音增大</translation>
     </message>
     <message>
         <source>Bass Down</source>
-        <translation>Bass Down</translation>
+        <translation>低音减小</translation>
     </message>
     <message>
         <source>Treble Up</source>
-        <translation>Treble Up</translation>
+        <translation>高音增大</translation>
     </message>
     <message>
         <source>Treble Down</source>
-        <translation>Treble Down</translation>
+        <translation>高音减小</translation>
     </message>
     <message>
         <source>Media Play</source>
-        <translation>Media Play</translation>
+        <translation>媒体播放</translation>
     </message>
     <message>
         <source>Media Stop</source>
-        <translation>Media Stop</translation>
+        <translation>媒体停止</translation>
     </message>
     <message>
         <source>Media Previous</source>
-        <translation>Media Previous</translation>
+        <translation>媒体上一个</translation>
     </message>
     <message>
         <source>Media Next</source>
-        <translation>Media Next</translation>
+        <translation>媒体下一个</translation>
     </message>
     <message>
         <source>Media Record</source>
-        <translation>Media Record</translation>
+        <translation>媒体录制</translation>
     </message>
     <message>
         <source>Media Pause</source>
         <extracomment>Media player pause button</extracomment>
-        <translation>Media Pause</translation>
+        <translation>媒体暂停</translation>
     </message>
     <message>
         <source>Toggle Media Play/Pause</source>
         <extracomment>Media player button to toggle between playing and paused</extracomment>
-        <translation>Toggle Media Play/Pause</translation>
+        <translation>切换媒体播放/暂停</translation>
     </message>
     <message>
         <source>Home Page</source>
-        <translation>Home Page</translation>
+        <translation>主页</translation>
     </message>
     <message>
         <source>Favorites</source>
-        <translation>Favorites</translation>
+        <translation>收藏</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Search</translation>
+        <translation>搜索</translation>
     </message>
     <message>
         <source>Standby</source>
-        <translation>Standby</translation>
+        <translation>待机</translation>
     </message>
     <message>
         <source>Open URL</source>
-        <translation>Open URL</translation>
+        <translation>打开网址</translation>
     </message>
     <message>
         <source>Launch Mail</source>
-        <translation>Launch Mail</translation>
+        <translation>启动邮件</translation>
     </message>
     <message>
         <source>Launch Media</source>
-        <translation>Launch Media</translation>
+        <translation>启动媒体</translation>
     </message>
     <message>
         <source>Launch (0)</source>
-        <translation>Launch (0)</translation>
+        <translation>启动 (0)</translation>
     </message>
     <message>
         <source>Launch (1)</source>
-        <translation>Launch (1)</translation>
+        <translation>启动 (1)</translation>
     </message>
     <message>
         <source>Launch (2)</source>
-        <translation>Launch (2)</translation>
+        <translation>启动 (2)</translation>
     </message>
     <message>
         <source>Launch (3)</source>
-        <translation>Launch (3)</translation>
+        <translation>启动 (3)</translation>
     </message>
     <message>
         <source>Launch (4)</source>
-        <translation>Launch (4)</translation>
+        <translation>启动 (4)</translation>
     </message>
     <message>
         <source>Launch (5)</source>
-        <translation>Launch (5)</translation>
+        <translation>启动 (5)</translation>
     </message>
     <message>
         <source>Launch (6)</source>
-        <translation>Launch (6)</translation>
+        <translation>启动 (6)</translation>
     </message>
     <message>
         <source>Launch (7)</source>
-        <translation>Launch (7)</translation>
+        <translation>启动 (7)</translation>
     </message>
     <message>
         <source>Launch (8)</source>
-        <translation>Launch (8)</translation>
+        <translation>启动 (8)</translation>
     </message>
     <message>
         <source>Launch (9)</source>
-        <translation>Launch (9)</translation>
+        <translation>启动 (9)</translation>
     </message>
     <message>
         <source>Launch (A)</source>
-        <translation>Launch (A)</translation>
+        <translation>启动 (A)</translation>
     </message>
     <message>
         <source>Launch (B)</source>
-        <translation>Launch (B)</translation>
+        <translation>启动 (B)</translation>
     </message>
     <message>
         <source>Launch (C)</source>
-        <translation>Launch (C)</translation>
+        <translation>启动 (C)</translation>
     </message>
     <message>
         <source>Launch (D)</source>
-        <translation>Launch (D)</translation>
+        <translation>启动 (D)</translation>
     </message>
     <message>
         <source>Launch (E)</source>
-        <translation>Launch (E)</translation>
+        <translation>启动 (E)</translation>
     </message>
     <message>
         <source>Launch (F)</source>
-        <translation>Launch (F)</translation>
+        <translation>启动 (F)</translation>
     </message>
     <message>
         <source>Monitor Brightness Up</source>
-        <translation>Monitor Brightness Up</translation>
+        <translation>监视器亮度增高</translation>
     </message>
     <message>
         <source>Monitor Brightness Down</source>
-        <translation>Monitor Brightness Down</translation>
+        <translation>监视器亮度降低</translation>
     </message>
     <message>
         <source>Keyboard Light On/Off</source>
-        <translation>Keyboard Light On/Off</translation>
+        <translation>键盘灯开/关</translation>
     </message>
     <message>
         <source>Keyboard Brightness Up</source>
-        <translation>Keyboard Brightness Up</translation>
+        <translation>键盘亮度增高</translation>
     </message>
     <message>
         <source>Keyboard Brightness Down</source>
-        <translation>Keyboard Brightness Down</translation>
+        <translation>键盘亮度降低</translation>
     </message>
     <message>
         <source>Power Off</source>
-        <translation>Power Off</translation>
+        <translation>关机</translation>
     </message>
     <message>
         <source>Wake Up</source>
-        <translation>Wake Up</translation>
+        <translation>醒来</translation>
     </message>
     <message>
         <source>Eject</source>
-        <translation>Eject</translation>
+        <translation>弹出</translation>
     </message>
     <message>
         <source>Screensaver</source>
-        <translation>Screensaver</translation>
+        <translation>屏幕保护</translation>
     </message>
     <message>
         <source>WWW</source>
@@ -5252,55 +5253,59 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Sleep</source>
-        <translation>Sleep</translation>
+        <translation>睡眠</translation>
     </message>
     <message>
         <source>LightBulb</source>
-        <translation>LightBulb</translation>
+        <translation>护眼</translation>
     </message>
     <message>
         <source>Shop</source>
-        <translation>Shop</translation>
+        <translation>商店</translation>
     </message>
     <message>
         <source>History</source>
-        <translation>History</translation>
+        <translation>历史</translation>
     </message>
     <message>
         <source>Add Favorite</source>
-        <translation>Add Favorite</translation>
+        <translation>添加收藏</translation>
     </message>
     <message>
         <source>Hot Links</source>
-        <translation>Hot Links</translation>
+        <translation>热门链接</translation>
     </message>
     <message>
         <source>Adjust Brightness</source>
-        <translation>Adjust Brightness</translation>
+        <translation>调整亮度</translation>
     </message>
     <message>
         <source>Finance</source>
-        <translation>Finance</translation>
+        <translation>金融</translation>
     </message>
     <message>
         <source>Community</source>
-        <translation>Community</translation>
+        <translation>社区</translation>
+    </message>
+    <message>
+        <source>Media Rewind</source>
+        <translation>媒体倒回</translation>
     </message>
     <message>
         <source>Back Forward</source>
-        <translation>Back Forward</translation>
+        <translation>后退前进</translation>
     </message>
     <message>
         <source>Application Left</source>
-        <translation>Application Left</translation>
+        <translation>应用程序 左</translation>
     </message>
     <message>
         <source>Application Right</source>
-        <translation>Application Right</translation>
+        <translation>应用程序 右</translation>
     </message>
     <message>
         <source>Book</source>
-        <translation>Book</translation>
+        <translation>预定</translation>
     </message>
     <message>
         <source>CD</source>
@@ -5308,31 +5313,31 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Calculator</source>
-        <translation>Calculator</translation>
+        <translation>计算器</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Clear</translation>
+        <translation>清除</translation>
     </message>
     <message>
         <source>Clear Grab</source>
-        <translation>Clear Grab</translation>
+        <translation>清除 Grab</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>Close</translation>
+        <translation>关闭</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>Copy</translation>
+        <translation>复制</translation>
     </message>
     <message>
         <source>Cut</source>
-        <translation>Cut</translation>
+        <translation>剪切</translation>
     </message>
     <message>
         <source>Display</source>
-        <translation>Display</translation>
+        <translation>显示</translation>
     </message>
     <message>
         <source>DOS</source>
@@ -5340,23 +5345,23 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Documents</source>
-        <translation>Documents</translation>
+        <translation>文档</translation>
     </message>
     <message>
         <source>Spreadsheet</source>
-        <translation>Spreadsheet</translation>
+        <translation>电子表格</translation>
     </message>
     <message>
         <source>Browser</source>
-        <translation>Browser</translation>
+        <translation>浏览器</translation>
     </message>
     <message>
         <source>Game</source>
-        <translation>Game</translation>
+        <translation>游戏</translation>
     </message>
     <message>
         <source>Go</source>
-        <translation>Go</translation>
+        <translation>前往</translation>
     </message>
     <message>
         <source>iTouch</source>
@@ -5364,111 +5369,111 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Logoff</source>
-        <translation>Logoff</translation>
+        <translation>注销</translation>
     </message>
     <message>
         <source>Market</source>
-        <translation>Market</translation>
+        <translation>市场</translation>
     </message>
     <message>
         <source>Meeting</source>
-        <translation>Meeting</translation>
+        <translation>会议</translation>
     </message>
     <message>
         <source>Keyboard Menu</source>
-        <translation>Keyboard Menu</translation>
+        <translation>键盘菜单</translation>
     </message>
     <message>
         <source>Menu PB</source>
-        <translation>Menu PB</translation>
+        <translation>菜单 PB</translation>
     </message>
     <message>
         <source>My Sites</source>
-        <translation>My Sites</translation>
+        <translation>我的网站</translation>
     </message>
     <message>
         <source>News</source>
-        <translation>News</translation>
+        <translation>新闻</translation>
     </message>
     <message>
         <source>Home Office</source>
-        <translation>Home Office</translation>
+        <translation>家庭办公室</translation>
     </message>
     <message>
         <source>Option</source>
-        <translation>Option</translation>
+        <translation>选项</translation>
     </message>
     <message>
         <source>Paste</source>
-        <translation>Paste</translation>
+        <translation>粘贴</translation>
     </message>
     <message>
         <source>Phone</source>
-        <translation>Phone</translation>
+        <translation>电话</translation>
     </message>
     <message>
         <source>Reply</source>
-        <translation>Reply</translation>
+        <translation>答复</translation>
     </message>
     <message>
         <source>Reload</source>
-        <translation>Reload</translation>
+        <translation>重新加载</translation>
     </message>
     <message>
         <source>Rotate Windows</source>
-        <translation>Rotate Windows</translation>
+        <translation>旋转窗口</translation>
     </message>
     <message>
         <source>Rotation PB</source>
-        <translation>Rotation PB</translation>
+        <translation>旋转 PB</translation>
     </message>
     <message>
         <source>Rotation KB</source>
-        <translation>Rotation KB</translation>
+        <translation>旋转 KB</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation>Save</translation>
+        <translation>保存</translation>
     </message>
     <message>
         <source>Send</source>
-        <translation>Send</translation>
+        <translation>发送</translation>
     </message>
     <message>
         <source>Spellchecker</source>
-        <translation>Spellchecker</translation>
+        <translation>拼写检查</translation>
     </message>
     <message>
         <source>Split Screen</source>
-        <translation>Split Screen</translation>
+        <translation>分屏</translation>
     </message>
     <message>
         <source>Support</source>
-        <translation>Support</translation>
+        <translation>支持</translation>
     </message>
     <message>
         <source>Task Panel</source>
-        <translation>Task Panel</translation>
+        <translation>任务面板</translation>
     </message>
     <message>
         <source>Terminal</source>
-        <translation>Terminal</translation>
+        <translation>终端</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation>Tools</translation>
+        <translation>工具</translation>
     </message>
     <message>
         <source>Travel</source>
-        <translation>Travel</translation>
+        <translation>旅行</translation>
     </message>
     <message>
         <source>Video</source>
-        <translation>Video</translation>
+        <translation>视频</translation>
     </message>
     <message>
         <source>Word Processor</source>
-        <translation>Word Processor</translation>
+        <translation>文字处理</translation>
     </message>
     <message>
         <source>XFer</source>
@@ -5476,15 +5481,15 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Zoom In</source>
-        <translation>Zoom In</translation>
+        <translation>放大</translation>
     </message>
     <message>
         <source>Zoom Out</source>
-        <translation>Zoom Out</translation>
+        <translation>缩小</translation>
     </message>
     <message>
         <source>Away</source>
-        <translation>Away</translation>
+        <translation>离开</translation>
     </message>
     <message>
         <source>Messenger</source>
@@ -5496,151 +5501,143 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Mail Forward</source>
-        <translation>Mail Forward</translation>
+        <translation>邮件转发</translation>
     </message>
     <message>
         <source>Pictures</source>
-        <translation>Pictures</translation>
+        <translation>图片</translation>
     </message>
     <message>
         <source>Music</source>
-        <translation>Music</translation>
+        <translation>音乐</translation>
     </message>
     <message>
         <source>Battery</source>
-        <translation>Battery</translation>
+        <translation>电池</translation>
     </message>
     <message>
         <source>Bluetooth</source>
-        <translation>Bluetooth</translation>
+        <translation>蓝牙</translation>
     </message>
     <message>
         <source>Wireless</source>
-        <translation>Wireless</translation>
+        <translation>无线</translation>
     </message>
     <message>
         <source>Ultra Wide Band</source>
-        <translation>Ultra Wide Band</translation>
-    </message>
-    <message>
-        <source>Audio Repeat</source>
-        <translation>Audio Repeat</translation>
-    </message>
-    <message>
-        <source>Audio Random Play</source>
-        <translation>Audio Random Play</translation>
-    </message>
-    <message>
-        <source>Subtitle</source>
-        <translation>Subtitle</translation>
-    </message>
-    <message>
-        <source>Audio Cycle Track</source>
-        <translation>Audio Cycle Track</translation>
-    </message>
-    <message>
-        <source>Time</source>
-        <translation>Time</translation>
-    </message>
-    <message>
-        <source>Select</source>
-        <translation>Select</translation>
-    </message>
-    <message>
-        <source>View</source>
-        <translation>View</translation>
-    </message>
-    <message>
-        <source>Top Menu</source>
-        <translation>Top Menu</translation>
-    </message>
-    <message>
-        <source>Suspend</source>
-        <translation>Suspend</translation>
-    </message>
-    <message>
-        <source>Hibernate</source>
-        <translation>Hibernate</translation>
-    </message>
-    <message>
-        <source>Media Rewind</source>
-        <translation>Media Rewind</translation>
+        <translation>超宽带</translation>
     </message>
     <message>
         <source>Media Fast Forward</source>
-        <translation>Media Fast Forward</translation>
+        <translation>媒体快进</translation>
+    </message>
+    <message>
+        <source>Audio Repeat</source>
+        <translation>音频重复</translation>
+    </message>
+    <message>
+        <source>Audio Random Play</source>
+        <translation>音频随机播放</translation>
+    </message>
+    <message>
+        <source>Subtitle</source>
+        <translation>字幕</translation>
+    </message>
+    <message>
+        <source>Audio Cycle Track</source>
+        <translation>音频循环轨道</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>时间</translation>
+    </message>
+    <message>
+        <source>Hibernate</source>
+        <translation>休眠</translation>
+    </message>
+    <message>
+        <source>View</source>
+        <translation>查看</translation>
+    </message>
+    <message>
+        <source>Top Menu</source>
+        <translation>顶部菜单</translation>
     </message>
     <message>
         <source>Power Down</source>
-        <translation>Power Down</translation>
+        <translation>断电</translation>
+    </message>
+    <message>
+        <source>Suspend</source>
+        <translation>暂停</translation>
     </message>
     <message>
         <source>Microphone Mute</source>
-        <translation>Microphone Mute</translation>
+        <translation>麦克风静音</translation>
     </message>
     <message>
         <source>Red</source>
-        <translation>Red</translation>
+        <translation>红色</translation>
     </message>
     <message>
         <source>Green</source>
-        <translation>Green</translation>
+        <translation>绿色</translation>
     </message>
     <message>
         <source>Yellow</source>
-        <translation>Yellow</translation>
+        <translation>黄色</translation>
     </message>
     <message>
         <source>Blue</source>
-        <translation>Blue</translation>
+        <translation>蓝色</translation>
     </message>
     <message>
         <source>Channel Up</source>
-        <translation>Channel Up</translation>
+        <translation>频道增加</translation>
     </message>
     <message>
         <source>Channel Down</source>
-        <translation>Channel Down</translation>
+        <translation>频道减少</translation>
     </message>
     <message>
         <source>Guide</source>
-        <translation>Guide</translation>
+        <translation>指南</translation>
     </message>
     <message>
         <source>Info</source>
-        <translation>Info</translation>
+        <translation>信息</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation>Settings</translation>
+        <translation>设置</translation>
     </message>
     <message>
         <source>Microphone Volume Up</source>
-        <translation>Microphone Volume Up</translation>
+        <translation>麦克风音量增大</translation>
     </message>
     <message>
         <source>Microphone Volume Down</source>
-        <translation>Microphone Volume Down</translation>
+        <translation>麦克风音量减小</translation>
     </message>
     <message>
         <source>New</source>
-        <translation>New</translation>
+        <translation>新建</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Open</translation>
+        <translation>打开</translation>
     </message>
     <message>
         <source>Find</source>
-        <translation>Find</translation>
+        <translation>查找</translation>
     </message>
     <message>
         <source>Undo</source>
-        <translation>Undo</translation>
+        <translation>撤销</translation>
     </message>
     <message>
         <source>Redo</source>
-        <translation>Redo</translation>
+        <translation>恢复</translation>
     </message>
     <message>
         <source>Print Screen</source>
@@ -5687,12 +5684,16 @@ Please turn one of those options off.</source>
         <translation>System Request</translation>
     </message>
     <message>
+        <source>Select</source>
+        <translation>选择</translation>
+    </message>
+    <message>
         <source>Yes</source>
-        <translation>Yes</translation>
+        <translation>是</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>No</translation>
+        <translation>否</translation>
     </message>
     <message>
         <source>Context1</source>
@@ -5713,41 +5714,41 @@ Please turn one of those options off.</source>
     <message>
         <source>Call</source>
         <extracomment>Button to start a call (note: a separate button is used to end the call)</extracomment>
-        <translation>Call</translation>
+        <translation>呼叫</translation>
     </message>
     <message>
         <source>Hangup</source>
         <extracomment>Button to end a call (note: a separate button is used to start the call)</extracomment>
-        <translation>Hangup</translation>
+        <translation>挂断</translation>
     </message>
     <message>
         <source>Toggle Call/Hangup</source>
-        <extracomment>Button that will hang up if we're in call, or make a call if we're not.</extracomment>
-        <translation>Toggle Call/Hangup</translation>
+        <extracomment>Button that will hang up if we&apos;re in call, or make a call if we&apos;re not.</extracomment>
+        <translation>切换呼叫/挂断</translation>
     </message>
     <message>
         <source>Flip</source>
-        <translation>Flip</translation>
+        <translation>翻转</translation>
     </message>
     <message>
         <source>Voice Dial</source>
         <extracomment>Button to trigger voice dialing</extracomment>
-        <translation>Voice Dial</translation>
+        <translation>语音拨号</translation>
     </message>
     <message>
         <source>Last Number Redial</source>
         <extracomment>Button to redial the last number called</extracomment>
-        <translation>Last Number Redial</translation>
+        <translation>最后号码重拨</translation>
     </message>
     <message>
         <source>Camera Shutter</source>
         <extracomment>Button to trigger the camera shutter (take a picture)</extracomment>
-        <translation>Camera Shutter</translation>
+        <translation>相机快门</translation>
     </message>
     <message>
         <source>Camera Focus</source>
         <extracomment>Button to focus the camera</extracomment>
-        <translation>Camera Focus</translation>
+        <translation>相机聚焦</translation>
     </message>
     <message>
         <source>Kanji</source>
@@ -5815,15 +5816,15 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Code input</source>
-        <translation>Code input</translation>
+        <translation>代码输入</translation>
     </message>
     <message>
         <source>Multiple Candidate</source>
-        <translation>Multiple Candidate</translation>
+        <translation>多个候选</translation>
     </message>
     <message>
         <source>Previous Candidate</source>
-        <translation>Previous Candidate</translation>
+        <translation>上一个候选</translation>
     </message>
     <message>
         <source>Hangul</source>
@@ -5871,39 +5872,39 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Cancel</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Printer</source>
-        <translation>Printer</translation>
+        <translation>打印机</translation>
     </message>
     <message>
         <source>Execute</source>
-        <translation>Execute</translation>
+        <translation>执行</translation>
     </message>
     <message>
         <source>Play</source>
-        <translation>Play</translation>
+        <translation>播放</translation>
     </message>
     <message>
         <source>Zoom</source>
-        <translation>Zoom</translation>
+        <translation>缩放</translation>
     </message>
     <message>
         <source>Exit</source>
-        <translation>Exit</translation>
+        <translation>退出</translation>
     </message>
     <message>
         <source>Touchpad Toggle</source>
-        <translation>Touchpad Toggle</translation>
+        <translation>触摸板切换</translation>
     </message>
     <message>
         <source>Touchpad On</source>
-        <translation>Touchpad On</translation>
+        <translation>触摸板开</translation>
     </message>
     <message>
         <source>Touchpad Off</source>
-        <translation>Touchpad Off</translation>
+        <translation>触控板关</translation>
     </message>
     <message>
         <source>Ctrl</source>
@@ -5927,7 +5928,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>+</source>
-        <translation>+</translation>
+        <translation></translation>
     </message>
     <message>
         <source>F%1</source>
@@ -6041,6 +6042,13 @@ Please turn one of those options off.</source>
         <translation>通知邮件</translation>
     </message>
     <message>
+        <source>frame</source>
+        <extracomment>Role of an accessible object: a window with frame and title
+----------
+Role of an accessible object</extracomment>
+        <translation>框架</translation>
+    </message>
+    <message>
         <source>filler</source>
         <extracomment>Role of an accessible object</extracomment>
         <translation>填充</translation>
@@ -6084,13 +6092,6 @@ Please turn one of those options off.</source>
         <source>dialog</source>
         <extracomment>Role of an accessible object</extracomment>
         <translation>对话框</translation>
-    </message>
-    <message>
-        <source>frame</source>
-        <extracomment>Role of an accessible object: a window with frame and title
-----------
-Role of an accessible object</extracomment>
-        <translation>框架</translation>
     </message>
     <message>
         <source>separator</source>
@@ -6268,6 +6269,11 @@ Role of an accessible object</extracomment>
         <translation>下拉按钮</translation>
     </message>
     <message>
+        <source>button menu</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>按钮菜单</translation>
+    </message>
+    <message>
         <source>button with drop down grid</source>
         <extracomment>Role of an accessible object - a button that expands a grid.</extracomment>
         <translation>下拉式网格按钮</translation>
@@ -6276,11 +6282,6 @@ Role of an accessible object</extracomment>
         <source>space</source>
         <extracomment>Role of an accessible object - blank space between other objects.</extracomment>
         <translation>空间</translation>
-    </message>
-    <message>
-        <source>button menu</source>
-        <extracomment>Role of an accessible object</extracomment>
-        <translation>按钮菜单</translation>
     </message>
     <message>
         <source>page tab list</source>
@@ -6305,7 +6306,7 @@ Role of an accessible object</extracomment>
     <message>
         <source>web document</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>Web 文档</translation>
+        <translation>网络文件</translation>
     </message>
     <message>
         <source>paragraph</source>
@@ -6371,6 +6372,90 @@ Role of an accessible object</extracomment>
 <context>
     <name>QSslSocket</name>
     <message>
+        <source>Error when setting the OpenSSL configuration (%1)</source>
+        <translation>设置 OpenSSL 配置时出错（%1）</translation>
+    </message>
+    <message>
+        <source>Expecting QByteArray for %1</source>
+        <translation>%1 应为 Qbytearray</translation>
+    </message>
+    <message>
+        <source>An error occurred attempting to set %1 to %2</source>
+        <translation>试图将 %1 设置为 %2 时出错</translation>
+    </message>
+    <message>
+        <source>Wrong value for %1 (%2)</source>
+        <translation>错误的值 %1（%2）</translation>
+    </message>
+    <message>
+        <source>Unrecognized command %1 = %2</source>
+        <translation>无法识别的命令 %1 = %2</translation>
+    </message>
+    <message>
+        <source>SSL_CONF_finish() failed</source>
+        <translation>SSL_CONF_finish() 失败</translation>
+    </message>
+    <message>
+        <source>SSL_CONF_CTX_new() failed</source>
+        <translation>SSL_CONF_CTX_new() 失败</translation>
+    </message>
+    <message>
+        <source>OpenSSL version too old, need at least v1.0.2</source>
+        <translation>OpenSSL 版本太旧了，至少需要 v1.0.2</translation>
+    </message>
+    <message>
+        <source>Error when setting the elliptic curves (%1)</source>
+        <translation>设置椭圆曲线时出错（%1）</translation>
+    </message>
+    <message>
+        <source>Error creating SSL context (%1)</source>
+        <translation>创建 SSL 上下文错误（%1）</translation>
+    </message>
+    <message>
+        <source>unsupported protocol</source>
+        <translation>不支持的协议</translation>
+    </message>
+    <message>
+        <source>Error while setting the minimal protocol version</source>
+        <translation>设置最小协议版本时出错</translation>
+    </message>
+    <message>
+        <source>Error while setting the maximum protocol version</source>
+        <translation>设置最大协议版本时出错</translation>
+    </message>
+    <message>
+        <source>Invalid or empty cipher list (%1)</source>
+        <translation>无效或者空白的密码列表（%1）</translation>
+    </message>
+    <message>
+        <source>Cannot provide a certificate with no key, %1</source>
+        <translation>不能提供没有密钥的证书，%1</translation>
+    </message>
+    <message>
+        <source>Error loading local certificate, %1</source>
+        <translation>不能载入本地证书，%1</translation>
+    </message>
+    <message>
+        <source>Error loading private key, %1</source>
+        <translation>不能载入私钥，%1</translation>
+    </message>
+    <message>
+        <source>Private key does not certify public key, %1</source>
+        <translation>私钥不验证公钥，%1</translation>
+    </message>
+    <message>
+        <source>Diffie-Hellman parameters are not valid</source>
+        <translation>Diffie-Hellman 参数无效</translation>
+    </message>
+    <message>
+        <source>OpenSSL version with disabled elliptic curves</source>
+        <translation>带禁用椭圆曲线的 OpenSSL 版本</translation>
+    </message>
+    <message>
+        <source>DTLS server requires a &apos;VerifyNone&apos; mode with your version of OpenSSL</source>
+        <translation>DTLS 服务器需要与您的 OpenSSL 版本一起使用“VerifyNone”模式</translation>
+    </message>
+    <message>
         <source>No error</source>
         <translation>无错误</translation>
     </message>
@@ -6399,11 +6484,11 @@ Role of an accessible object</extracomment>
         <translation>证书已过期</translation>
     </message>
     <message>
-        <source>The certificate's notBefore field contains an invalid time</source>
+        <source>The certificate&apos;s notBefore field contains an invalid time</source>
         <translation>证书的 notBefore 字段包含无效时间</translation>
     </message>
     <message>
-        <source>The certificate's notAfter field contains an invalid time</source>
+        <source>The certificate&apos;s notAfter field contains an invalid time</source>
         <translation>证书的 notAfter 字段包含无效时间</translation>
     </message>
     <message>
@@ -6467,84 +6552,12 @@ Role of an accessible object</extracomment>
         <translation>未知错误</translation>
     </message>
     <message>
-        <source>Error creating SSL context (%1)</source>
-        <translation>创建 SSL 上下文错误（%1）</translation>
+        <source>TLS initialization failed</source>
+        <translation>TLS 初始化失败</translation>
     </message>
     <message>
-        <source>unsupported protocol</source>
-        <translation>不支持的协议</translation>
-    </message>
-    <message>
-        <source>Error while setting the minimal protocol version</source>
-        <translation>设置最小协议版本时出错</translation>
-    </message>
-    <message>
-        <source>Error while setting the maximum protocol version</source>
-        <translation>设置最大协议版本时出错</translation>
-    </message>
-    <message>
-        <source>Invalid or empty cipher list (%1)</source>
-        <translation>无效或者空白的密码列表（%1）</translation>
-    </message>
-    <message>
-        <source>Cannot provide a certificate with no key, %1</source>
-        <translation>不能提供没有密钥的证书，%1</translation>
-    </message>
-    <message>
-        <source>Error loading local certificate, %1</source>
-        <translation>不能载入本地证书，%1</translation>
-    </message>
-    <message>
-        <source>Error loading private key, %1</source>
-        <translation>不能载入私钥，%1</translation>
-    </message>
-    <message>
-        <source>Private key does not certify public key, %1</source>
-        <translation>私钥不验证公钥，%1</translation>
-    </message>
-    <message>
-        <source>Diffie-Hellman parameters are not valid</source>
-        <translation>Diffie-Hellman 参数无效</translation>
-    </message>
-    <message>
-        <source>OpenSSL version with disabled elliptic curves</source>
-        <translation>带禁用椭圆曲线的 OpenSSL 版本</translation>
-    </message>
-    <message>
-        <source>Error when setting the OpenSSL configuration (%1)</source>
-        <translation>设置 OpenSSL 配置时出错（%1）</translation>
-    </message>
-    <message>
-        <source>Expecting QByteArray for %1</source>
-        <translation>%1 应为 Qbytearray</translation>
-    </message>
-    <message>
-        <source>An error occurred attempting to set %1 to %2</source>
-        <translation>试图将 %1 设置为 %2 时出错</translation>
-    </message>
-    <message>
-        <source>Wrong value for %1 (%2)</source>
-        <translation>错误的值 %1（%2）</translation>
-    </message>
-    <message>
-        <source>Unrecognized command %1 = %2</source>
-        <translation>无法识别的命令 %1 = %2</translation>
-    </message>
-    <message>
-        <source>SSL_CONF_finish() failed</source>
-        <translation>SSL_CONF_finish() 失败</translation>
-    </message>
-    <message>
-        <source>SSL_CONF_CTX_new() failed</source>
-        <translation>SSL_CONF_CTX_new() 失败</translation>
-    </message>
-    <message>
-        <source>OpenSSL version too old, need at least v1.0.2</source>
-        <translation>OpenSSL 版本太旧了，至少需要 v1.0.2</translation>
-    </message>
-    <message>
-        <source>Error when setting the elliptic curves (%1)</source>
-        <translation>设置椭圆曲线时出错（%1）</translation>
+        <source>The TLS/SSL connection has been closed</source>
+        <translation>TLS/SSL 连接已关闭</translation>
     </message>
     <message>
         <source>Error creating SSL session, %1</source>
@@ -6567,24 +6580,12 @@ Role of an accessible object</extracomment>
         <translation>无法解密数据：%1</translation>
     </message>
     <message>
-        <source>The TLS/SSL connection has been closed</source>
-        <translation>TLS/SSL 连接已关闭</translation>
-    </message>
-    <message>
         <source>Error while reading: %1</source>
         <translation>读取时出错：%1</translation>
     </message>
     <message>
         <source>Error during SSL handshake: %1</source>
         <translation>SSL 握手过程中出错：%1</translation>
-    </message>
-    <message>
-        <source>DTLS server requires a 'VerifyNone' mode with your version of OpenSSL</source>
-        <translation>DTLS 服务器需要与您的 OpenSSL 版本一起使用“VerifyNone”模式</translation>
-    </message>
-    <message>
-        <source>TLS initialization failed</source>
-        <translation>TLS 初始化失败</translation>
     </message>
 </context>
 <context>
@@ -6626,14 +6627,6 @@ Role of an accessible object</extracomment>
         <translation>主文件夹</translation>
     </message>
     <message>
-        <source>Application Data</source>
-        <translation>应用程序数据</translation>
-    </message>
-    <message>
-        <source>Application Configuration</source>
-        <translation>应用程序配置</translation>
-    </message>
-    <message>
         <source>Cache</source>
         <translation>缓存</translation>
     </message>
@@ -6661,19 +6654,27 @@ Role of an accessible object</extracomment>
         <source>Download</source>
         <translation>下载</translation>
     </message>
+    <message>
+        <source>Application Data</source>
+        <translation>应用程序数据</translation>
+    </message>
+    <message>
+        <source>Application Configuration</source>
+        <translation>应用程序配置</translation>
+    </message>
 </context>
 <context>
     <name>QStateMachine</name>
     <message>
-        <source>Missing initial state in compound state '%1'</source>
+        <source>Missing initial state in compound state &apos;%1&apos;</source>
         <translation>复合状态“%1”中缺少初始状态</translation>
     </message>
     <message>
-        <source>Missing default state in history state '%1'</source>
+        <source>Missing default state in history state &apos;%1&apos;</source>
         <translation>历史记录状态“%1”中缺少默认状态</translation>
     </message>
     <message>
-        <source>No common ancestor for targets and source of transition from state '%1'</source>
+        <source>No common ancestor for targets and source of transition from state &apos;%1&apos;</source>
         <translation>没有用于目标和源从状态“%1”转换的共同祖先</translation>
     </message>
     <message>
@@ -6906,7 +6907,7 @@ Role of an accessible object</extracomment>
 <context>
     <name>QWhatsThisAction</name>
     <message>
-        <source>What's This?</source>
+        <source>What&apos;s This?</source>
         <translation>这是什么？</translation>
     </message>
 </context>
@@ -6937,7 +6938,7 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>Copy &amp;Link Location</source>
-        <translation>复制链接位置(&amp;L)</translation>
+        <translation>复制链接地址(&amp;L)</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
@@ -7125,7 +7126,7 @@ The minimum Direct2D version required is %1. The Direct2D version on this system
         <translation>无效的 XML 字符。</translation>
     </message>
     <message>
-        <source>Sequence ']]&gt;' not allowed in content.</source>
+        <source>Sequence &apos;]]&gt;&apos; not allowed in content.</source>
         <translation>内容中不允许有“]]&gt;”序列。</translation>
     </message>
     <message>
@@ -7133,7 +7134,7 @@ The minimum Direct2D version required is %1. The Direct2D version on this system
         <translation>遇到不正确的编码内容。</translation>
     </message>
     <message>
-        <source>Namespace prefix '%1' not declared</source>
+        <source>Namespace prefix &apos;%1&apos; not declared</source>
         <translation>命名空间的“%1”前缀没有被声明</translation>
     </message>
     <message>
@@ -7141,11 +7142,11 @@ The minimum Direct2D version required is %1. The Direct2D version on this system
         <translation>非法的命名空间声明。</translation>
     </message>
     <message>
-        <source>Attribute '%1' redefined.</source>
+        <source>Attribute &apos;%1&apos; redefined.</source>
         <translation>属性“%1”已重新定义。</translation>
     </message>
     <message>
-        <source>Unexpected character '%1' in public id literal.</source>
+        <source>Unexpected character &apos;%1&apos; in public id literal.</source>
         <translation>在公有标识文本中有异常的字符“%1”。</translation>
     </message>
     <message>
@@ -7185,35 +7186,35 @@ The minimum Direct2D version required is %1. The Direct2D version on this system
         <translation>无效的文档。</translation>
     </message>
     <message>
-        <source>'%1'</source>
+        <source>&apos;%1&apos;</source>
         <comment>expected</comment>
-        <extracomment>'&lt;first option&gt;'</extracomment>
+        <extracomment>&apos;&lt;first option&gt;&apos;</extracomment>
         <translation>“%1”</translation>
     </message>
     <message>
-        <source>%1 or '%2'</source>
+        <source>%1 or &apos;%2&apos;</source>
         <comment>expected</comment>
-        <extracomment>&lt;first option&gt;, '&lt;second option&gt;'</extracomment>
+        <extracomment>&lt;first option&gt;, &apos;&lt;second option&gt;&apos;</extracomment>
         <translation>%1 或“%2”</translation>
     </message>
     <message>
-        <source>%1, '%2'</source>
+        <source>%1, &apos;%2&apos;</source>
         <comment>expected</comment>
-        <extracomment>&lt;options so far&gt;, '&lt;next option&gt;'</extracomment>
+        <extracomment>&lt;options so far&gt;, &apos;&lt;next option&gt;&apos;</extracomment>
         <translation>%1，“%2”</translation>
     </message>
     <message>
-        <source>%1, or '%2'</source>
+        <source>%1, or &apos;%2&apos;</source>
         <comment>expected</comment>
-        <extracomment>&lt;options so far&gt;, or '&lt;final option&gt;'</extracomment>
+        <extracomment>&lt;options so far&gt;, or &apos;&lt;final option&gt;&apos;</extracomment>
         <translation>%1，或“%2”</translation>
     </message>
     <message>
-        <source>Expected %1, but got '%2'.</source>
+        <source>Expected %1, but got &apos;%2&apos;.</source>
         <translation>应为 %1，但得到了“%2”。</translation>
     </message>
     <message>
-        <source>Unexpected '%1'.</source>
+        <source>Unexpected &apos;%1&apos;.</source>
         <translation>异常的“%1”。</translation>
     </message>
     <message>
@@ -7257,15 +7258,15 @@ The minimum Direct2D version required is %1. The Direct2D version on this system
         <translation>开始标记和结束标记不匹配。</translation>
     </message>
     <message>
-        <source>Entity '%1' not declared.</source>
+        <source>Entity &apos;%1&apos; not declared.</source>
         <translation>实体“%1”没有被声明。</translation>
     </message>
     <message>
-        <source>Reference to unparsed entity '%1'.</source>
+        <source>Reference to unparsed entity &apos;%1&apos;.</source>
         <translation>未解析实体“%1”的引用。</translation>
     </message>
     <message>
-        <source>Reference to external entity '%1' in attribute value.</source>
+        <source>Reference to external entity &apos;%1&apos; in attribute value.</source>
         <translation>在属性值中的外部实体“%1”的引用。</translation>
     </message>
     <message>
