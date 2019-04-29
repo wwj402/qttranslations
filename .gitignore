@@ -2,7 +2,7 @@
 Makefile*
 *_wrapper.sh
 *_wrapper.bat
-*.pro.user
+*.pro.user*
 /.qmake.cache
 /config.status
 

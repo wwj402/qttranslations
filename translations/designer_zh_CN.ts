@@ -1250,7 +1250,7 @@ This indicates an inconsistency in the ui-file.</source>
     </message>
     <message>
         <source>Invalid UI file: The root element &lt;ui&gt; is missing.</source>
-        <translation>Invalid UI file: The root element &lt;ui&gt; is missing.</translation>
+        <translation>无效 UI 文件：缺少根元素 &lt;ui&gt;。</translation>
     </message>
     <message>
         <source>Invalid UI file</source>
@@ -3241,7 +3241,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>%1&lt;br/&gt;Copyright (C) %2 The Qt Company Ltd.</source>
-        <translation>%1&lt;br/&gt;版权 (C) %2 The Qt Company Ltd。</translation>
+        <translation>%1&lt;br/&gt;版权所有 (C) %2 The Qt Company Ltd。</translation>
     </message>
 </context>
 <context>
