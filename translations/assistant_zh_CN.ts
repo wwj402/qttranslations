@@ -90,7 +90,7 @@ Reason:
     </message>
     <message>
         <source>+</source>
-        <translation></translation>
+        <translation>+</translation>
     </message>
     <message>
         <source>New Folder</source>
@@ -136,7 +136,7 @@ Reason:
     </message>
     <message>
         <source>Ctrl+D</source>
-        <translation></translation>
+        <translation>Ctrl+D</translation>
     </message>
     <message>
         <source>Delete Folder</source>
@@ -207,7 +207,7 @@ Reason:
     </message>
     <message>
         <source>Qt Assistant</source>
-        <translation>Qt 助手</translation>
+        <translation>Qt Assistant</translation>
     </message>
     <message>
         <source>Unable to save bookmarks.</source>
@@ -481,7 +481,7 @@ Reason:
     </message>
     <message>
         <source>ALT+Home</source>
-        <translation></translation>
+        <translation>ALT+Home</translation>
     </message>
     <message>
         <source>Zoom &amp;in</source>
@@ -645,7 +645,7 @@ Reason:
     </message>
     <message>
         <source>&lt;title&gt;about:blank&lt;/title&gt;</source>
-        <translation></translation>
+        <translation>&lt;title&gt;about:blank&lt;/title&gt;</translation>
     </message>
     <message>
         <source>&lt;title&gt;Error 404...&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;The page could not be found.&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;&apos;%1&apos;&lt;/h3&gt;&lt;/div&gt;</source>
@@ -751,7 +751,7 @@ Reason:
     </message>
     <message>
         <source>CTRL+Q</source>
-        <translation></translation>
+        <translation>CTRL+Q</translation>
     </message>
     <message>
         <source>&amp;Quit</source>
@@ -783,27 +783,27 @@ Reason:
     </message>
     <message>
         <source>Ctrl+0</source>
-        <translation></translation>
+        <translation>Ctrl+0</translation>
     </message>
     <message>
         <source>ALT+C</source>
-        <translation></translation>
+        <translation>ALT+C</translation>
     </message>
     <message>
         <source>ALT+I</source>
-        <translation></translation>
+        <translation>ALT+I</translation>
     </message>
     <message>
         <source>ALT+O</source>
-        <translation></translation>
+        <translation>ALT+O</translation>
     </message>
     <message>
         <source>ALT+S</source>
-        <translation></translation>
+        <translation>ALT+S</translation>
     </message>
     <message>
         <source>ALT+P</source>
-        <translation></translation>
+        <translation>ALT+P</translation>
     </message>
     <message>
         <source>&amp;Go</source>
@@ -823,7 +823,7 @@ Reason:
     </message>
     <message>
         <source>Ctrl+Alt+Right</source>
-        <translation></translation>
+        <translation>Ctrl+Alt+Right</translation>
     </message>
     <message>
         <source>Previous Page</source>
@@ -831,7 +831,7 @@ Reason:
     </message>
     <message>
         <source>Ctrl+Alt+Left</source>
-        <translation></translation>
+        <translation>Ctrl+Alt+Left</translation>
     </message>
     <message>
         <source>&amp;Bookmarks</source>
@@ -863,7 +863,7 @@ Reason:
     </message>
     <message>
         <source>Ctrl+M</source>
-        <translation></translation>
+        <translation>Ctrl+M</translation>
     </message>
     <message>
         <source>Toolbars</source>
@@ -992,7 +992,7 @@ Reason:
     </message>
     <message>
         <source>1</source>
-        <translation></translation>
+        <translation>1</translation>
     </message>
     <message>
         <source>Add</source>
@@ -1463,81 +1463,6 @@ qhelpgenerator &lt;file&gt; [options]
     <message>
         <source>Cannot open database &quot;%1&quot; using connection &quot;%2&quot;: %3</source>
         <translation>无法使用连接“%2”打开数据库“%1”：%3</translation>
-    </message>
-</context>
-<context>
-    <name>QPlatformTheme</name>
-    <message>
-        <source>OK</source>
-        <translation>确定</translation>
-    </message>
-    <message>
-        <source>Save</source>
-        <translation>保存</translation>
-    </message>
-    <message>
-        <source>Save All</source>
-        <translation>全部保存</translation>
-    </message>
-    <message>
-        <source>Open</source>
-        <translation>打开</translation>
-    </message>
-    <message>
-        <source>&amp;Yes</source>
-        <translation>是(&amp;Y)</translation>
-    </message>
-    <message>
-        <source>Yes to &amp;All</source>
-        <translation>全是(&amp;A)</translation>
-    </message>
-    <message>
-        <source>&amp;No</source>
-        <translation>否(&amp;N)</translation>
-    </message>
-    <message>
-        <source>N&amp;o to All</source>
-        <translation>全否(&amp;O)</translation>
-    </message>
-    <message>
-        <source>Abort</source>
-        <translation>中止</translation>
-    </message>
-    <message>
-        <source>Retry</source>
-        <translation>重试</translation>
-    </message>
-    <message>
-        <source>Ignore</source>
-        <translation>忽略</translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation>关闭</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>取消</translation>
-    </message>
-    <message>
-        <source>Discard</source>
-        <translation>放弃</translation>
-    </message>
-    <message>
-        <source>Help</source>
-        <translation>帮助</translation>
-    </message>
-    <message>
-        <source>Apply</source>
-        <translation>应用</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>重置</translation>
-    </message>
-    <message>
-        <source>Restore Defaults</source>
-        <translation>恢复默认</translation>
     </message>
 </context>
 </TS>

@@ -97,7 +97,7 @@
     </message>
     <message>
         <source>&lt;p&gt;* ID: %1</source>
-        <translation></translation>
+        <translation>&lt;p&gt;* ID: %1</translation>
     </message>
     <message>
         <source>&lt;p&gt;* Context: %1&lt;br&gt;* Source: %2</source>
@@ -120,7 +120,7 @@ Will assume a single universal form.</source>
     <message>
         <source>%1 (%2)</source>
         <extracomment>&lt;language&gt; (&lt;country&gt;)</extracomment>
-        <translation></translation>
+        <translation>%1 (%2)</translation>
     </message>
     <message>
         <source>Universal Form</source>
@@ -290,17 +290,17 @@ Will assume a single universal form.</source>
     <message>
         <source>Alt+Delete</source>
         <extracomment>translate, but don&apos;t change</extracomment>
-        <translation></translation>
+        <translation>Alt+Delete</translation>
     </message>
     <message>
         <source>Shift+Alt+Insert</source>
         <extracomment>translate, but don&apos;t change</extracomment>
-        <translation></translation>
+        <translation>Shift+Alt+Insert</translation>
     </message>
     <message>
         <source>Alt+Insert</source>
         <extracomment>translate, but don&apos;t change</extracomment>
-        <translation></translation>
+        <translation>Alt+Insert</translation>
     </message>
     <message>
         <source>Confirmation - Qt Linguist</source>
@@ -1237,8 +1237,7 @@ Available tr-functions are: %2</source>
     <message>
         <source>//= cannot be used with %1(). Ignoring
 </source>
-        <translation>//= 不能与 %1() 一起使用。忽略
-</translation>
+        <translation>//% 不能与 %1() 一起使用。忽略</translation>
     </message>
     <message>
         <source>Maximum statement or expression depth exceeded</source>
@@ -1329,7 +1328,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Ctrl+O</source>
-        <translation></translation>
+        <translation>Ctrl+O</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1341,7 +1340,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Ctrl+Q</source>
-        <translation></translation>
+        <translation>Ctrl+Q</translation>
     </message>
     <message>
         <source>Save</source>
@@ -1381,7 +1380,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Ctrl+P</source>
-        <translation></translation>
+        <translation>Ctrl+P</translation>
     </message>
     <message>
         <source>&amp;Undo</source>
@@ -1393,7 +1392,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Ctrl+Z</source>
-        <translation></translation>
+        <translation>Ctrl+Z</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
@@ -1405,7 +1404,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Ctrl+Y</source>
-        <translation></translation>
+        <translation>Ctrl+Y</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
@@ -1417,7 +1416,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Ctrl+X</source>
-        <translation></translation>
+        <translation>Ctrl+X</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -1429,7 +1428,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Ctrl+C</source>
-        <translation></translation>
+        <translation>Ctrl+C</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
@@ -1441,7 +1440,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Ctrl+V</source>
-        <translation></translation>
+        <translation>Ctrl+V</translation>
     </message>
     <message>
         <source>Select &amp;All</source>
@@ -1453,7 +1452,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Ctrl+A</source>
-        <translation></translation>
+        <translation>Ctrl+A</translation>
     </message>
     <message>
         <source>&amp;Find...</source>
@@ -1465,7 +1464,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Ctrl+F</source>
-        <translation></translation>
+        <translation>Ctrl+F</translation>
     </message>
     <message>
         <source>Find &amp;Next</source>
@@ -1477,7 +1476,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>F3</source>
-        <translation></translation>
+        <translation>F3</translation>
     </message>
     <message>
         <source>&amp;Prev Unfinished</source>
@@ -1493,7 +1492,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Ctrl+K</source>
-        <translation></translation>
+        <translation>Ctrl+K</translation>
     </message>
     <message>
         <source>&amp;Next Unfinished</source>
@@ -1509,7 +1508,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Ctrl+J</source>
-        <translation></translation>
+        <translation>Ctrl+J</translation>
     </message>
     <message>
         <source>P&amp;rev</source>
@@ -1525,7 +1524,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Ctrl+Shift+K</source>
-        <translation></translation>
+        <translation>Ctrl+Shift+K</translation>
     </message>
     <message>
         <source>Ne&amp;xt</source>
@@ -1541,7 +1540,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Ctrl+Shift+J</source>
-        <translation></translation>
+        <translation>Ctrl+Shift+J</translation>
     </message>
     <message>
         <source>&amp;Done and Next</source>
@@ -1569,7 +1568,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Ctrl+B</source>
-        <translation></translation>
+        <translation>Ctrl+B</translation>
     </message>
     <message>
         <source>&amp;Accelerators</source>
@@ -1641,7 +1640,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Ctrl+N</source>
-        <translation></translation>
+        <translation>Ctrl+N</translation>
     </message>
     <message>
         <source>&amp;Open Phrase Book...</source>
@@ -1653,7 +1652,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Ctrl+H</source>
-        <translation></translation>
+        <translation>Ctrl+H</translation>
     </message>
     <message>
         <source>&amp;Reset Sorting</source>
@@ -1685,7 +1684,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>F1</source>
-        <translation></translation>
+        <translation>F1</translation>
     </message>
     <message>
         <source>About Qt Linguist</source>
@@ -1713,7 +1712,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Shift+F1</source>
-        <translation></translation>
+        <translation>Shift+F1</translation>
     </message>
     <message>
         <source>&amp;Search And Translate...</source>
@@ -1769,7 +1768,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>F5</source>
-        <translation></translation>
+        <translation>F5</translation>
     </message>
     <message>
         <source>Translation File &amp;Settings...</source>
@@ -1781,7 +1780,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Ctrl+T</source>
-        <translation></translation>
+        <translation>Ctrl+T</translation>
     </message>
     <message>
         <source>Open Read-O&amp;nly...</source>
@@ -1793,7 +1792,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Ctrl+S</source>
-        <translation></translation>
+        <translation>Ctrl+S</translation>
     </message>
     <message>
         <source>&amp;Release All</source>
@@ -1809,7 +1808,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Ctrl+W</source>
-        <translation></translation>
+        <translation>Ctrl+W</translation>
     </message>
     <message>
         <source>Length Variants</source>
@@ -1829,7 +1828,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Ctrl++</source>
-        <translation></translation>
+        <translation>Ctrl++</translation>
     </message>
     <message>
         <source>Decrease</source>
@@ -1837,7 +1836,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Ctrl+-</source>
-        <translation></translation>
+        <translation>Ctrl+-</translation>
     </message>
     <message>
         <source>Reset to default</source>
@@ -1845,7 +1844,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Ctrl+0</source>
-        <translation></translation>
+        <translation>Ctrl+0</translation>
     </message>
     <message>
         <source>Show more</source>
@@ -1853,7 +1852,7 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Alt++</source>
-        <translation></translation>
+        <translation>Alt++</translation>
     </message>
     <message>
         <source>Show fewer</source>
@@ -1861,11 +1860,11 @@ Available tr-functions are: %2</source>
     </message>
     <message>
         <source>Alt+-</source>
-        <translation></translation>
+        <translation>Alt+-</translation>
     </message>
     <message>
         <source>Alt+0</source>
-        <translation></translation>
+        <translation>Alt+0</translation>
     </message>
     <message>
         <source>D&amp;one</source>
@@ -2093,7 +2092,7 @@ All files (*)</source>
     </message>
     <message>
         <source>&lt;center&gt;&lt;img src=&quot;:/images/icons/linguist-128-32.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) %2 The Qt Company Ltd.</source>
-        <translation>&lt;center&gt;&lt;img src=&quot;:/images/icons/linguist-128-32.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist 是一个向 Qt 应用程序添加翻译的工具。&lt;/p&gt;&lt;p&gt;版权所有 (C) %2 The Qt Company Ltd。</translation>
+        <translation>&lt;center&gt;&lt;img src=&quot;:/images/icons/linguist-128-32.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist 是一个向 Qt 应用程序添加翻译的工具。&lt;/p&gt;&lt;p&gt;版权 (C) %2 The Qt Company Ltd。</translation>
     </message>
     <message>
         <source>Do you want to save the modified files?</source>
@@ -2125,7 +2124,7 @@ All files (*)</source>
     </message>
     <message>
         <source>Ctrl+M</source>
-        <translation></translation>
+        <translation>Ctrl+M</translation>
     </message>
     <message>
         <source>Display the manual for %1.</source>
@@ -2165,7 +2164,7 @@ All files (*)</source>
     </message>
     <message>
         <source>Save All</source>
-        <translation>全部保存</translation>
+        <translation>保存全部</translation>
     </message>
     <message>
         <source>Close All</source>
@@ -2499,7 +2498,7 @@ Line: %2</source>
     </message>
     <message>
         <source>0</source>
-        <translation></translation>
+        <translation>0</translation>
     </message>
     <message>
         <source>Words:</source>
@@ -2594,7 +2593,7 @@ Line: %2</source>
     <message>
         <source>%1 (%2)</source>
         <extracomment>&lt;english&gt; (&lt;endonym&gt;) (language and country names)</extracomment>
-        <translation></translation>
+        <translation>%1 (%2)</translation>
     </message>
     <message>
         <source>Settings for &apos;%1&apos; - Qt Linguist</source>
@@ -2603,178 +2602,6 @@ Line: %2</source>
     <message>
         <source>Any Country</source>
         <translation>任意国家</translation>
-    </message>
-</context>
-<context>
-    <name>QWidgetTextControl</name>
-    <message>
-        <source>&amp;Undo</source>
-        <translation>撤消(&amp;U)</translation>
-    </message>
-    <message>
-        <source>&amp;Redo</source>
-        <translation>恢复(&amp;R)</translation>
-    </message>
-    <message>
-        <source>Cu&amp;t</source>
-        <translation>剪切(&amp;T)</translation>
-    </message>
-    <message>
-        <source>&amp;Copy</source>
-        <translation>复制(&amp;C)</translation>
-    </message>
-    <message>
-        <source>Copy &amp;Link Location</source>
-        <translation>复制链接地址(&amp;L)</translation>
-    </message>
-    <message>
-        <source>&amp;Paste</source>
-        <translation>粘贴(&amp;P)</translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <translation>删除</translation>
-    </message>
-    <message>
-        <source>Select All</source>
-        <translation>全选</translation>
-    </message>
-</context>
-<context>
-    <name>QMessageBox</name>
-    <message>
-        <source>Show Details...</source>
-        <translation>显示细节…</translation>
-    </message>
-    <message>
-        <source>Hide Details...</source>
-        <translation>隐藏细节…</translation>
-    </message>
-    <message>
-        <source>&lt;h3&gt;About Qt&lt;/h3&gt;&lt;p&gt;This program uses Qt version %1.&lt;/p&gt;</source>
-        <translation>&lt;h3&gt;关于 Qt&lt;/h3&gt;&lt;p&gt;本程序使用 Qt 版本 %1。&lt;/p&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <extracomment>Leave this text untranslated or include a verbatim copy of it below and note that it is the authoritative version in case of doubt.</extracomment>
-        <translation>&lt;p&gt;Qt 是一个用于跨平台应用程序开发的 C++ 工具包。&lt;/p&gt;&lt;p&gt;Qt 提供跨所有主要桌面操作系统的单一来源可移植性。它也可用于嵌入式 Linux 和其他嵌入式和移动操作系统。&lt;/p&gt;&lt;p&gt;Qt 可在多种许可选项下使用，旨在满足各种用户的需求。&lt;/p&gt;&lt;p&gt;在我们的商业许可协议授权的 Qt 许可，适用于开发专有/商业软件，您不希望与第三方共享任何源代码或不符合 GNU (L)GPL 条款。&lt;/p&gt;&lt;p&gt;在 GNU (L)GPL 下获得许可的 Qt 适用于 Qt 应用程序的开发，前提是您可以遵守相应许可证的条款和条件。&lt;/p&gt;&lt;p&gt;请参阅 &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; 获取 Qt 许可的概要。&lt;/p&gt;&lt;p&gt;版权 (C) %1 Qt Company Ltd 和其他贡献者。&lt;/p&gt;&lt;p&gt;Qt 和 Qt 徽标是 The Qt Company Ltd 的商标。&lt;/p&gt;&lt;p&gt;Qt 是作为开源项目开发的 Qt Company Ltd 产品。有关详细信息，请参阅 &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt;。&lt;/p&gt;</translation>
-    </message>
-    <message>
-        <source>About Qt</source>
-        <translation>关于 Qt</translation>
-    </message>
-</context>
-<context>
-    <name>QDialogButtonBox</name>
-    <message>
-        <source>OK</source>
-        <translation>确定</translation>
-    </message>
-</context>
-<context>
-    <name>QLineEdit</name>
-    <message>
-        <source>&amp;Undo</source>
-        <translation>撤消(&amp;U)</translation>
-    </message>
-    <message>
-        <source>&amp;Redo</source>
-        <translation>恢复(&amp;R)</translation>
-    </message>
-    <message>
-        <source>Cu&amp;t</source>
-        <translation>剪切(&amp;T)</translation>
-    </message>
-    <message>
-        <source>&amp;Copy</source>
-        <translation>复制(&amp;C)</translation>
-    </message>
-    <message>
-        <source>&amp;Paste</source>
-        <translation>粘贴(&amp;P)</translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <translation>删除</translation>
-    </message>
-    <message>
-        <source>Select All</source>
-        <translation>全选</translation>
-    </message>
-</context>
-<context>
-    <name>QPlatformTheme</name>
-    <message>
-        <source>OK</source>
-        <translation>确定</translation>
-    </message>
-    <message>
-        <source>Save</source>
-        <translation>保存</translation>
-    </message>
-    <message>
-        <source>Save All</source>
-        <translation>全部保存</translation>
-    </message>
-    <message>
-        <source>Open</source>
-        <translation>打开</translation>
-    </message>
-    <message>
-        <source>&amp;Yes</source>
-        <translation>是(&amp;Y)</translation>
-    </message>
-    <message>
-        <source>Yes to &amp;All</source>
-        <translation>全是(&amp;A)</translation>
-    </message>
-    <message>
-        <source>&amp;No</source>
-        <translation>否(&amp;N)</translation>
-    </message>
-    <message>
-        <source>N&amp;o to All</source>
-        <translation>全否(&amp;O)</translation>
-    </message>
-    <message>
-        <source>Abort</source>
-        <translation>中止</translation>
-    </message>
-    <message>
-        <source>Retry</source>
-        <translation>重试</translation>
-    </message>
-    <message>
-        <source>Ignore</source>
-        <translation>忽略</translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation>关闭</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>取消</translation>
-    </message>
-    <message>
-        <source>Discard</source>
-        <translation>放弃</translation>
-    </message>
-    <message>
-        <source>Help</source>
-        <translation>帮助</translation>
-    </message>
-    <message>
-        <source>Apply</source>
-        <translation>应用</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>重置</translation>
-    </message>
-    <message>
-        <source>Restore Defaults</source>
-        <translation>恢复默认</translation>
     </message>
 </context>
 </TS>

@@ -28,43 +28,43 @@
     <name>AbstractItemEditor</name>
     <message>
         <source>Selectable</source>
-        <translation></translation>
+        <translation>Selectable</translation>
     </message>
     <message>
         <source>Editable</source>
-        <translation></translation>
+        <translation>Editable</translation>
     </message>
     <message>
         <source>DragEnabled</source>
-        <translation></translation>
+        <translation>DragEnabled</translation>
     </message>
     <message>
         <source>DropEnabled</source>
-        <translation></translation>
+        <translation>DropEnabled</translation>
     </message>
     <message>
         <source>UserCheckable</source>
-        <translation></translation>
+        <translation>UserCheckable</translation>
     </message>
     <message>
         <source>Enabled</source>
-        <translation></translation>
+        <translation>Enabled</translation>
     </message>
     <message>
         <source>Tristate</source>
-        <translation></translation>
+        <translation>Tristate</translation>
     </message>
     <message>
         <source>Unchecked</source>
-        <translation></translation>
+        <translation>Unchecked</translation>
     </message>
     <message>
         <source>PartiallyChecked</source>
-        <translation></translation>
+        <translation>PartiallyChecked</translation>
     </message>
     <message>
         <source>Checked</source>
-        <translation></translation>
+        <translation>Checked</translation>
     </message>
 </context>
 <context>
@@ -342,7 +342,7 @@
     </message>
     <message>
         <source>Break layout</source>
-        <translation>分拆布局</translation>
+        <translation>分拆 布局</translation>
     </message>
     <message>
         <source>Simplify Grid Layout</source>
@@ -991,7 +991,7 @@
     </message>
     <message>
         <source>...</source>
-        <translation></translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Normal Off</source>
@@ -1159,7 +1159,7 @@
     </message>
     <message>
         <source>1</source>
-        <translation></translation>
+        <translation>1</translation>
     </message>
 </context>
 <context>
@@ -1189,7 +1189,7 @@
     </message>
     <message>
         <source>...</source>
-        <translation></translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Device skin</source>
@@ -1250,7 +1250,7 @@ This indicates an inconsistency in the ui-file.</source>
     </message>
     <message>
         <source>Invalid UI file: The root element &lt;ui&gt; is missing.</source>
-        <translation>无效 UI 文件：缺少根元素 &lt;ui&gt;。</translation>
+        <translation>无效 ui 文件：缺少根元素 &lt;ui&gt;。</translation>
     </message>
     <message>
         <source>Invalid UI file</source>
@@ -2075,7 +2075,7 @@ Container pages should only be added by specifying them in XML returned by the d
     <name>QtColorEditWidget</name>
     <message>
         <source>...</source>
-        <translation></translation>
+        <translation>...</translation>
     </message>
 </context>
 <context>
@@ -2180,7 +2180,7 @@ Container pages should only be added by specifying them in XML returned by the d
     <name>QtFontEditWidget</name>
     <message>
         <source>...</source>
-        <translation></translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Select Font</source>
@@ -2241,7 +2241,7 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>1</source>
-        <translation></translation>
+        <translation>1</translation>
     </message>
     <message>
         <source>2</source>
@@ -2381,7 +2381,7 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>...</source>
-        <translation></translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Radial Type</source>
@@ -2480,7 +2480,7 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>Flip All</source>
-        <translation>全部翻转</translation>
+        <translation>翻转全部</translation>
     </message>
     <message>
         <source>Select All</source>
@@ -2549,7 +2549,7 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>%1, %2</source>
-        <translation>%1, %2</translation>
+        <translation>%1 - %2</translation>
     </message>
     <message>
         <source>Language</source>
@@ -2906,7 +2906,7 @@ to
     <name>QtSizeFPropertyManager</name>
     <message>
         <source>%1 x %2</source>
-        <translation>%1 x %2</translation>
+        <translation>%1 - %2</translation>
     </message>
     <message>
         <source>Width</source>
@@ -2967,7 +2967,7 @@ to
     </message>
     <message>
         <source>1</source>
-        <translation></translation>
+        <translation>1</translation>
     </message>
     <message>
         <source>Actions</source>
@@ -3152,7 +3152,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>...</source>
-        <translation></translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Delete</source>
@@ -3241,7 +3241,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>%1&lt;br/&gt;Copyright (C) %2 The Qt Company Ltd.</source>
-        <translation>%1&lt;br/&gt;版权所有 (C) %2 The Qt Company Ltd。</translation>
+        <translation>%1&lt;br/&gt;版权 (C) %2 The Qt Company Ltd。</translation>
     </message>
 </context>
 <context>
@@ -3290,7 +3290,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Select all</source>
-        <translation>全选</translation>
+        <translation>选择全部</translation>
     </message>
     <message>
         <source>Delete</source>
@@ -3451,7 +3451,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Copy All</source>
-        <translation>全部复制</translation>
+        <translation>复制全部</translation>
     </message>
     <message>
         <source>&amp;Find in Text...</source>
@@ -3673,7 +3673,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>%1, %2</source>
-        <translation>%1, %2</translation>
+        <translation>%1 - %2</translation>
     </message>
     <message numerus="yes">
         <source>Customized (%n roles)</source>
@@ -4357,7 +4357,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>...</source>
-        <translation></translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Icon th&amp;eme:</source>
@@ -4414,7 +4414,7 @@ Please select another name.</source>
     <name>qdesigner_internal::NewFormWidget</name>
     <message>
         <source>0</source>
-        <translation></translation>
+        <translation>0</translation>
     </message>
     <message>
         <source>Choose a template for a preview</source>
@@ -4544,7 +4544,7 @@ Please select another name.</source>
     </message>
     <message>
         <source>%1 %2</source>
-        <translation>%1 %2</translation>
+        <translation>%1 - %2</translation>
     </message>
 </context>
 <context>
@@ -4636,7 +4636,7 @@ Please select another name.</source>
     </message>
     <message>
         <source>...</source>
-        <translation></translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>[Theme] %1</source>
@@ -4789,7 +4789,7 @@ ate the goose who was loose.</source>
     <message>
         <source>ComboBox</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>Combobox</translation>
+        <translation>ComboBox</translation>
     </message>
     <message>
         <source>PushButton</source>
@@ -4804,7 +4804,7 @@ ate the goose who was loose.</source>
     <message>
         <source>CheckBox1</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>Checkbox1</translation>
+        <translation>CheckBox1</translation>
     </message>
     <message>
         <source>CheckBox2</source>
@@ -4829,7 +4829,7 @@ ate the goose who was loose.</source>
     <message>
         <source>RadioButton3</source>
         <extracomment>Palette Editor Preview Widget</extracomment>
-        <translation>RadioBUtton3</translation>
+        <translation>RadioButton3</translation>
     </message>
 </context>
 <context>
@@ -4863,7 +4863,7 @@ ate the goose who was loose.</source>
     </message>
     <message>
         <source>Change signals/slots...</source>
-        <translation>改变信号/槽...</translation>
+        <translation>改变 信号/槽...</translation>
     </message>
     <message>
         <source>Promote to</source>
@@ -4950,7 +4950,7 @@ Class: %2</source>
     </message>
     <message>
         <source>Change signals/slots...</source>
-        <translation>改变信号/槽...</translation>
+        <translation>改变 信号/槽...</translation>
     </message>
     <message>
         <source>%1 - Error</source>
@@ -5048,7 +5048,7 @@ Class: %2</source>
     </message>
     <message>
         <source>Change signals/slots...</source>
-        <translation>改变信号/槽...</translation>
+        <translation>改变 信号/槽...</translation>
     </message>
     <message>
         <source>Go to slot...</source>
@@ -5458,7 +5458,7 @@ Class: %2</source>
     </message>
     <message>
         <source>...</source>
-        <translation></translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Pick a directory to save templates in</source>
@@ -5496,7 +5496,7 @@ Class: %2</source>
     </message>
     <message>
         <source>...</source>
-        <translation></translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Choose a File</source>
@@ -5542,7 +5542,7 @@ Class: %2</source>
     </message>
     <message>
         <source>1</source>
-        <translation></translation>
+        <translation>1</translation>
     </message>
     <message>
         <source>New Item</source>
@@ -5703,7 +5703,7 @@ Class: %2</source>
         <source>Attempt to add a layout to a widget &apos;%1&apos; (%2) which already has an unmanaged layout of type %3.
 This indicates an inconsistency in the ui-file.</source>
         <translation>试图向一个已经包含了类型为 %3 的非托管布局的窗口部件 “%1”（%2）添加布局。
-这表明这个 ui 文件中有矛盾。</translation>
+这表明这个ui文件中有矛盾。</translation>
     </message>
     <message>
         <source>Cannot create style &apos;%1&apos;.</source>
@@ -5734,81 +5734,6 @@ This indicates an inconsistency in the ui-file.</source>
     <message>
         <source>&amp;Zoom</source>
         <translation>缩放(&amp;Z)</translation>
-    </message>
-</context>
-<context>
-    <name>QPlatformTheme</name>
-    <message>
-        <source>OK</source>
-        <translation>确定</translation>
-    </message>
-    <message>
-        <source>Save</source>
-        <translation>保存</translation>
-    </message>
-    <message>
-        <source>Save All</source>
-        <translation>全部保存</translation>
-    </message>
-    <message>
-        <source>Open</source>
-        <translation>打开</translation>
-    </message>
-    <message>
-        <source>&amp;Yes</source>
-        <translation>是(&amp;Y)</translation>
-    </message>
-    <message>
-        <source>Yes to &amp;All</source>
-        <translation>全是(&amp;A)</translation>
-    </message>
-    <message>
-        <source>&amp;No</source>
-        <translation>否(&amp;N)</translation>
-    </message>
-    <message>
-        <source>N&amp;o to All</source>
-        <translation>全否(&amp;O)</translation>
-    </message>
-    <message>
-        <source>Abort</source>
-        <translation>中止</translation>
-    </message>
-    <message>
-        <source>Retry</source>
-        <translation>重试</translation>
-    </message>
-    <message>
-        <source>Ignore</source>
-        <translation>忽略</translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation>关闭</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>取消</translation>
-    </message>
-    <message>
-        <source>Discard</source>
-        <translation>放弃</translation>
-    </message>
-    <message>
-        <source>Help</source>
-        <translation>帮助</translation>
-    </message>
-    <message>
-        <source>Apply</source>
-        <translation>应用</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>重置</translation>
-    </message>
-    <message>
-        <source>Restore Defaults</source>
-        <translation>恢复默认</translation>
     </message>
 </context>
 </TS>
