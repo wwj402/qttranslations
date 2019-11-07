@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="zh_CN">
 <context>
     <name>AbstractFindWidget</name>
     <message>
@@ -342,7 +342,7 @@
     </message>
     <message>
         <source>Break layout</source>
-        <translation>分拆 布局</translation>
+        <translation>分拆布局</translation>
     </message>
     <message>
         <source>Simplify Grid Layout</source>
@@ -1250,7 +1250,7 @@ This indicates an inconsistency in the ui-file.</source>
     </message>
     <message>
         <source>Invalid UI file: The root element &lt;ui&gt; is missing.</source>
-        <translation>无效 ui 文件：缺少根元素 &lt;ui&gt;。</translation>
+        <translation>无效 UI 文件：缺少根元素 &lt;ui&gt;。</translation>
     </message>
     <message>
         <source>Invalid UI file</source>
@@ -2480,7 +2480,7 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>Flip All</source>
-        <translation>翻转全部</translation>
+        <translation>全部翻转</translation>
     </message>
     <message>
         <source>Select All</source>
@@ -2549,7 +2549,7 @@ Container pages should only be added by specifying them in XML returned by the d
     </message>
     <message>
         <source>%1, %2</source>
-        <translation>%1 - %2</translation>
+        <translation>%1, %2</translation>
     </message>
     <message>
         <source>Language</source>
@@ -2906,7 +2906,7 @@ to
     <name>QtSizeFPropertyManager</name>
     <message>
         <source>%1 x %2</source>
-        <translation>%1 - %2</translation>
+        <translation>%1 x %2</translation>
     </message>
     <message>
         <source>Width</source>
@@ -3133,7 +3133,7 @@ Do you want overwrite the template?</source>
     <name>SignalSlotConnection</name>
     <message>
         <source>SENDER(%1), SIGNAL(%2), RECEIVER(%3), SLOT(%4)</source>
-        <translation>SENDER(%1), SIGNAL(%2), RECEIVER(%3), SLOT(%4)</translation>
+        <translation>发送者(%1)，信号(%2)，接收者(%3)，槽(%4)</translation>
     </message>
 </context>
 <context>
@@ -3247,10 +3247,6 @@ Do you want overwrite the template?</source>
 <context>
     <name>WidgetDataBase</name>
     <message>
-        <source>A custom widget plugin whose class name (%1) matches that of an existing class has been found.</source>
-        <translation>类名称为 %1 的自定义窗口部件插件和一个已经存在的类一样。</translation>
-    </message>
-    <message>
         <source>The file contains a custom widget &apos;%1&apos; whose base class (%2) differs from the current entry in the widget database (%3). The widget database is left unchanged.</source>
         <translation>这个文件包含了一个自定义窗口部件“%1”，其基类(%2)和窗口部件数据库(%3)的当前条目不同。这个窗口部件数据库并未做任何改动。</translation>
     </message>
@@ -3290,7 +3286,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Select all</source>
-        <translation>选择全部</translation>
+        <translation>全选</translation>
     </message>
     <message>
         <source>Delete</source>
@@ -3451,7 +3447,7 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>Copy All</source>
-        <translation>复制全部</translation>
+        <translation>全部复制</translation>
     </message>
     <message>
         <source>&amp;Find in Text...</source>
@@ -3673,12 +3669,12 @@ Do you want overwrite the template?</source>
     </message>
     <message>
         <source>%1, %2</source>
-        <translation>%1 - %2</translation>
+        <translation>%1, %2</translation>
     </message>
     <message numerus="yes">
         <source>Customized (%n roles)</source>
         <translation>
-            <numerusform>自定义的(%n 个角色)</numerusform>
+            <numerusform>自定义的（%n 个角色）</numerusform>
         </translation>
     </message>
     <message>
@@ -4544,7 +4540,7 @@ Please select another name.</source>
     </message>
     <message>
         <source>%1 %2</source>
-        <translation>%1 - %2</translation>
+        <translation>%1 %2</translation>
     </message>
 </context>
 <context>
@@ -4771,7 +4767,8 @@ Please select another name.</source>
         <source>The moose in the noose
 ate the goose who was loose.</source>
         <extracomment>Palette editor background</extracomment>
-        <translation></translation>
+        <translation>The moose in the noose
+ate the goose who was loose.</translation>
     </message>
 </context>
 <context>
@@ -5679,6 +5676,13 @@ Class: %2</source>
     </message>
 </context>
 <context>
+    <name>qdesigner_internal::WidgetDataBase</name>
+    <message>
+        <source>A custom widget plugin whose class name (%1) matches that of an existing class has been found.</source>
+        <translation>已找到一个自定义小部件插件，其类名 （%1） 与现有类的类名称匹配。</translation>
+    </message>
+</context>
+<context>
     <name>qdesigner_internal::WidgetEditorTool</name>
     <message>
         <source>Edit Widgets</source>
@@ -5703,7 +5707,7 @@ Class: %2</source>
         <source>Attempt to add a layout to a widget &apos;%1&apos; (%2) which already has an unmanaged layout of type %3.
 This indicates an inconsistency in the ui-file.</source>
         <translation>试图向一个已经包含了类型为 %3 的非托管布局的窗口部件 “%1”（%2）添加布局。
-这表明这个ui文件中有矛盾。</translation>
+这表明这个 UI 文件中有矛盾。</translation>
     </message>
     <message>
         <source>Cannot create style &apos;%1&apos;.</source>

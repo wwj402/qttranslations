@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="zh_CN">
 <context>
     <name>EditorialDelegate</name>
     <message>
@@ -334,7 +334,7 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     </message>
     <message>
         <source>Phone: </source>
-        <translation>电话：</translation>
+        <translation>电话： </translation>
     </message>
     <message>
         <source>000-000-000</source>
@@ -342,11 +342,11 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     </message>
     <message>
         <source>Fax: </source>
-        <translation>传真：</translation>
+        <translation>传真： </translation>
     </message>
     <message>
         <source>Email: </source>
-        <translation>电子邮件：</translation>
+        <translation>电子邮件： </translation>
     </message>
     <message>
         <source>name@company.com</source>
@@ -354,7 +354,7 @@ Please visit https://developers.arcgis.com/authentication/accessing-arcgis-onlin
     </message>
     <message>
         <source>Website: </source>
-        <translation>网站：</translation>
+        <translation>网站： </translation>
     </message>
     <message>
         <source>http:://company.com</source>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="zh_CN">
 <context>
     <name>AbstractButtonSection</name>
     <message>
@@ -408,22 +408,22 @@
     <name>DocumentHandler</name>
     <message>
         <source>Cannot save: </source>
-        <translation>无法保存：</translation>
+        <translation>无法保存： </translation>
     </message>
 </context>
 <context>
     <name>FitnessPage</name>
     <message>
         <source>Steps: </source>
-        <translation>步数：</translation>
+        <translation>步数： </translation>
     </message>
     <message>
         <source>Calories: </source>
-        <translation>热量：</translation>
+        <translation>热量： </translation>
     </message>
     <message>
         <source>Distance: </source>
-        <translation>距离：</translation>
+        <translation>距离： </translation>
     </message>
     <message>
         <source> miles</source>
@@ -431,7 +431,7 @@
     </message>
     <message>
         <source>Time: </source>
-        <translation>时间：</translation>
+        <translation>时间： </translation>
     </message>
     <message>
         <source> mins</source>

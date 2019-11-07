@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="zh_CN">
 <context>
     <name>AudioContainerControl</name>
     <message>
@@ -682,10 +682,6 @@ Please check the media service plugins are installed.</source>
 </context>
 <context>
     <name>QAndroidCameraSession</name>
-    <message>
-        <source>Camera cannot be started without a viewfinder.</source>
-        <translation>没有取景器，相机无法启动。</translation>
-    </message>
     <message>
         <source>Camera not ready</source>
         <translation>相机未就绪</translation>

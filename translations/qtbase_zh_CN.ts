@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="zh_CN">
 <context>
     <name>CloseButton</name>
     <message>
@@ -980,7 +980,7 @@ Press ESC to cancel</source>
     </message>
     <message>
         <source>Cannot open for output</source>
-        <translation>无法打开输出</translation>
+        <translation>无法打开以进行输出</translation>
     </message>
     <message>
         <source>Failure to write block</source>
@@ -1046,7 +1046,7 @@ Press ESC to cancel</source>
     </message>
     <message>
         <source>Alt+Up</source>
-        <translation>Alt+Up</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Create New Folder</source>
@@ -1313,7 +1313,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Thin</source>
-        <translation>细线</translation>
+        <translation>细体</translation>
     </message>
     <message>
         <source>Extra Light</source>
@@ -1475,7 +1475,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>N&apos;Ko</source>
-        <translation>N&apos;Ko</translation>
+        <translation>N&apos;Ko(西非书面语)</translation>
     </message>
 </context>
 <context>
@@ -1674,16 +1674,16 @@ Do you want to delete it anyway?</source>
 <context>
     <name>QHttp</name>
     <message>
+        <source>Connection closed</source>
+        <translation>连接已关闭</translation>
+    </message>
+    <message>
         <source>Host %1 not found</source>
         <translation>主机 %1 没有找到</translation>
     </message>
     <message>
         <source>Connection refused</source>
         <translation>连接被拒绝</translation>
-    </message>
-    <message>
-        <source>Connection closed</source>
-        <translation>连接已关闭</translation>
     </message>
     <message>
         <source>Proxy requires authentication</source>
@@ -2413,7 +2413,7 @@ Do you want to delete it anyway?</source>
     <message>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
         <extracomment>Leave this text untranslated or include a verbatim copy of it below and note that it is the authoritative version in case of doubt.</extracomment>
-        <translation>&lt;p&gt;Qt 是一个用于跨平台应用程序开发的 C++ 工具包。&lt;/p&gt;&lt;p&gt;Qt 提供跨所有主要桌面操作系统的单一来源可移植性。它也可用于嵌入式 Linux 和其他嵌入式和移动操作系统。&lt;/p&gt;&lt;p&gt;Qt 可在多种许可选项下使用，旨在满足各种用户的需求。&lt;/p&gt;&lt;p&gt;在我们的商业许可协议授权的 Qt 许可，适用于开发专有/商业软件，您不希望与第三方共享任何源代码或不符合 GNU (L)GPL 条款。&lt;/p&gt;&lt;p&gt;在 GNU (L)GPL 下获得许可的 Qt 适用于 Qt 应用程序的开发，前提是您可以遵守相应许可证的条款和条件。&lt;/p&gt;&lt;p&gt;请参阅 &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; 获取 Qt 许可的概要。&lt;/p&gt;&lt;p&gt;版权所有 (C) %1 Qt Company Ltd 和其他贡献者。&lt;/p&gt;&lt;p&gt;Qt 和 Qt 徽标是 The Qt Company Ltd 的商标。&lt;/p&gt;&lt;p&gt;Qt 是作为开源项目开发的 Qt Company Ltd 产品。有关详细信息，请参阅 &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt;。&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Qt 是一个用于跨平台应用程序开发的 C++ 工具包。&lt;/p&gt;&lt;p&gt;Qt 提供跨所有主要桌面操作系统的单一来源可移植性。它也可用于嵌入式 Linux 和其他嵌入式和移动操作系统。&lt;/p&gt;&lt;p&gt;Qt 可在多种许可选项下使用，旨在满足各种用户的需求。&lt;/p&gt;&lt;p&gt;在我们的商业许可协议授权的 Qt 许可，适用于开发专有/商业软件，您不希望与第三方共享任何源代码或不符合 GNU (L)GPL 条款。&lt;/p&gt;&lt;p&gt;在 GNU (L)GPL 下获得许可的 Qt 适用于 Qt 应用程序的开发，前提是您可以遵守相应许可证的条款和条件。&lt;/p&gt;&lt;p&gt;请参阅&lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt;获取 Qt 许可的概要。&lt;/p&gt;&lt;p&gt;版权 (C) %1 Qt Company Ltd 和其他贡献者。&lt;/p&gt;&lt;p&gt;Qt 和 Qt 徽标是 The Qt Company Ltd 的商标。&lt;/p&gt;&lt;p&gt;Qt 是作为开源项目开发的 Qt Company Ltd 产品。有关详细信息，请参见&lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt;。&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About Qt</source>
@@ -3498,7 +3498,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <source>Save All</source>
-        <translation>保存全部</translation>
+        <translation>全部保存</translation>
     </message>
     <message>
         <source>Open</source>
@@ -3924,7 +3924,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Color</source>
-        <translation>颜色</translation>
+        <translation>彩色</translation>
     </message>
     <message>
         <source>Grayscale</source>
@@ -3983,7 +3983,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>...</source>
-        <translation>...</translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -5493,11 +5493,11 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>Messenger</source>
-        <translation>Messenger</translation>
+        <translation>信使</translation>
     </message>
     <message>
         <source>WebCam</source>
-        <translation>WebCam</translation>
+        <translation>摄像头</translation>
     </message>
     <message>
         <source>Mail Forward</source>
@@ -5928,7 +5928,7 @@ Please turn one of those options off.</source>
     </message>
     <message>
         <source>+</source>
-        <translation></translation>
+        <translation>+</translation>
     </message>
     <message>
         <source>F%1</source>
@@ -6347,6 +6347,21 @@ Role of an accessible object</extracomment>
         <source>complementary content</source>
         <extracomment>Role of an accessible object</extracomment>
         <translation>补充内容</translation>
+    </message>
+    <message>
+        <source>terminal</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>终端</translation>
+    </message>
+    <message>
+        <source>desktop</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>桌面</translation>
+    </message>
+    <message>
+        <source>notification</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>通知</translation>
     </message>
     <message>
         <source>unknown</source>
@@ -6961,8 +6976,7 @@ Role of an accessible object</extracomment>
 The minimum Direct2D version required is %1. The Direct2D version on this system is %2.</source>
         <translation>Qt 无法加载 direct2d 平台插件，因为此系统上的 Direct2D 版本太旧了。此平台插件的最低系统要求是带有平台更新的 Windows 7 SP1。
 
-所需的最低 Direct2D 版本为 %1。此系统上的Direct2D版本为 %2。
-</translation>
+所需的最低 Direct2D 版本为 %1。此系统上的Direct2D版本为 %2。</translation>
     </message>
     <message>
         <source>Cannot load direct2d platform plugin</source>

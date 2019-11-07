@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="zh_CN">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -891,7 +891,7 @@ Reason:
     </message>
     <message>
         <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;p&gt;Browser: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %4 The Qt Company Ltd.&lt;/p&gt;</source>
-        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;版本 %2&lt;/p&gt;&lt;p&gt;浏览器：%3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;版权所有 (C) %4 The Qt Company Ltd。&lt;/p&gt;</translation>
+        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;版本 %2&lt;/p&gt;&lt;p&gt;浏览器：%3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;版权 (C) %4 The Qt Company Ltd。&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About %1</source>
@@ -1280,12 +1280,14 @@ qhelpgenerator &lt;file&gt; [options]
     <message>
         <source>Could not open %1.
 </source>
-        <translation>无法打开 %1。</translation>
+        <translation>无法打开 %1。
+</translation>
     </message>
     <message>
         <source>Could not create output directory: %1
 </source>
-        <translation>无法创建输出目录：%1</translation>
+        <translation>无法创建输出目录：%1
+</translation>
     </message>
 </context>
 <context>

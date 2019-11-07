@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="zh_CN">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -97,7 +97,7 @@
     </message>
     <message>
         <source>&lt;p&gt;* ID: %1</source>
-        <translation>&lt;p&gt;* ID: %1</translation>
+        <translation>&lt;p&gt;* ID：%1</translation>
     </message>
     <message>
         <source>&lt;p&gt;* Context: %1&lt;br&gt;* Source: %2</source>
@@ -629,7 +629,8 @@ lrelease 是 Qt 语言学工具链的一部分。它可以用作
     <message>
         <source>Unterminated/mismatched C++ Raw string
 </source>
-        <translation>未终止/不匹配的 C++ Raw 字符串</translation>
+        <translation>未终止/不匹配的 C++ Raw 字符串
+</translation>
     </message>
     <message>
         <source>Unterminated C++ string
@@ -712,7 +713,8 @@ lrelease 是 Qt 语言学工具链的一部分。它可以用作
     <message>
         <source>//= cannot be used with qtTrId() / QT_TRID_NOOP(). Ignoring
 </source>
-        <translation>//= 不能与 qtTrId() / QT_TRID_NOOP() 一起使用。忽略</translation>
+        <translation>//= 不能与 qtTrId() / QT_TRID_NOOP() 一起使用。忽略
+</translation>
     </message>
     <message>
         <source>Ignoring definition of undeclared qualified class
@@ -747,7 +749,8 @@ lrelease 是 Qt 语言学工具链的一部分。它可以用作
     <message>
         <source>Unbalanced opening bracket in C++ code (or abuse of the C++ preprocessor)
 </source>
-        <translation>C++ 代码中的不平衡的左方括号（或滥用 C++ 预处理器）</translation>
+        <translation>C++ 代码中的不平衡的左方括号（或滥用 C++ 预处理器）
+</translation>
     </message>
     <message>
         <source>Unexpected character in meta string
@@ -844,9 +847,9 @@ Options:
     -no-sort
            Do not sort contexts in TS files.
     -no-recursive
-           Do not recursively scan the following directories.
+           Do not recursively scan directories.
     -recursive
-           Recursively scan the following directories (default).
+           Recursively scan directories (default).
     -I &lt;includepath&gt; or -I&lt;includepath&gt;
            Additional location to look for include files.
            May be specified multiple times.
@@ -985,6 +988,12 @@ Available tr-functions are: %2</source>
 </translation>
     </message>
     <message>
+        <source>File %1 won&apos;t be updated: it contains translation but the target language is not recognized
+</source>
+        <translation>文件 %1 将不更新：它包含翻译，但目标语言无法识别
+</translation>
+    </message>
+    <message>
         <source>Updating &apos;%1&apos;...
 </source>
         <translation>正在更新 &quot;%1&quot;...
@@ -1005,7 +1014,8 @@ Available tr-functions are: %2</source>
     <message>
         <source>unexpected &lt;%1&gt; tag
 </source>
-        <translation>异常的&lt;%1&gt;标记</translation>
+        <translation>异常的&lt;%1&gt;标记
+</translation>
     </message>
     <message>
         <source>unexpected closing &lt;%1&gt; tag
@@ -1142,13 +1152,13 @@ Available tr-functions are: %2</source>
     <message>
         <source>lupdate error: File &apos;%1&apos; has no recognized extension.
 </source>
-        <translation>lupdate 错误：文件 &quot;%1&quot; 没有可识别的扩展名。
+        <translation>lupdate 错误：文件 apos;%1apos; 没有可识别的扩展名。
 </translation>
     </message>
     <message>
         <source>lupdate error: File &apos;%1&apos; does not exist.
 </source>
-        <translation>lupdate错误：文件 &quot;%1&quot;不存在。
+        <translation>lupdate 错误：文件 apos;%1apos; 不存在。
 </translation>
     </message>
     <message>
@@ -1172,7 +1182,7 @@ Available tr-functions are: %2</source>
     <message>
         <source>lupdate error: Both project and source files / include paths specified.
 </source>
-        <translation>lupdate 错误：同时指定了项目和 源文件/包含路径。
+        <translation>lupdate 错误：项目和源文件/包括指定的路径。
 </translation>
     </message>
     <message numerus="yes">
@@ -1226,7 +1236,8 @@ Available tr-functions are: %2</source>
     <message>
         <source>//% cannot be used with %1(). Ignoring
 </source>
-        <translation>//% 不能与 %1() 一起使用。忽略</translation>
+        <translation>//% 不能与 %1() 一起使用。忽略
+</translation>
     </message>
     <message>
         <source>%1() requires at least two arguments.
@@ -1237,7 +1248,8 @@ Available tr-functions are: %2</source>
     <message>
         <source>//= cannot be used with %1(). Ignoring
 </source>
-        <translation>//% 不能与 %1() 一起使用。忽略</translation>
+        <translation>//= 不能与 %1() 一起使用。忽略
+</translation>
     </message>
     <message>
         <source>Maximum statement or expression depth exceeded</source>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="zh_CN">
 <context>
     <name>DefaultColorDialog</name>
     <message>
@@ -268,7 +268,7 @@
     <name>DocumentHandler</name>
     <message>
         <source>Cannot save: </source>
-        <translation>无法保存：</translation>
+        <translation>无法保存： </translation>
     </message>
 </context>
 <context>

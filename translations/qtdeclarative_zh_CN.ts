@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="zh_CN">
 <context>
     <name></name>
     <message id="qtn_hello_world">
@@ -924,7 +924,7 @@
     </message>
     <message>
         <source>Invalid signal parameter type: </source>
-        <translation>信号参数类型无效：</translation>
+        <translation>信号参数类型无效： </translation>
     </message>
     <message>
         <source>Invalid property type modifier</source>
@@ -1083,6 +1083,10 @@
     <message>
         <source>Invalid property type</source>
         <translation>无效的属性类型</translation>
+    </message>
+    <message>
+        <source>Cyclic alias</source>
+        <translation>循环别名</translation>
     </message>
     <message>
         <source>Invalid alias target</source>

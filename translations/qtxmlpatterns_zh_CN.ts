@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="zh_CN">
 <context>
     <name>MainWindow</name>
     <message>
@@ -1151,8 +1151,8 @@ p, li { white-space: pre-wrap; }
         <translation>%1 的项目类型的变体必须是原子或联合体。</translation>
     </message>
     <message>
-        <source>Variety of member types of %1 must be atomic.</source>
-        <translation>%1 的成员类型的变体必须是原子。</translation>
+        <source>Variety of member types of %1 must be atomic or union.</source>
+        <translation>%1 的成员类型的变体必须是原子或联合体。</translation>
     </message>
     <message>
         <source>%1 is not allowed to derive from %2 by list as the latter defines it as final.</source>
