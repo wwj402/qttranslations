@@ -1,371 +1,310 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="zh">
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE TS><TS version="2.1">
 <context>
-    <name>QCLuceneResultWidget</name>
+    <name>FilterNameDialogClass</name>
     <message>
-        <location filename="../tools/assistant/lib/qhelpsearchresultwidget.cpp" line="+110"/>
-        <source>Search Results</source>
-        <translation>搜索结果</translation>
+        <location filename="C:/Qt/5.15.1/Src/qttools/src/assistant/help/qfilternamedialog.ui" line="+14"/>
+        <source>Add Filter</source>
+        <translation>添加过滤器</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Note:</source>
-        <translation>注释：</translation>
+        <location line="+6"/>
+        <source>Filter Name:</source>
+        <translation>过滤器名称：</translation>
     </message>
+</context>
+<context>
+    <name>QHelp</name>
     <message>
-        <location line="+1"/>
-        <source>The search results may not be complete since the documentation is still being indexed!</source>
-        <translation>搜索结果也许并不完整，因为该文档正在被索引！</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Your search did not match any documents.</source>
-        <translation>没有找到和您的搜索匹配的任何文档。</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>(The reason for this might be that the documentation is still being indexed.)</source>
-        <translation>（发生这种情况的原因可能是因为该文档正在被索引。）</translation>
+        <location filename="C:/Qt/5.15.1/Src/qttools/src/assistant/help/qhelp_global.cpp" line="+60"/>
+        <source>Untitled</source>
+        <translation>未命名</translation>
     </message>
 </context>
 <context>
     <name>QHelpCollectionHandler</name>
     <message>
-        <location filename="../tools/assistant/lib/qhelpcollectionhandler.cpp" line="+79"/>
-        <source>The collection file is not set up yet!</source>
-        <translation>还没有设置收藏文件呢！</translation>
+        <location filename="C:/Qt/5.15.1/Src/qttools/src/assistant/help/qhelpcollectionhandler.cpp" line="+110"/>
+        <source>The collection file "%1" is not set up yet.</source>
+        <translation>尚未设置集合文件“%1”。</translation>
     </message>
     <message>
-        <location line="+22"/>
-        <source>Cannot load sqlite database driver!</source>
-        <translation>不能加载sqlite数据库驱动！</translation>
+        <location line="+33"/>
+        <source>Cannot load sqlite database driver.</source>
+        <translation>无法加载 sqlite 数据库驱动程序。</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <location line="+48"/>
+        <location line="+10"/>
+        <location line="+222"/>
         <source>Cannot open collection file: %1</source>
-        <translation>不能打开收藏文件：%1</translation>
+        <translation>无法打开集合文件：%1</translation>
     </message>
     <message>
-        <location line="-39"/>
-        <source>Cannot create tables in file %1!</source>
-        <translation>不能在文件 %1 中创建表格！</translation>
+        <location line="-203"/>
+        <source>Cannot create tables in file %1.</source>
+        <translation>无法打开集合文件：%1</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>The specified collection file already exists!</source>
-        <translation>指定的收藏文件已经存在！</translation>
+        <location line="+36"/>
+        <source>Cannot create index tables in file %1.</source>
+        <translation>无法在文件 %1 中创建索引表。</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Cannot create directory: %1</source>
-        <translation>不能创建目录：%1</translation>
+        <location line="+12"/>
+        <source>Cannot register index tables in file %1.</source>
+        <translation>无法在文件 %1 中注册索引表。</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <source>Cannot copy collection file: %1</source>
-        <translation>不能复制收藏文件：%1</translation>
+        <location line="+31"/>
+        <source>Cannot unregister index tables in file %1.</source>
+        <translation>无法取消注册文件 %1 中的索引表。</translation>
     </message>
     <message>
-        <location line="+119"/>
-        <source>Unknown filter!</source>
-        <translation>未知的过滤器！</translation>
-    </message>
-    <message>
-        <location line="+55"/>
-        <source>Cannot register filter %1!</source>
-        <translation>不能注册过滤器 %1！</translation>
-    </message>
-    <message>
-        <location line="+44"/>
-        <source>Cannot open documentation file %1!</source>
-        <translation>不能打开文档文件 %1！</translation>
+        <location line="+100"/>
+        <source>The collection file "%1" already exists.</source>
+        <translation>集合文件“%1”已存在。</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Invalid documentation file!</source>
-        <translation>无效的文档文件！</translation>
+        <source>Cannot create directory: %1</source>
+        <translation>无法创建目录：%1</translation>
     </message>
     <message>
-        <location line="+34"/>
-        <source>The namespace %1 was not registered!</source>
-        <translation>命名空间 %1 还没有被注册！</translation>
+        <location line="+26"/>
+        <source>Cannot copy collection file: %1</source>
+        <translation>无法复制集合文件：%1</translation>
     </message>
     <message>
-        <location line="+120"/>
-        <source>Namespace %1 already exists!</source>
-        <translation>命名空间 %1 已经存在！</translation>
+        <location line="+384"/>
+        <source>Unknown filter "%1".</source>
+        <translation>未知过滤器“%1”。</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Cannot register namespace!</source>
-        <translation>不能注册命名空间！</translation>
+        <location line="+54"/>
+        <source>Cannot register filter %1.</source>
+        <translation>无法注册过滤器 %1。</translation>
     </message>
     <message>
-        <location line="+24"/>
-        <source>Cannot open database to optimize!</source>
-        <translation>不能打开数据库进行优化！</translation>
+        <location line="+82"/>
+        <source>Cannot open documentation file %1.</source>
+        <translation>无法打开文档文件 %1。</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Invalid documentation file "%1".</source>
+        <translation>文档文件“%1”无效。</translation>
+    </message>
+    <message>
+        <location line="+33"/>
+        <location line="+16"/>
+        <source>The namespace %1 was not registered.</source>
+        <translation>命名空间 %1 未注册。</translation>
+    </message>
+    <message>
+        <location line="+890"/>
+        <source>Namespace %1 already exists.</source>
+        <translation>命名空间 %1 已存在。</translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>Cannot register namespace "%1".</source>
+        <translation>无法注册命名空间“%1”。</translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Cannot register virtual folder '%1'.</source>
+        <translation>无法注册虚拟文件夹“%1”。</translation>
+    </message>
+    <message>
+        <location line="+106"/>
+        <source>Version %1</source>
+        <translation>版本 %1</translation>
     </message>
 </context>
 <context>
     <name>QHelpDBReader</name>
     <message>
-        <source>Cannot open DB!</source>
-        <translation type="obsolete">不能打开数据库！</translation>
-    </message>
-    <message>
-        <location filename="../tools/assistant/lib/qhelpdbreader.cpp" line="+95"/>
-        <source>Cannot open database &apos;%1&apos; &apos;%2&apos;: %3</source>
-        <translation>不能打开数据库“%1” “%2”：%3</translation>
+        <location filename="C:/Qt/5.15.1/Src/qttools/src/assistant/help/qhelpdbreader.cpp" line="+103"/>
+        <source>Cannot open database "%1" "%2": %3</source>
+        <extracomment>The placeholders are: %1 - The name of the database which cannot be opened %2 - The unique id for the connection %3 - The actual error string</extracomment>
+        <translation>无法打开数据库“%1”“%2”：%3</translation>
     </message>
 </context>
 <context>
-    <name>QHelpEngineCore</name>
+    <name>QHelpFilterSettingsWidget</name>
     <message>
-        <location filename="../tools/assistant/lib/qhelpenginecore.cpp" line="+516"/>
-        <source>The specified namespace does not exist!</source>
-        <translation>指定的命名空间不存在！</translation>
-    </message>
-</context>
-<context>
-    <name>QHelpEngineCorePrivate</name>
-    <message>
-        <location line="-394"/>
-        <source>Cannot open documentation file %1: %2!</source>
-        <translation>不能打开文档文件%1：%2！</translation>
-    </message>
-    <message>
-        <source>Cannot open documentation file %1!</source>
-        <translation type="obsolete">不能打开文档文件 %1！</translation>
-    </message>
-</context>
-<context>
-    <name>QHelpGenerator</name>
-    <message>
-        <location filename="../tools/assistant/lib/qhelpgenerator.cpp" line="+157"/>
-        <source>Invalid help data!</source>
-        <translation>无效的帮助数据！</translation>
+        <location filename="C:/Qt/5.15.1/Src/qttools/src/assistant/help/qhelpfiltersettingswidget.ui" line="+14"/>
+        <source>Form</source>
+        <translation>窗体</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>No output file name specified!</source>
-        <translation>不能输出指定的文件名！</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Building up file structure...</source>
-        <translation>正在构建文件结构...</translation>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>Cannot register namespace %1!</source>
-        <translation>不能注册命名空间 %1！</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Insert custom filters...</source>
-        <translation>插入自定义过滤器...</translation>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>Insert help data for filter section (%1 of %2)...</source>
-        <translation>为过滤器段（%2 的 %1）插入帮助数据...</translation>
-    </message>
-    <message>
-        <location line="+18"/>
-        <source>Documentation successfully generated.</source>
-        <translation>文档已经被成功生成。</translation>
-    </message>
-    <message>
-        <location line="+76"/>
-        <source>Some tables already exist!</source>
-        <translation>一些表格已经存在！</translation>
-    </message>
-    <message>
-        <location line="+61"/>
-        <source>Cannot create tables!</source>
-        <translation>不能创建表格！</translation>
-    </message>
-    <message>
-        <location line="+86"/>
-        <source>Cannot register virtual folder!</source>
-        <translation>不能注册虚拟文件夹！</translation>
+        <source>Filter</source>
+        <translation>过滤器</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Insert files...</source>
-        <translation>插入文件...</translation>
-    </message>
-    <message>
-        <location line="+41"/>
-        <source>The file %1 does not exist! Skipping it.</source>
-        <translation>文件 %1 不存在！正在忽略它。</translation>
+        <source>Components</source>
+        <translation>组件</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Cannot open file %1! Skipping it.</source>
-        <translation>不能打开文件 %1！正在忽略它。</translation>
+        <source>Versions</source>
+        <translation>版本</translation>
     </message>
     <message>
-        <location line="+134"/>
-        <source>The filter %1 is already registered!</source>
-        <translation>过滤器 %1 已经被注册！</translation>
+        <location line="+16"/>
+        <source>Add...</source>
+        <translation>添加...</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Cannot register filter %1!</source>
-        <translation>不能注册过滤器 %1！</translation>
+        <location line="+7"/>
+        <source>Rename...</source>
+        <translation>重命名...</translation>
     </message>
     <message>
-        <location line="+24"/>
-        <source>Insert indices...</source>
-        <translation>插入索引...</translation>
+        <location line="+7"/>
+        <source>Remove</source>
+        <translation>移除</translation>
     </message>
     <message>
-        <location line="+80"/>
-        <source>Insert contents...</source>
-        <translation>插入内容...</translation>
+        <location filename="C:/Qt/5.15.1/Src/qttools/src/assistant/help/qhelpfiltersettingswidget.cpp" line="+177"/>
+        <source>Add Filter</source>
+        <translation>添加过滤器</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Cannot insert contents!</source>
-        <translation>不能插入内容！</translation>
+        <location line="+1"/>
+        <source>New Filter</source>
+        <translation>新建过滤器</translation>
     </message>
     <message>
-        <location line="+12"/>
-        <source>Cannot register contents!</source>
-        <translation>不能注册内容！</translation>
+        <location line="+13"/>
+        <source>Rename Filter</source>
+        <translation>重命名过滤器</translation>
     </message>
     <message>
-        <location line="-609"/>
-        <source>The file %1 cannot be overwritten!</source>
-        <translation>文件 %1 不能被覆盖！</translation>
+        <location line="+20"/>
+        <source>Remove Filter</source>
+        <translation>移除过滤器</translation>
     </message>
     <message>
-        <location line="+18"/>
-        <source>Cannot open data base file %1!</source>
-        <translation>不能打开数据库文件 %1！</translation>
+        <location line="+1"/>
+        <source>Are you sure you want to remove the "%1" filter?</source>
+        <translation>是否确实要删除 "%1" 过滤器？</translation>
+    </message>
+    <message>
+        <location line="+53"/>
+        <source>Filter Exists</source>
+        <translation>过滤器已存在</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>The filter "%1" already exists.</source>
+        <translation>过滤器 "%1" 已存在。</translation>
+    </message>
+    <message>
+        <location line="+103"/>
+        <source>No Component</source>
+        <translation>无组件</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invalid Component</source>
+        <translation>无效组件</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>No Version</source>
+        <translation>无版本</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invalid Version</source>
+        <translation>无效版本</translation>
     </message>
 </context>
 <context>
     <name>QHelpSearchQueryWidget</name>
     <message>
-        <location filename="../tools/assistant/lib/qhelpsearchquerywidget.cpp" line="+200"/>
+        <location filename="C:/Qt/5.15.1/Src/qttools/src/assistant/help/qhelpsearchquerywidget.cpp" line="+113"/>
         <source>Search for:</source>
         <translation>搜索：</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>Search</source>
         <translation>搜索</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Advanced search</source>
-        <translation>高级搜索</translation>
+        <location line="+2"/>
+        <source>Previous search</source>
+        <translation>上一个搜索</translation>
     </message>
     <message>
-        <location line="+18"/>
-        <source>words &lt;B&gt;similar&lt;/B&gt; to:</source>
-        <translation>与之&lt;B&gt;相似&lt;/B&gt;的词：</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>&lt;B&gt;without&lt;/B&gt; the words:</source>
-        <translation>&lt;B&gt;不包含&lt;/B&gt;的词：</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>with &lt;B&gt;exact phrase&lt;/B&gt;:</source>
-        <translation>包含&lt;B&gt;特定短语&lt;/B&gt;：</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>with &lt;B&gt;all&lt;/B&gt; of the words:</source>
-        <translation>包含&lt;B&gt;所有&lt;/B&gt;词：</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>with &lt;B&gt;at least one&lt;/B&gt; of the words:</source>
-        <translation>包含&lt;B&gt;至少一个&lt;/B&gt;词：</translation>
+        <location line="+1"/>
+        <source>Next search</source>
+        <translation>下一个搜索</translation>
     </message>
 </context>
 <context>
     <name>QHelpSearchResultWidget</name>
+    <message numerus="yes">
+        <location filename="C:/Qt/5.15.1/Src/qttools/src/assistant/help/qhelpsearchresultwidget.cpp" line="+212"/>
+        <source>%1 - %2 of %n Hits</source>
+        <translation><numerusform>%1 - %2 共 %n 命中</numerusform></translation>
+    </message>
     <message>
-        <location filename="../tools/assistant/lib/qhelpsearchresultwidget.cpp" line="+235"/>
+        <location line="+59"/>
         <source>0 - 0 of 0 Hits</source>
-        <translation>0 次点击中的 0 - 0</translation>
+        <translation>0 - 0 共 0 命中</translation>
     </message>
 </context>
 <context>
-    <name>QHelpSearchResultWidgetPrivate</name>
+    <name>QOptionsWidget</name>
     <message>
-        <location line="-61"/>
-        <source>%1 - %2 of %3 Hits</source>
-        <translation>%3 次点击中的 %1 - %2</translation>
+        <location filename="C:/Qt/5.15.1/Src/qttools/src/assistant/help/qoptionswidget.cpp" line="+89"/>
+        <source>No Option</source>
+        <translation>无选项</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invalid Option</source>
+        <translation>无效选项</translation>
     </message>
 </context>
 <context>
-    <name>QObject</name>
+    <name>QResultWidget</name>
     <message>
-        <location filename="../tools/assistant/lib/qhelp_global.h" line="+83"/>
-        <source>Untitled</source>
-        <translation>未命名的</translation>
+        <location filename="C:/Qt/5.15.1/Src/qttools/src/assistant/help/qhelpsearchresultwidget.cpp" line="-194"/>
+        <source>Search Results</source>
+        <translation>搜索结果</translation>
     </message>
     <message>
-        <source>Unknown token at line %1.</source>
-        <translation type="obsolete">在行 %1 的未知标记。</translation>
-    </message>
-    <message>
-        <source>Unknown token at line %1. Expected &quot;QtHelpProject&quot;!</source>
-        <translation type="obsolete">在行 %1 的未知标记。需要“QtHelpProject”！</translation>
-    </message>
-    <message>
-        <location filename="../tools/assistant/lib/qhelpprojectdata.cpp" line="+111"/>
-        <source>A virtual folder must not contain a &apos;/&apos; character!</source>
-        <translation>虚拟文件夹必须不包含“/“字符！</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>A namespace must not contain a &apos;/&apos; character!</source>
-        <translation>命名空间必须不包含“/“字符！</translation>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Missing namespace in QtHelpProject.</source>
-        <translation>在 QtHelpProject 中缺少命名空间。</translation>
+        <location line="+6"/>
+        <source>Note:</source>
+        <translation>注：</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Missing virtual folder in QtHelpProject</source>
-        <translation>在 QtHelpProject 中缺少虚拟文件夹。</translation>
-    </message>
-    <message>
-        <location line="+88"/>
-        <source>Missing attribute in keyword at line %1.</source>
-        <translation>在行 %1 中的关键字缺少属性。</translation>
-    </message>
-    <message>
-        <location line="+83"/>
-        <source>The input file %1 could not be opened!</source>
-        <translation>输入文件 %1 不能被打开！</translation>
-    </message>
-    <message>
-        <location line="-224"/>
-        <source>Unknown token.</source>
-        <translation>未知的标记。</translation>
+        <source>The search results may not be complete since the documentation is still being indexed.</source>
+        <translation>搜索结果可能不完整，因为文档仍在索引中。</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Unknown token. Expected &quot;QtHelpProject&quot;!</source>
-        <translation>未知的标记。需要“QtHelpProject”！</translation>
+        <source>Your search did not match any documents.</source>
+        <translation>您的搜索与任何文档都不匹配。</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Error in line %1: %2</source>
-        <translation>在行 %1 的错误：%2</translation>
+        <location line="+4"/>
+        <source>(The reason for this might be that the documentation is still being indexed.)</source>
+        <translation>（原因可能是文档仍在索引中。）</translation>
+    </message>
+</context>
+<context>
+    <name>fulltextsearch::qt::QHelpSearchIndexWriter</name>
+    <message>
+        <location filename="C:/Qt/5.15.1/Src/qttools/src/assistant/help/qhelpsearchindexwriter_default.cpp" line="+78"/>
+        <source>Cannot open database "%1" using connection "%2": %3</source>
+        <translation>无法使用连接“%2”打开数据库“%1”：%3</translation>
     </message>
 </context>
 </TS>
